@@ -1,0 +1,73 @@
+---
+title: "Oral-Exam-Paper"
+format: pdf
+bibliography: references.bib
+editor: visual
+---
+
+# Oral Exam Paper
+
+## Abstract
+
+Won't write anything here until the paper is complete
+
+## Introduction
+
+Will probably be second to last thing
+
+## Literature Review
+
+**Matthew** will work on this part. It will be structured as
+
+-   Advantages of Oral Assessment vs Written (multiple choice, short answer, etc.)
+-   Challenges with Oral Assessment
+-   How Scale affects these all
+-   Gap we are filling is the largest scale oral exam attempt, understanding from TA perspective
+
+## Methods
+
+**Justin** will work on the exam part.
+
+-   What were the classes?
+-   How was the Exam Set up?
+    -   Each exam was 5 minutes
+    -   **How were they graded?**
+    -   **What kinds of questions were asked?**
+    -   They were conducted on Zoom over the course of a week
+    -   6 TA's plus 1 instructor administered them
+    -   **What was the rubric?**
+-   How was the exam monitored?
+    -   Weekly meetings
+    -   Surveys
+
+**Matthew** will work on the methodology of analyzing the data.
+
+-   Common themes, content/ thematic analysis
+
+## Results
+
+**Matthew** will work on this part.
+
+-   The 5 themes
+
+## Discussion
+
+**Matthew and Justin** will work on this part after literature review and results are complete.
+
+Probably will mention this not being a good idea, probably losing what makes an Oral exam really good as we try to adapt to scale
+
+**Future research questions** include
+
+-   AI enhanced oral assessment?
+-   Student perceptions positive in literature, but how does doing it for 5 minutes in zoom change things? Having to compare and contrast experiences
+-   **Others?**
+
+## Conclusion
+
+**Matthew and Justin** will work on this part after literature review and results are complete.
+
+Trying out references [@asklund2003oral].
+
+More [@baghdadchi2022exploratory]
+
+## References
