@@ -23,35 +23,29 @@ Will probably be second to last thing
 
 From what I saw, there are several advantages listed. The theobold paper specifically (and a few others) talk about this idea of probing to be able to get at the heart of what students understand when their answers seem fuzzy. It allows us to see what do they mean by using words like chance?
 
-Another advantage is this idea of authenticity or fidelity. Essentially, in the real world, being able to explain ideas verbally is an important part of the job. We not be asked to answer questions on a test, but we will be asked to explain our reasoning to others. This authentic assessment is both a form of practice for that and also a way to measure where students are at. 
+Another advantage is this idea of authenticity or fidelity. Essentially, in the real world, being able to explain ideas verbally is an important part of the job. We not be asked to answer questions on a test, but we will be asked to explain our reasoning to others. This authentic assessment is both a form of practice for that and also a way to measure where students are at.
 
-Mulitple studies have shown that, contrary to concerns about anxiety and feeling pressure in this new format, students overall feel very positive about oral examinations, as much as and sometimes greater than written ones, at times citing that they percieved the exams working better. 
+Mulitple studies have shown that, contrary to concerns about anxiety and feeling pressure in this new format, students overall feel very positive about oral examinations, as much as and sometimes greater than written ones, at times citing that they percieved the exams working better.
 
-Oral exams prompt students to invest more time in their studying. 
+Oral exams prompt students to invest more time in their studying.
 
 Some authors conjecture that the exams allow for a greater ability to assess depth of knowledge, or to ask questions that span a wider range of knowledge. Also to be able to assess real understanding versus the parroting of answers (though I would debate this....there is rote understanding said in a confident way haha)
 
-Many also talked about academic integrity, including in the age of accessible AI. 
-
-
-
+Many also talked about academic integrity, including in the age of accessible AI.
 
 # Challenges with Oral Assessment
 
-Several authors talked about bias and equity. Since it is face to face, there are stereotype and halo biases to look out for. Turns out that longer tests have higher reliability than shorter ones. Extra time administering and grading the exams. 
-
+Several authors talked about bias and equity. Since it is face to face, there are stereotype and halo biases to look out for. Turns out that longer tests have higher reliability than shorter ones. Extra time administering and grading the exams.
 
 # How Scale affects these all
 
-Many authors acknowledge that though these sound nice and negatives can be mitigated, scale is a huge problem. They talk about it in terms of time. 
+Many authors acknowledge that though these sound nice and negatives can be mitigated, scale is a huge problem. They talk about it in terms of time.
 
-They talk about it in terms of reliability (now that you have multiple graders, how do you maintain fariness across them all? How do you insure no bias across them all?) This requires extra training and more time. 
+They talk about it in terms of reliability (now that you have multiple graders, how do you maintain fariness across them all? How do you insure no bias across them all?) This requires extra training and more time.
 
 Most exams in the literature were from 15-30 minutes. Once class sizes start becoming really large, time is still an issue.
 
-No physical space. 
-
-
+No physical space.
 
 # Gap we are filling is the largest scale oral exam attempt, understanding from TA perspective
 
@@ -81,37 +75,41 @@ First, we are attempting it. Second, we're focusing on a TA perspective. As oral
 
 **Matthew** will work on this part.
 
-### A focus on time
+### The TAs focused on time
 
-*The Quantity of time*
+**The Quantity of time**
 
-Most of the novice instructor's thoughts were centered around the time commitment necessary to administer the oral exams to over a hundred students per TA in a one week period. Estimates were given of between 12 to 18 hours spent administering the exams and grading.
+Some of the TAs gave estimates of 12 to 18 hours to complete their oral exams. Others used verbal descriptions, such as it "took way too long" and "overall, very time consuming" to express the magnitude of the time commitment. Words such as "grueling", that this was something they had to "endure", and that it was "extremely time inefficient" were used to express their feelings towards the amount of time needed. One TA, after administering their first oral exam, said (somewhat jokingly), "I was losing my sanity being on zoom for so long".
 
-They also used words such as "grueling", that this was something they had to "endure", and that it was "extremely time inefficient" to describe the setup. One TA said (somewhat jokingly), "I was losing my sanity being on zoom for so long".
+Loss of trust: One reason for this focus on the time commitment was given by one TA, who commented that they were promised less work as first years, but that this was not the case in this class.
 
-*The Quality of the situation*
+**What they were doing during that time**
 
-Beyond the actual time it took to administer the exams was talk centered around what the time looked like. For example,you had to be 100% focused. You couldn't even get up to have normal bathroom breaks when you wanted, or to eat anything. Debated about whether it was better than HW, one person commented "you have to block out time for the exam", where as HW is a bit more flexible.
+Beyond the actual time it took to administer the exams was talk centered around what they could and couldn't do during that time. In the first whole group discussion after the first oral exam, several people joked about not even being able to use the bathroom since you have to be "100% focused". In a later discussion, they focused on incorporating time to get a snack, stand up, and walk around.
 
-One reason for this focus on the time commitment was given by one TA, who commented that they were promised less work as first years, but that this was not the case in this class.
+The way they were spending their time administering exams was contrasted with HW grading. In one discussion, one TA commented that, for them, the exams took longer, and, unlike HW, with the exams you had to "block out time". Another TA disagreed, saying the time commitment felt similar, but later, acknowledging that it could take similar time, a final TA commented thatgrading HW was more "flexible".
 
-*Optimizing time* The TAs spent lots of time, especially when asked to give advice to other TAs, on what they could do to work out the time. Like, not scheduling on certain days, blocking off time in specific ways, etc. 
+**Optimizing time**
 
-*When things go wrong with time*
+When the TAs were asked about future advice they would give to others The TAs spent lots of time, especially when asked to give advice to other TAs, on what they could do to work out the time. Like, not scheduling on certain days, blocking off time in specific ways, etc.
+
+**When things went wrong with timing**
 
 Lots of talk about students not showing up, or showing up at wrong times.
 
-### Equity
+### The TAs focused on Equity
 
-Worried about how fair the test was, so figuring out grading and the grading scale, discussions about the fairness of accommodating student needs, talking about second language learners 
+Worried about how fair the test was, so figuring out grading and the grading scale, discussions about the fairness of accommodating student needs, talking about second language learners
 
-### Views on Oral vs Written Exams
+There were other minor focuses that didn't always consistently appear or only appeared because a they were explicitly asked in a survey: their views on oral vs written exams, and positice and negative comments about the process.
 
-Mixed responses. Some saw no difference between this and orals. Others thought with more free response exams we could so the same thing, though we'd lose integrity or that on the fly knowledge. Others acknowledged the benefit of being able to follow up and have a dialogue. (Not surprisng look at the format....it was more like a normal paper pencil thing, just orally.)
+### Their views on Oral vs Written Exams
 
-### Positive Student interactions
+Mixed responses. Some saw no difference between this and orals. Others thought with more free response exams we could so the same thing, though we'd lose integrity or that on the fly knowledge. Others acknowledged the benefit of being able to follow up and have a dialogue. (Not surprising look at the format....it was more like a normal paper pencil thing, just orally.)
 
-A few positive comments, all centered around having increased student interactions where, in such a large class, they usually didn't. One TA commented, unprovoked, a few students talked about liking the format. 
+### Comments of positive and negative affect
+
+A few positive comments, all centered around having increased student interactions where, in such a large class, they usually didn't. One TA commented, unprovoked, a few students talked about liking the format.
 
 ## Discussion
 
@@ -119,9 +117,9 @@ A few positive comments, all centered around having increased student interactio
 
 Probably will mention this not being a good idea, probably losing what makes an Oral exam really good as we try to adapt to scale
 
-Probably going to talk about how this is our attempt in a realistic setting....we could try to create an ideal one, and see, or we could couch it in based on the literature, ideally it would look like this. See that it's really not possible, this was our attempt realistically. 
+Probably going to talk about how this is our attempt in a realistic setting....we could try to create an ideal one, and see, or we could couch it in based on the literature, ideally it would look like this. See that it's really not possible, this was our attempt realistically.
 
-One big issue is most oral exams are in a problem based format, some questions, time....with only 5 minutes, you can't do that or do that well. You lose that part of really testing a student's thinking and assessing how well they can explain *and* do. 
+One big issue is most oral exams are in a problem based format, some questions, time....with only 5 minutes, you can't do that or do that well. You lose that part of really testing a student's thinking and assessing how well they can explain *and* do.
 
 Issues with reliability.
 
