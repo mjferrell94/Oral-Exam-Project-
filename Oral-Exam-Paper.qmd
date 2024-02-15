@@ -79,37 +79,41 @@ First, we are attempting it. Second, we're focusing on a TA perspective. As oral
 
 **The Quantity of time**
 
-Some of the TAs gave estimates of 12 to 18 hours to complete their oral exams. Others used verbal descriptions, such as it "took way too long" and "overall, very time consuming" to express the magnitude of the time commitment. Words such as "grueling", that this was something they had to "endure", and that it was "extremely time inefficient" were used to express their feelings towards the amount of time needed. One TA, after administering their first oral exam, said (somewhat jokingly), "I was losing my sanity being on zoom for so long".
+On a pre-exam survey, half of the TAs expressed concerns about the "time" or "timeframe" of administering so many oral exams to so many students over a week. After the first round, some of the TAs gave estimates of 12 to 18 hours to complete their oral exams. 
 
-Loss of trust: One reason for this focus on the time commitment was given by one TA, who commented that they were promised less work as first years, but that this was not the case in this class.
+Others used verbal descriptions, such as it "took way too long" and "overall, very time consuming" to express the magnitude of the time commitment. Words such as "grueling", that this was something they had to "endure", and that it was "extremely time inefficient" were used to express their feelings towards the amount of time needed. One TA, after administering their first oral exam, said (somewhat jokingly), "I was losing my sanity being on zoom for so long".
+
+One reason for this focus on the time commitment was given by one TA, who commented that they were promised less work as first years, but that this was not the case in this class."If the oral exam format goes unchanged", they said, "I am unsure if I am fit to be an instructor next semester". 
 
 **What they were doing during that time**
 
 Beyond the actual time it took to administer the exams was talk centered around what they could and couldn't do during that time. In the first whole group discussion after the first oral exam, several people joked about not even being able to use the bathroom since you have to be "100% focused". In a later discussion, they focused on incorporating time to get a snack, stand up, and walk around.
 
-The way they were spending their time administering exams was contrasted with HW grading. In one discussion, one TA commented that, for them, the exams took longer, and, unlike HW, with the exams you had to "block out time". Another TA disagreed, saying the time commitment felt similar, but later, acknowledging that it could take similar time, a final TA commented thatgrading HW was more "flexible".
-
-**Optimizing time**
-
-When the TAs were asked about future advice they would give to others The TAs spent lots of time, especially when asked to give advice to other TAs, on what they could do to work out the time. Like, not scheduling on certain days, blocking off time in specific ways, etc.
+The way they were spending their time administering exams was contrasted with HW grading. In one discussion, one TA commented that, for them, the exams took longer, and, unlike HW, with the exams you had to "block out time". Another TA disagreed, saying the time commitment felt similar, but later, acknowledging that it could take similar time, a final TA commented that grading HW was more "flexible".
 
 **When things went wrong with timing**
 
-Lots of talk about students not showing up, or showing up at wrong times.
+Especially after the first few exams, TAs focused on issues with student timing. One talked about the fragility of the online set up, where if even one student comes late, it can "ruin the timing for all of the students". This inspired another strong question about "how to make everyone register and show up on time". Having to reschedule with students who missed, either to Saturday or to next week,and how to avoid it, dominated the final group discussion after the administration of the last oral exam. Other issues of timing were caused by technical difficulties with Zoom and the ensuing delays, as well as the burden of time bleeding into other classes and exams the TAs had outside of their positions. 
+
+When the TAs were asked about advice they would give to future TAs participating in the same experience as themselves, their advice overwhelmingly centered around optimal time management due to previously mentioned experiences with students not showing up on time or having to reschedule. For example, TAs offered comments such as "If possible, avoid scheduling any time on Friday" so as to plan for students who miss their time slots, "try to make everyone schedule and show up on time", and "build in more than a 5 minute break every 30 minutes" or else, due to students not arriving to the meeting on time, "you'll need to use [it]". 
 
 ### The TAs focused on Equity
 
-Worried about how fair the test was, so figuring out grading and the grading scale, discussions about the fairness of accommodating student needs, talking about second language learners
+Even before administering exams, TAs worried about their role not just as administrators but as graders. One worried that the grading might be "too subjective". Another worried about their "poor memory" and bias that could come from familiarity. One TA even cautioned against "food bias" where you many grade someone more harshly while hungry. Some of these issues were borne out during the first discussion when two TAs used different follow-up questions other than on the rubric when asking about an R object, and the teacher and one TA used different follow up questions to discuss R libraries. Several TAs after the first few oral exams expressed interest in changing the grading scale, so as to be fair to students who may have needed prompting, but still got the right answer. 
 
-There were other minor focuses that didn't always consistently appear or only appeared because a they were explicitly asked in a survey: their views on oral vs written exams, and positice and negative comments about the process.
+The TAs were also worried that the oral exam would be confounded with speaking ability. In one exchange between the teacher and one TA, the TA shared one ESL student wanted to do it in person since, through zoom, "it [was] hard for them to understand the questions clearly". Other TAs during the first survey expressed similar views, with one on the final survey indicating that ESL students should be given more time, since "this is not an english test". 
+
+
+
+There were other minor focuses that didn't always consistently appear or only appeared because a they were explicitly asked in a survey: their views on oral vs written exams, and positive thoughts (if any) about the process.
 
 ### Their views on Oral vs Written Exams
 
-Mixed responses. Some saw no difference between this and orals. Others thought with more free response exams we could so the same thing, though we'd lose integrity or that on the fly knowledge. Others acknowledged the benefit of being able to follow up and have a dialogue. (Not surprising look at the format....it was more like a normal paper pencil thing, just orally.)
+After the first round of exams, a few TAs expressed doubt over the utility of the oral exam format. "Not sure what this accomplishes over HW/[online] quiz" on said. "A paper quiz", another said, "could serve the same goal". After seeing these responses, a specific question about their views on oral vs written exams was asked, with mixed responses. Half agreed there was something different or better, but those differences boiled down to "open book" vs "closed book" exams, examining "on the fly knowledge". Luckily one TA did mention the benefit of being able to "follow up". The other half thought that a well crafted, open ended quiz could essentially serve the same purpose. 
 
-### Comments of positive and negative affect
+### Positives or Oral exam experience
 
-A few positive comments, all centered around having increased student interactions where, in such a large class, they usually didn't. One TA commented, unprovoked, a few students talked about liking the format.
+When asked directly about positives, only half of the TAs had something to say, with all the comments being centered around having increased student interactions where, in such a large class, they usually didn't. One TA commented that, unprovoked, a few students talked about liking the format. 
 
 ## Discussion
 
