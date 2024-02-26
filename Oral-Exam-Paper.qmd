@@ -20,18 +20,33 @@ Will probably be second to last thing
 **Matthew** will work on this part. It will be structured as
 
 ### Advantages of Oral Assessment vs Written (multiple choice, short answer, etc.)
+[@Huxham2012] They list 5 advantadges that also align with what I've seen in the literature...[@Joughin2010] has very similar if not the same ones....[@Theobold2021] does as well.
+
 
 One advantage of oral examinations over written exams is the ability of the instructor to engage in a dialogue with the students. 
 "without question wording or guessing getting in the way" [@Ohmann2019]. 
+[@Asklund2003] (This has the chart showing the possibility of assessing across the spectrum of knowledge per topic).
+[@Theobold2021]
+[@Roecker2007]
+[@Iannone2012]
+“the students in our sample particularly focus the fourth of these issues, highlighting the ability of oral assessments to gauge understanding and the inability to get high marks in them simply from parroting answers.” 
 
 Another are that students better prepare for them.
+[@Ohmann2019]
 
 Another is that oral exams are a more authentic means of assessment. 
+[@Wiggins1990]
+[@Beccaria2013]
+[@Ramella2019]
+[@Roecker2007] Students felt like it was a more fair one...
 
-Finally, oral exams help encourage academic integrity.
+Finally, oral exams help encourage academic integrity.[@Newell2023]
+[@Ramella2019]
 
 Contrary to what we may initially believe, oral exams are not more stressful. [@Ohmann2019]
-
+[@Baghdadchi2022] (Engineering study with n=316, 6 classes, each with TA, positively, like the interaction, learning, not much undue stress though for some)
+[@Sabin2021]
+[@Roecker2007] Consistent positive and enlightening commments, students have felt like it's fairer and a more valid assessment of their understanding. 
 
 From what I saw, there are several advantages listed. The theobold paper specifically (and a few others) talk about this idea of probing to be able to get at the heart of what students understand when their answers seem fuzzy. It allows us to see what do they mean by using words like chance?
 
@@ -48,6 +63,9 @@ Many also talked about academic integrity, including in the age of accessible AI
 # Challenges with Oral Assessment
 
 Several authors talked about bias and equity. Since it is face to face, there are stereotype and halo biases to look out for. Turns out that longer tests have higher reliability than shorter ones. Extra time administering and grading the exams.
+[@Memon2010]
+[@Gerlt2023]
+[@Joughin2010]
 
 # How Scale affects these all
 
@@ -60,6 +78,8 @@ Most exams in the literature were from 15-30 minutes. Once class sizes start bec
 No physical space.
 
 # Gap we are filling is the largest scale oral exam attempt, understanding from TA perspective
+
+Really we can acknowledge the perfect situation. Show what our situation was like. How much of an impact did that make? We don't know for sure... we only know it in terms of 
 
 First, we are attempting it. Second, we're focusing on a TA perspective. As oral exams scale, help is required, and in a university setting is going to come from less experienced instructors. We want to see what we learned from this, and also, for less expereinced instuctors engaging in a large scale oral exam process, their thoughts and feelings that had compared to what we might have wanted. ....I still need more clarification here haha (**Justin might be good here**).
 
