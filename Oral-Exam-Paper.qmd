@@ -11,17 +11,31 @@ editor: visual
 
 Won't write anything here until the paper is complete
 
-## Introduction
+## 1. Introduction
 
-Will probably be second to last thing
+-   We are going to summarize Allison's paper, while giving more support to some of her claims with the advantages of oral exams.
 
-## Literature Review
+In 2021, Allison Theobold ([@Theobold2021]) argued that oral exams allow for a deeper assessment of student understanding, in line with the 2016 Guidelines for Assessment and Instruction in Statistics Education (GAISE) that recommend a focus on student conceptual understanding and assessment of student reasoning [@carver2016guidelines].
 
-**Matthew** will work on this part. It will be structured as
+**They. She, Theobold?** also provided four additional benefits of oral exams: first, they develop communication skills, second, they are more authentic, third, they powerfully gauge a student's understanding and conceptions through conversation, and, fourth, they discourage plagiarism. These additional benefits have been seen in the wider oral exam literature, especially with gauging student understanding ([@Iannone2012],[@Asklund2003], [@Huxham2012]) and encouraging academic integrity ([@Newell2023], [@Ramella2019]). 
 
-### Advantages of Oral Assessment vs Written (multiple choice, short answer, etc.)
+Of course, like any form of assessment, oral exams also comes with unique challenges. Reliability, bias, time
 
-*Do we want to frame this from an assessment standpoint, from a programming/statistics education standpoint (like theobold), or from an oral exam standpoint?* 
+While mitigating the challenges and creating an optimal space for giving oral exams has been shown to be possible with relatively smaller classes, an open problem is how do things change when the class sizes get large. **Provide examples from literature of normal class sizes used, with respect to the number of instructors as well**
+
+**Literature about growing class sizes for statistics and data science education specifically.....see what's out there, or just general statement. Plus online and distance education**
+
+-   We are going to talk about the negatives
+
+-   We are going to mention how mitigating these and adhering to the practices mention in Allison's paper, we know they can be done with smaller class sizes
+
+-   What about very large ones?
+
+-   Talk about how this is an open issue for stats educators and of course the wider oral exam literature as a whole, and what issues scale might introduce
+
+-   Our contribution is sharing how we attempted in a statistical programming setting implementing oral exams at large scale
+
+-   **Why are we Focusing on the TA perspective since they were the ones mainly administering it?**
 
 [@Huxham2012] They list 5 advantages that also align with what I've seen in the literature...[@Joughin2010] has very similar if not the same ones....[@Theobold2021] does as well.
 
@@ -41,13 +55,9 @@ Several authors talked about bias and equity. Since it is face to face, there ar
 
 # How Scale affects these all
 
-Unfortunately, scale has a double negative effect: it increases bias and decreases the potency of the positive aspects of oral exams. Several authors have acknowledged the challenge posed by increasing class sizes ([@Ohmann2019],[@Roecker2007]). When previous studies have examined the application of oral exams, they have usually used an instructor to student ratio between 1:30 and 1:40 and 15-30 minutes of exam time. What happens when the ratio is 1:120? 
+Unfortunately, scale has a double negative effect: it increases bias and decreases the potency of the positive aspects of oral exams. Several authors have acknowledged the challenge posed by increasing class sizes ([@Ohmann2019],[@Roecker2007]). When previous studies have examined the application of oral exams, they have usually used an instructor to student ratio between 1:30 and 1:40 and 15-30 minutes of exam time. What happens when the ratio is 1:120?
 
-Many authors acknowledge that though these sound nice and negatives can be mitigated, scale is a huge problem. They talk about it in terms of time. [@Ohmann2019]
-[@Roecker2007]
-[@Iannone2012]
-[@Sabin2021]
-[@Asklund2023]
+Many authors acknowledge that though these sound nice and negatives can be mitigated, scale is a huge problem. They talk about it in terms of time. [@Ohmann2019] [@Roecker2007] [@Iannone2012] [@Sabin2021] [@Asklund2023]
 
 They talk about it in terms of reliability (now that you have multiple graders, how do you maintain fairness across them all? How do you insure no bias across them all?) This requires extra training and more time.
 
@@ -57,7 +67,7 @@ No physical space.
 
 # Gap we are filling is the largest scale oral exam attempt, understanding from TA perspective
 
-With scale comes a new group to study beyond the students: the administrators of the exam. 
+With scale comes a new group to study beyond the students: the administrators of the exam.
 
 Really we can acknowledge the perfect situation. Show what our situation was like. How much of an impact did that make? We don't know for sure... we only know it in terms of
 
