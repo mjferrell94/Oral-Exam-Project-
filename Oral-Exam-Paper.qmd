@@ -17,17 +17,12 @@ Won't write anything here until the paper is complete
 
 In 2021, Allison Theobold ([@Theobold2021]) argued that oral exams allow for a deeper assessment of student understanding, in line with the 2016 Guidelines for Assessment and Instruction in Statistics Education (GAISE) that recommend a focus on student conceptual understanding and assessment of student reasoning [@carver2016guidelines].
 
-**They. She, Theobold?** also provided four additional benefits of oral exams: first, they develop communication skills, second, they are more authentic, third, they powerfully gauge a student's understanding and conceptions through conversation, and, fourth, they discourage plagiarism. These additional benefits have been seen in the wider oral exam literature, especially with gauging student understanding ([@Iannone2012],[@Asklund2003], [@Huxham2012]) and encouraging academic integrity ([@Newell2023], [@Ramella2019]). 
+**They. She, Theobold?** also provided four additional benefits of oral exams: first, they develop communication skills, second, they are more authentic, third, they powerfully gauge a student's understanding and conceptions through conversation, and, fourth, they discourage plagiarism. These additional benefits have been seen in the wider oral exam literature, especially with gauging student understanding ([@Iannone2012],[@Asklund2003], [@Huxham2012]) and encouraging academic integrity ([@Newell2023], [@Ramella2019]).
 
-Of course, like any form of assessment, oral exams also comes with unique challenges. Reliability, bias, time
+Oral exams, like other forms of assessment, also comes with unique challenges. First, whereas a written assessment assumes a student's proficiency with the written language, oral exams assume a student's proficiency with the spoken langue.Thus, ESL students may experience difficulties that may diminish the exam's validity, turning a statistics test into an English test. Second, whereas in written exams their is an indirect interaction with the evaluator, in oral exams the interaction is direct. Different biases, such as evaluating a student based on how they've done previously, ..... and even feeling hungry (as one TA mentions later) need to be carefully evaluated. Finally, students with anxiety may react neagatively to the oral format. 
 
-While mitigating the challenges and creating an optimal space for giving oral exams has been shown to be possible with relatively smaller classes, an open problem is how do things change when the class sizes get large. **Provide examples from literature of normal class sizes used, with respect to the number of instructors as well**
+While mitigating these challenges and creating an optimal space for giving oral exams has been shown to be possible with relatively smaller classes, an open problem is how to this with larger class sizes [@Asklund2003],[@Ohmann2019]. As class sizes increase, it becomes necessary to enlist help in the form of other instructors or teaching assistants, potentially increasing the chance for bias in evaluation. Oral exams that, normally, range from 15-45 minutes long **citations** may need to be shortened. Where professors could administer these exams in person, they may instead need to administer them on a computer, using video calling software like zoom.
 
-**Literature about growing class sizes for statistics and data science education specifically.....see what's out there, or just general statement. Plus online and distance education**
-
--   We are going to talk about the negatives
-
--   We are going to mention how mitigating these and adhering to the practices mention in Allison's paper, we know they can be done with smaller class sizes
 
 -   What about very large ones?
 
