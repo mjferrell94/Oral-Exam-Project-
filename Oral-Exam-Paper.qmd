@@ -15,13 +15,20 @@ Won't write anything here until the paper is complete
 
 -   We are going to summarize Allison's paper, while giving more support to some of her claims with the advantages of oral exams.
 
-How do you know your students understand what's being taught? When they score high on your exams, does that mean they really understand? Following this train of thought, Theobold (2021) ([@Theobold2021]) convincingly argued that, in line with the 2016  GAISE standards that recommend a focus on conceptual understanding and assessment of that understanding [@carver2016guidelines], oral exams allow for us as statistics and data science educators to more deeply assess what our students actually know.
+How do you know your students understand what's being taught? When they score high on your exams, does that mean they really understand? Following this train of thought, Theobold (2021) ([@Theobold2021]) convincingly argued that, in line with the 2016 GAISE standards that recommend a focus on conceptual understanding and assessment of that understanding [@carver2016guidelines], oral exams allow for us as statistics and data science educators to more deeply assess what our students actually know.
 
-The benefits of oral exams go beyond assessment. As argued by Theobold (2021) and others, they also develop communication skills [[@Joughin2010]], are a more authentic way to assess [@Wiggins1990] [@Beccaria2013], are powerful tools in gauging a student's understanding and conceptions through conversation ([@Iannone2012],[@Asklund2003], [@Huxham2012]), and (especially pertinent in the age of AI Chatbots) they greatly discourage plagiarism ([@Newell2023], [@Ramella2019]). Students also prepare more?
+The benefits of oral exams go beyond assessment. As argued by Theobold (2021) and others, they also develop communication skills \[[@Joughin2010]\], are a more authentic way to assess [@Wiggins1990] [@Beccaria2013], are powerful tools in gauging a student's understanding and conceptions through conversation ([@Iannone2012],[@Asklund2003], [@Huxham2012]), and (especially pertinent in the age of AI Chatbots) they greatly discourage plagiarism ([@Newell2023], [@Ramella2019]). Students also prepare more?
 
 Oral exams, of course, are not without their challenges.For example,whereas a written assessment assumes a student's proficiency with the *written* language, oral exams assume a student's proficiency with the *spoken* langue. ESL students in particular may experience difficulties unrelated to the content being tested, potentially turning a statistics test into an English test. Another issue is bias: Written exams can have confusing questions, but at least they can be graded blind. Oral exams, on the other hand, require a face to face interaction, and with that brings the possibility of such as evaluating a student based on how they've done previously, ..... and even feeling hungry (as one TA mentions later) need to be carefully evaluated. Finally, oral exams may not only negatively impact our students with test anxiety (which a written exam also might), but the new format may make that anxiety worse, along with pulling in our students with social or speaking anxiety.
 
 These challenges have been successfully mitigated in the literature, but only for smaller classes. How do we do an assessment with promising returns on understanding our students' understanding in a class of 100? 200? Or, in the case of this study, 884? This is an open problem in the oral exam literature [@Asklund2003],[@Ohmann2019]. As class sizes increase, it becomes necessary to enlist help in the form of other instructors, potentially increasing bias in evaluation. Oral exams that, normally, range from 15-45 minutes long **citations** may need to be shortened, which will impact reliability negatively [@Memon2010]. Where professors could administer these exams in person, they may instead need to administer them on a computer, using video calling software like zoom.
+
+
+With scale comes a new group to study beyond the students: the administrators of the exam.
+
+Really we can acknowledge the perfect situation. Show what our situation was like. How much of an impact did that make? We don't know for sure... we only know it in terms of
+
+First, we are attempting it. Second, we're focusing on a TA perspective. As oral exams scale, help is required, and in a university setting is going to come from less experienced instructors. We want to see what we learned from this, and also, for less expereinced instuctors engaging in a large scale oral exam process, their thoughts and feelings that had compared to what we might have wanted. ....I still need more clarification here haha (**Justin might be good here**).
 
 -   What about very large ones?
 
@@ -31,41 +38,6 @@ These challenges have been successfully mitigated in the literature, but only fo
 
 -   **Why are we Focusing on the TA perspective since they were the ones mainly administering it?**
 
-[@Huxham2012] They list 5 advantages that also align with what I've seen in the literature...[@Joughin2010] has very similar if not the same ones....[@Theobold2021] does as well.
-
-One advantage of oral examinations over written exams is the ability of the instructor to engage in a dialogue with the students "without question wording or guessing getting in the way" [@Ohmann2019]. [@Asklund2003] surmises that, unlike written exams, oral exams allow for questioning that can cover topics more widley and more deeply. (This has the chart showing the possibility of assessing across the spectrum of knowledge per topic). [@Theobold2021] [@Roecker2007] [@Iannone2012] “the students in our sample particularly focus the fourth of these issues, highlighting the ability of oral assessments to gauge understanding and the inability to get high marks in them simply from parroting answers.”
-
-Another are that students better prepare for them. [@Ohmann2019]
-
-Another is that oral exams are a more authentic means of assessment. [@Wiggins1990] [@Beccaria2013] [@Ramella2019] [@Roecker2007] Students felt like it was a more fair one...
-
-Finally, oral exams help encourage academic integrity.[@Newell2023] [@Ramella2019]
-
-Contrary to what we may initially believe, oral exams are not more stressful. [@Ohmann2019] [@Baghdadchi2022] (Engineering study with n=316, 6 classes, each with TA, positively, like the interaction, learning, not much undue stress though for some) [@Sabin2021] [@Roecker2007] Consistent positive and enlightening commments, students have felt like it's fairer and a more valid assessment of their understanding.
-
-# Challenges with Oral Assessment
-
-Several authors talked about bias and equity. Since it is face to face, there are stereotype and halo biases to look out for. Turns out that longer tests have higher reliability than shorter ones. Extra time administering and grading the exams. [@Memon2010] [@Gerlt2023] [@Joughin2010]
-
-# How Scale affects these all
-
-Unfortunately, scale has a double negative effect: it increases bias and decreases the potency of the positive aspects of oral exams. Several authors have acknowledged the challenge posed by increasing class sizes ([@Ohmann2019],[@Roecker2007]). When previous studies have examined the application of oral exams, they have usually used an instructor to student ratio between 1:30 and 1:40 and 15-30 minutes of exam time. What happens when the ratio is 1:120?
-
-Many authors acknowledge that though these sound nice and negatives can be mitigated, scale is a huge problem. They talk about it in terms of time. [@Ohmann2019] [@Roecker2007] [@Iannone2012] [@Sabin2021] [@Asklund2023]
-
-They talk about it in terms of reliability (now that you have multiple graders, how do you maintain fairness across them all? How do you insure no bias across them all?) This requires extra training and more time.
-
-Most exams in the literature were from 15-30 minutes. Once class sizes start becoming really large, time is still an issue.
-
-No physical space.
-
-# Gap we are filling is the largest scale oral exam attempt, understanding from TA perspective
-
-With scale comes a new group to study beyond the students: the administrators of the exam.
-
-Really we can acknowledge the perfect situation. Show what our situation was like. How much of an impact did that make? We don't know for sure... we only know it in terms of
-
-First, we are attempting it. Second, we're focusing on a TA perspective. As oral exams scale, help is required, and in a university setting is going to come from less experienced instructors. We want to see what we learned from this, and also, for less expereinced instuctors engaging in a large scale oral exam process, their thoughts and feelings that had compared to what we might have wanted. ....I still need more clarification here haha (**Justin might be good here**).
 
 ## Methods
 
@@ -85,11 +57,9 @@ First, we are attempting it. Second, we're focusing on a TA perspective. As oral
 
 **Matthew** will work on the methodology of analyzing the data.
 
--   Common themes, content/ thematic analysis
+This is more of a descriptive thematic analysis. We want to find themes, or patterns, in what is being said, but we're not trying to interpret, just describe what the TAs are focusing on. Three passes. Multiple passes were made over the surveys and discussion comments. The first few passes were to begin clustering comments and discussion points by common themes. The next few passes were to iteratively update the themes that had been created in order to refine the themes. Time split up. Um....where we compiled evidence and time points and where they came from underneath them, then finding evidence for each one or splitting them. 
 
 ## Results
-
-**Matthew** will work on this part.
 
 ### The TAs focused on time
 
