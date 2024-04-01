@@ -13,11 +13,9 @@ Won't write anything here until the paper is complete
 
 ## Introduction
 
--   We are going to summarize Allison's paper, while giving more support to some of her claims with the advantages of oral exams.
+How do you know your students understand what's being taught? When they score high on your exams, does that mean they really understand? Following this train of thought, @Theobold2021 convincingly argued that, in line with the 2016 GAISE standards that recommend a focus on conceptual understanding and assessment of that understanding ([@carver2016guidelines]), oral exams allow for us as statistics and data science educators to more deeply assess what our students actually know.
 
-How do you know your students understand what's being taught? When they score high on your exams, does that mean they really understand? Following this train of thought, Theobold (2021) ([@Theobold2021]) convincingly argued that, in line with the 2016 GAISE standards that recommend a focus on conceptual understanding and assessment of that understanding [@carver2016guidelines], oral exams allow for us as statistics and data science educators to more deeply assess what our students actually know.
-
-The benefits of oral exams go beyond assessment. As argued by Theobold (2021) and others, they also develop communication skills \[[@Joughin2010]\], are a more authentic way to assess [@Wiggins1990] [@Beccaria2013], are powerful tools in gauging a student's understanding and conceptions through conversation ([@Iannone2012],[@Asklund2003], [@Huxham2012]), and (especially pertinent in the age of AI Chatbots) they greatly discourage plagiarism ([@Newell2023], [@Ramella2019]). Students also prepare more? (\*This is interesting... I wonder if that kind of thing has been looked at. How do students differ in their preparation for an oral exam vs a pen/paper style.)
+The benefits of oral exams go beyond assessment. As argued by @Theobold2021  and others, they also develop communication skills ([@Joughin2010]), are a more authentic way to assess [@Wiggins1990] [@Beccaria2013], are powerful tools in gauging a student's understanding and conceptions through conversation ([@Iannone2012],[@Asklund2003], [@Huxham2012]), and (especially pertinent in the age of AI Chatbots) they greatly discourage plagiarism ([@Newell2023], [@Ramella2019]). Students also prepare more? (\*This is interesting... I wonder if that kind of thing has been looked at. How do students differ in their preparation for an oral exam vs a pen/paper style.)
 
 Oral exams, of course, are not without their challenges. For example, whereas a written assessment assumes a student's proficiency with the *written* language, oral exams assume a student's proficiency with the *spoken* langue. ESL students in particular may experience difficulties unrelated to the content being tested, potentially turning a statistics test into an English test. Another issue is bias: Written exams can have confusing questions, but at least they can be graded blind. Oral exams, on the other hand, require a face to face interaction, and with that brings the possibility of evaluating a student based on how they've done previously, ..... and even feeling hungry (as one TA mentions later) need to be carefully evaluated. Finally, oral exams may not only negatively impact our students with test anxiety (which a written exam also might), but the new format may make that anxiety worse, along with pulling in our students with social or speaking anxiety.
 
@@ -134,7 +132,9 @@ In order to understand problems that arose, and sentiment around, administering 
 
 **Matthew** will work on the methodology of analyzing the data.
 
-This is more of a descriptive thematic analysis. We want to find themes, or patterns, in what is being said, but we're not trying to interpret, just describe what the TAs are focusing on. Three passes. Multiple passes were made over the surveys and discussion comments. The first few passes were to begin clustering comments and discussion points by common themes. The next few passes were to iteratively update the themes that had been created in order to refine the themes. Time split up. Um....where we compiled evidence and time points and where they came from underneath them, then finding evidence for each one or splitting them.
+The purpose of analyzing the data was to categorize common topics of discussion that reoccurred throughout the oral exam process, and record whether evidence came from a TA discussion or a survey. In the first pass, five tentative categories were created, with evidence for each marked based on if the data came from a discussion or survey. In the second and third passes, the categories were refined after recognizing that initial themes may be better represented by including more sub-themes. For example, instead of discussion of time being a theme, also including separate aspects of time that were focused on. Finally, we looked over which categories had sufficient support to be included. They were included if they had 5 or more pieces of evidence. 
+
+
 
 ## Results
 
@@ -180,6 +180,16 @@ When asked directly about positives, only half of the TAs had something to say, 
 
 **Matthew and Justin** will work on this part after literature review and results are complete.
 
+This is the first large scale oral exam study done in the wider oral exam literature, and the first to examine how trying to apply oral assessment at a larger scale works within statistics education. 
+
+Unlike previous studies, this study had **this many participants**. However, it involved conducting oral exams using realistic resources, necessitating the reduction of oral exam times (5 minutes) and increasing the number of instructors (6 TAs, 1 Professor). Since in the large scale scenario TAs become essential to successful implementation of an oral exam, we focused on their thoughts and feelings. 
+
+From their perspective, the oral exam format was probably a failure. Most of the topics centered around being able to survive administering them, as well as questioning their effectiveness in comparison to more standard assessments. **Students see written exam as gold standard citation?**. 
+
+On a positive note, these TAs were aware of and sensitive to potential biases and equity issues, and voiced their opinions consistently. 
+
+Overall, we would suggest that under realistic circumstnaces, administering oral exams at larger scales may greatly weaken what makes oral exams important/interesting/powerful in the first place. With the necessary shortenting of their administartion comes a loss in reliability ([@Memon2010]).
+
 Probably will mention this not being a good idea, probably losing what makes an Oral exam really good as we try to adapt to scale
 
 Probably going to talk about how this is our attempt in a realistic setting....we could try to create an ideal one, and see, or we could couch it in based on the literature, ideally it would look like this. See that it's really not possible, this was our attempt realistically.
@@ -198,22 +208,4 @@ Issues with reliability.
 
 **Matthew and Justin** will work on this part after literature review and results are complete.
 
-Trying out references [@asklund2003oral].
-
-More [@baghdadchi2022exploratory]
-
 ## References
-
-Other stuff moved:
-
-Really we can acknowledge the perfect situation. Show what our situation was like. How much of an impact did that make? We don't know for sure... we only know it in terms of
-
-First, we are attempting it. Second, we're focusing on a TA perspective. As oral exams scale, help is required, and in a university setting is going to come from less experienced instructors. We want to see what we learned from this, and also, for less experienced instructors engaging in a large scale oral exam process, their thoughts and feelings that had compared to what we might envision as a team leader. t have wanted. ....I still need more clarification here haha (**Justin might be good here**).
-
--   What about very large ones?
-
--   Talk about how this is an open issue for stats educators and of course the wider oral exam literature as a whole, and what issues scale might introduce
-
--   Our contribution is sharing how we attempted in a statistical programming setting implementing oral exams at large scale
-
--   **Why are we Focusing on the TA perspective since they were the ones mainly administering it?**
