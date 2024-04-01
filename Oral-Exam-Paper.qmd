@@ -37,7 +37,7 @@ This course introduces students to programming in SAS through SAS Studio in the 
 
 The course has a prerequisite of a business statistics course or a corequisite of a second course in statistics. These restrictions allow the course to cover the creation and interpretation of statistical models without the need to introduce the statistical concepts surrounding these topics.
 
-The course serves two major audiences (detailed shortly):
+The course serves two major audiences:
 
 -   Statistics majors and minors
 -   Business majors
@@ -75,9 +75,9 @@ The broad purpose of the course from the program level is to provide the student
 
 ### Course Structure
 
-These programming courses have a flipped structure where students receive the course content prior to their class meeting time in order to spend most of the class time on activities involving active participation. With many of the students in the courses having limited to no programming exposure, having a flipped course allows the students to gain basic knowledge of the material through videos. They can then come to class and actually **do** programming while having an expert (the course instructor) in the room and support from their peers. This ideally leads to students having a direct line of help when they get stuck rather than running into an error, getting frustrated, and stopping their learning. They also can see the struggles of others to know that they aren't out of place if they are having difficulty. Not only that but students can go back to watch and rewatch topics they find difficult.
+These programming courses have a flipped structure where students receive the course content prior to their class meeting time in order to spend most of the class time on activities involving active participation. With many of the students in the courses having limited to no programming exposure, having a flipped course allows the students to gain basic knowledge of the material through videos. They can then come to class and actually **do** programming while having an expert (the course instructor) in the room and support from their peers. This ideally leads to students having a direct line of help when they get stuck rather than running into an error, getting frustrated, and stopping their learning. They also can see the struggles of others to know that they aren't out of place if they are having difficulty. Not only that but students can go back to rewatch topics they find difficult.
 
-Although not the purpose of using a flipped structure, another benefit of this design is that graduate students can reasonably be expected to support students within the classroom as the instructor of the course. These graduate students may not have the pedagogical knowledge or experience to effectively teach programming material themselves, but many have the problem solving skills to help students work through issues that come up. As these two courses serve approximately 800 students each semester, this is a definite benefit from the administrative side. Graduate students can be assigned to reasonably small sections of students (40 students maximum) and provide more one-on-one attention to the learners.
+Although not the purpose of using a flipped structure, another benefit of this design is that graduate students can reasonably be expected to support students within the classroom as the instructor of the course. These graduate students may not have the pedagogical knowledge or experience to effectively teach programming material themselves, but many have the problem solving skills to help students work through issues that come up. As these two courses serve approximately 700 students each semester, this is a definite benefit from the administrative side. Graduate students can be assigned to reasonably small sections of students (40 students maximum) and provide more one-on-one attention to the learners.
 
 These classes meet once a week for 50 minutes at a time. Most weeks students are expected to watch one to two videos that cover the learning objectives for the week. These videos are approximately 10-20 minutes each and are created by the course coordinator. The videos usually have two or three quizzes throughout, each with three to four questions, to help students assess their understanding as they watch. Students are expected to complete these videos prior to their weekly session.
 
@@ -91,16 +91,30 @@ The remaining two weeks were dedicated to administering oral exams. These weeks 
 
 Each section of the course had a maximum of 40 students. Most sections had between 35 and 40 students but a few had much lower enrollment. In total, there were nearly 700 students across all of the sections of the two courses. Three instructors had four sections and administered oral exams to roughly 140 students each. Three instructors had three sections each but these tended to be sections with slightly lower enrollment. Two of these instructors administered oral exams to roughly 90 students. One instructor had a teaching assistant appointment for less time so only administered exams to two of their sections (roughly 70 students). The course coordinator administered oral exams to the remaining section of students.
 
+### Designing the Oral Discussions
+
+As oral exams are not common for courses commonly taken by these students, the oral exam was rebranded as an 'oral discussion' to hopefully lessen the anxiety students felt.
+
+The design of the oral discussions roughly followed that of a structured interview (reference). The goal of using this format was to make the discussions as similar as possible so as to be as fair as possible to students being evaluated by different instructors. In this structure, a interviewers read questions in order from a script. Follow up questions are designed around common answers that may be slightly lacking. (Need more on this I think.)
+
+For the first oral discussion, the course coordinator developed the example program and developed a script of candidate questions with possible student responses and subsequent follow up questions. These questions were split into two categories: questions involving explanation and questions not involving explanation. Two of each type of question were developed for the first oral discussion. During a weekly meeting of all instructors, the instructors and course coordinators went through the example programs (one SAS program and one R program) and questions with follow up that were developed by the course coordinator. The instructors then split into pairs (one a SAS instructor and one an R instructor) and practiced administering the discussion to the other instructor. Using this as feedback, the questions and follow ups were modified.
+
+Between the first and second oral discussions, feedback about the rubric led to refining the rubric to have more values (i.e. 0, 1, 2, 3 to 0, 1, 2, ..., 6) as instructors felt they were able to discriminate between a finer scale.
+
+For the second oral discussion, the course coordinator developed an example program to share with students and a similar program to use for the actual oral discussion. This time a weekly meeting was devoted to having the instructors of the courses develop questions and the corresponding follow ups. The instructors were again split into pairs and practiced administering the discussions.
+
+The scripts for the first and second discussions are available in the appendix.
+
 ### Administering the Oral Discussions
 
-As oral exams are not common for courses commonly taken by these students, the oral exam was rebranded as an 'oral discussion' to hopefully lessen the anxiety students felt. The oral discussions were administered through zoom \*(we should probably talk about why we chose to use zoom over being in person.)\* The discussions were set to five minutes in length with the intention that the actual time for the discussions would be closer to three-four minutes, allowing for a buffer between appointments. The discussions were closed notes and did not involve students coding. They were instructed to be prepared to discuss code only. We will try to use very large font for those that may be joining via a mobile phone (although computers are preferred).
+The oral discussions were administered through zoom \*(we should probably talk about why we chose to use zoom over being in person.)\* The discussions were set to five minutes in length with the intention that the actual time for the discussions would be closer to three-four minutes, allowing for a buffer between appointments. The discussions were closed notes and did not involve students coding. They were instructed to be prepared to discuss code only.
 
 The week prior to the discussions students were able to use an online scheduler to sign up for a five minute time slot. They were instructed to sign up for a time slot by the Wednesday prior to discussion week and contact their instructor if none of the designated time slots worked for them. If this wasn't followed, a 25% deduction to their score could be given (this did not end up being used for any students). Students with accommodations were to contact their instructor to make sure they were able to have their accommodations met.
 
-The week prior to the oral discussion, students were provided an example program, the rubric for used for grading the discussions, and the instructions for how the discussion would progress. For the first discussion, the example program and the actual program used in the discussion were the same. This was not the case for the second discussion. Please see the appendix for all programs used. The rubric - also provided in the appendix - was based on [@Theobold2021], and was modified between the first discussion and second discussion. The instructions for the discussion itself were:
+The week prior to the oral discussion, students were provided an example program, the rubric for used for grading the discussions, and the instructions for how the oral discussion would progress. For the first oral discussion, we chose to use the same program as both the example program and the actual program used in the oral discussion in order to ease student anxiety. As students were more comfortable in the second round of oral discussions, different programs were used. Please see the appendix for all programs used. The rubric - also provided in the appendix - was based on [@Theobold2021], and was modified between the first discussion and second discussion based on instructor feedback. The instructions for the discussion itself were:
 
 -   We want to ask you a few questions about a SAS program (an R Markdown document) we'll share with you.
--   I'll share my screen, ask you to consider particular pieces of code, and describe to me what that code does or why we might run it.
+-   I'll share my screen, ask you to consider particular pieces of code and describe to me what that code does or why we might run it.
 -   I may ask clarification questions or follow-up questions if you don't fully answer the question.
 -   If you don't know the answer, that's ok. Just let us know and we'll move to the next item.
 -   We do have firm time limits on answers to questions. We may have to cut you off so we can get all of the questions in a timely manner.
@@ -110,21 +124,10 @@ Students were instructed to log into the zoom meeting a few minutes prior to the
 
 The discussions themselves were recorded so that any disagreements about grading between the instructors and students could be mediated by the course coordinator.
 
-### Designing the Oral Discussions
-
-Stuff
-
 ### Monitoring Instructor Sentiment and Issues
 
-Note: These are the instructions we will share at the start of the meeting.
+In order to understand problems that arose, and sentiment around, administering the oral discussions, the course coordinator requested feedback. Conversations about administering the discussions were noted prior to first oral discussion given in the SAS course. This discussion occurred two weeks prior to the first discussion in the R course. Feedback from the
 
--   How was the Exam Set up?
-    -   Each exam was 5 minutes
-    -   **How were they graded?**
-    -   **What kinds of questions were asked?**
-    -   They were conducted on Zoom over the course of a week
-    -   6 TA's plus 1 instructor administered them
-    -   **What was the rubric?**
 -   How was the exam monitored?
     -   Weekly meetings
     -   Surveys
