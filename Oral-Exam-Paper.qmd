@@ -13,21 +13,19 @@ Won't write anything here until the paper is complete
 
 ## Introduction
 
-How do you know your students understand what's being taught? When they score high on your exams, does that mean they really understand? Following this train of thought, @Theobold2021 convincingly argued that, in line with the 2016 GAISE standards that recommend a focus on conceptual understanding and assessment of that understanding ([@carver2016guidelines]), oral exams allow for us as statistics and data science educators to more deeply assess what our students actually know.
+As instructors of statistics, we frequently find ourselves asking, "When a student answers a question, are they parroting what we've already told them, or do they truly understand?". Unfortunately, its hard to answer this question based on exam grades alone. Addressing this same question, @Theobold2021 convincingly argued that, in line with the 2016 GAISE standards ([@carver2016guidelines]), one method that does allow for statistics and data science educators to more deeply assess what our students actually know are oral exams.
 
-The benefits of oral exams go beyond assessment. As argued by @Theobold2021 and others, they also develop communication skills ([@Joughin2010]), are a more authentic way to assess [@Wiggins1990] [@Beccaria2013], are powerful tools in gauging a student's understanding and conceptions through conversation ([@Iannone2012],[@Asklund2003], [@Huxham2012]), and (especially pertinent in the age of AI Chatbots) they greatly discourage plagiarism ([@Newell2023], [@Ramella2019]). Students also prepare more? (Yes, add this in.)
+Oral exams, as the name implies, are assessments where questions and answers are verbally given, with the opportunity for further probing and follow up questions. Oral exams are more commonly used outside of the United States at the undergraduate level ([@Asklund2003], [@Ramella2019]) but are still regularly used inside the US at the doctorate level. They have been used in introductory chemistry classes [@Ramella2019], math classes [@Iannone2012], introductory computer science classes [@Ohmann2019], and, of course, statistics classes [@Theobold2021].
 
-Oral exams, of course, are not without their challenges. For example, whereas a written assessment assumes a student's proficiency with the *written* language, oral exams assume a student's proficiency with the *spoken* langue. ESL students in particular may experience difficulties unrelated to the content being tested, potentially turning a statistics test into an English test. Another issue is bias: Written exams can have confusing questions, but at least they can be graded blind. Oral exams, on the other hand, require a face to face interaction, and with that brings the possibility of evaluating a student based on how they've done previously, ..... and even feeling hungry (as one TA mentions later) need to be carefully evaluated. Finally, oral exams may not only negatively impact our students with test anxiety (which a written exam also might), but the new format may make that anxiety worse, along with pulling in our students with social or speaking anxiety.
+Oral exams, as the name implies, are meant to assess, but @Theobold2021 and others have argued that their benefits go beyond mere assessment. They develop communication skills ([@Joughin2010]), are a more authentic way to assess [@Wiggins1990] [@Beccaria2013], are a powerful tools in gauging a student's understanding through conversation ([@Iannone2012],[@Asklund2003], [@Huxham2012]),encourage greater preparation [@Ohmann2019], and (especially pertinent in the age of AI) greatly discourage cheating ([@Newell2023], [@Ramella2019]).
 
-These challenges have been successfully mitigated in the literature, but only for smaller classes. How do we do an assessment with promising returns on understanding our students' understanding in a class of 100? 200? Or, in the case of this study, 884? This is an open problem in the oral exam literature [@Asklund2003],[@Ohmann2019]. As class sizes increase, it becomes necessary to enlist help in the form of other instructors, potentially increasing bias in evaluation. Oral exams that, normally, range from 15-45 minutes long **citations** may need to be shortened, which will impact reliability negatively [@Memon2010]. Where professors could administer these exams in person, they may instead need to administer them on a computer, using video calling software like zoom, which can enlist a host of new issues to deal with.
+Though, like other forms of assessment, oral exams are not without their challenges (which range from accommodating ESL learners, mitigating evaluator bias, and managing student anxiety), for statistics and data science educators the biggest challenge in implementing them is probably scale. Several studies have acknowledged the open problem scale poses to administering high quality oral exams ([@Asklund2003],[@Ohmann2019]), and the unknown effect scale would have on reliability, validity, required resources, and bias ([@Memon2010], [@kang2022providing], [@Huxham2012]). This is especially pertinent to statistics and data science educators, where large class sizes coupled with minimal resources are not unusual.
 
-With scale comes a new group to study beyond the students: the administrators of the exam. This study follows a group of graduate teaching assistants who are the instructor of record for one-credit programming courses. While seasoned instructors may feel comfortable engaging in a conversation with students and gauging understanding, novice instructors administering oral exams is a very different proposition. This study attempts to understand problems of practice that arise for novice instructors when attempting to scale oral exam administration to a large number of students.
+Challenges aside, this is our attempt to administer oral exams in the setting of multiple large introductory statistical programming classes. Unlike other studies, which generally focus on the student experience, this study follows six graduate teaching assistants that were instructors of record for one-credit R or SAS programming courses, where each instructor was responsible for three to four sections each with a maximum size of 40 students.
 
-\*\*Tie in looking into instructors.\*\*
+**Why are we focusing on the instructor experience instead of the student one for this study?**. In short, this study has two main goals: first, to understand problems of practice that arose for these graduate teaching assistants when attempting to scale oral exams to large statistical programming classes, and, second, to offer recommendations and reflections on our attempt.
 
 ## Methods
-
-This study follows six graduate teaching assistants that were instructors of record for one-credit programming courses. These courses cover either R programming or SAS programming. Each instructor had three or four sections of one of these courses.
 
 ### SAS Course Information
 
@@ -103,7 +101,7 @@ For the second oral discussion, the course coordinator developed an example prog
 
 The scripts for the first and second discussions are available in the appendix.
 
-### Administering the Oral Discussions
+### Administering the Oral Exams
 
 The oral discussions were administered through zoom \*(we should probably talk about why we chose to use zoom over being in person.)\* The discussions were set to five minutes in length with the intention that the actual time for the discussions would be closer to three-four minutes, allowing for a buffer between appointments. The discussions were closed notes and did not involve students coding. They were instructed to be prepared to discuss code only.
 
@@ -128,17 +126,19 @@ In order to understand problems that arose, and sentiment around, administering 
 
 Initial thoughts about giving, and experience with, oral exams were requested on a Google form prior to administering the discussions. The R course had its first oral discussion one week prior to the SAS course. Reflections and advice were discussed in the weekly meeting and recorded for future reference. The meeting and conversations after the first SAS course oral discussion was likewise recorded. Another Google form was administered at this point as well. The second oral discussions occurred during the same week for both courses. The meeting and conversations the week after administration were recorded as well. Lastly, a final Google form was administered to record their final thoughts on administering oral exams in the course. All of the forms are available in the appendix.
 
-**Matthew** will work on the methodology of analyzing the data.
+### Analyzing Instructor Sentiment and Issues
 
-The purpose of analyzing the data was to categorize common topics of discussion that reoccurred throughout the oral exam process, and record whether evidence came from a TA discussion or a survey. In the first pass, five tentative categories were created, with evidence for each marked based on if the data came from a discussion or survey. In the second and third passes, the categories were refined after recognizing that initial themes may be better represented by including more sub-themes. For example, instead of discussion of time being a theme, also including separate aspects of time that were focused on. Finally, we looked over which categories had sufficient support to be included. They were included if they had 5 or more pieces of evidence.
+The most common approach used to analyze qualitative data involves iteratively going through the data, creating codes, and then grouping pieces of coded data into groups (usually called "themes"). This was the approach taken to analyze our survey and meeting data, formally called qualitative content analysis ([@zhang2009qualitative]).
+
+More specifically, in the first iteration, data was coded based on the use of particular words (such as "time" or "technology") and also on whether or not it came from a survey or a discussion. Pieces of text were then grouped together manually to create five starting themes. In the second and third iterations, these themes were refined after recognizing that they may be better represented by including more sub-themes; for example, instead of discussion of time being a theme, breaking this down into discussions of the quantity and quality of time. Finally, as we passed through the data, we looked over which themes had sufficient support to be included. Themes were included only if they had 5 or more pieces of evidence.
 
 ## Results
 
-### The TAs focused on time
+### The GTAs focused on time
 
 **The Quantity of time**
 
-On a pre-exam survey, half of the TAs expressed concerns about the "time" or "timeframe" of administering so many oral exams to so many students over a week. After the first round, some of the TAs gave estimates of 12 to 18 hours to complete their oral exams.
+On a pre-exam survey, half of the GTAs expressed concerns about the "time" or "timeframe" of administering so many oral exams to so many students over a week. After the first round, some of the GTAs gave estimates of 12 to 18 hours to complete their oral exams.
 
 Others used verbal descriptions, such as it "took way too long" and "overall, very time consuming" to express the magnitude of the time commitment. Words such as "grueling", that this was something they had to "endure", and that it was "extremely time inefficient" were used to express their feelings towards the amount of time needed. One TA, after administering their first oral exam, said (somewhat jokingly), "I was losing my sanity being on zoom for so long".
 
@@ -152,25 +152,25 @@ The way they were spending their time administering exams was contrasted with HW
 
 **When things went wrong with timing**
 
-Especially after the first few exams, TAs focused on issues with student timing. One talked about the fragility of the online set up, where if even one student comes late, it can "ruin the timing for all of the students". This inspired another strong question about "how to make everyone register and show up on time". Having to reschedule with students who missed, either to Saturday or to next week,and how to avoid it, dominated the final group discussion after the administration of the last oral exam. Other issues of timing were caused by technical difficulties with Zoom and the ensuing delays, as well as the burden of time bleeding into other classes and exams the TAs had outside of their positions.
+Especially after the first few exams, GTAs focused on issues with student timing. One talked about the fragility of the online set up, where if even one student comes late, it can "ruin the timing for all of the students". This inspired another strong question about "how to make everyone register and show up on time". Having to reschedule with students who missed, either to Saturday or to next week,and how to avoid it, dominated the final group discussion after the administration of the last oral exam. Other issues of timing were caused by technical difficulties with Zoom and the ensuing delays, as well as the burden of time bleeding into other classes and exams the GTAs had outside of their positions.
 
-When the TAs were asked about advice they would give to future TAs participating in the same experience as themselves, their advice overwhelmingly centered around optimal time management due to previously mentioned experiences with students not showing up on time or having to reschedule. For example, TAs offered comments such as "If possible, avoid scheduling any time on Friday" so as to plan for students who miss their time slots, "try to make everyone schedule and show up on time", and "build in more than a 5 minute break every 30 minutes" or else, due to students not arriving to the meeting on time, "you'll need to use \[it\]".
+When the GTAs were asked about advice they would give to future GTAs participating in the same experience as themselves, their advice overwhelmingly centered around optimal time management due to previously mentioned experiences with students not showing up on time or having to reschedule. For example, GTAs offered comments such as "If possible, avoid scheduling any time on Friday" so as to plan for students who miss their time slots, "try to make everyone schedule and show up on time", and "build in more than a 5 minute break every 30 minutes" or else, due to students not arriving to the meeting on time, "you'll need to use \[it\]".
 
-### The TAs focused on Equity
+### The GTAs focused on Equity
 
-Even before administering exams, TAs worried about their role not just as administrators but as graders. One worried that the grading might be "too subjective". Another worried about their "poor memory" and bias that could come from familiarity. One TA even cautioned against "food bias" where you many grade someone more harshly while hungry. Some of these issues were borne out during the first discussion when two TAs used different follow-up questions other than on the rubric when asking about an R object, and the teacher and one TA used different follow up questions to discuss R libraries. Several TAs after the first few oral exams expressed interest in changing the grading scale, so as to be fair to students who may have needed prompting, but still got the right answer.
+Even before administering exams, GTAs worried about their role not just as administrators but as graders. One worried that the grading might be "too subjective". Another worried about their "poor memory" and bias that could come from familiarity. One TA even cautioned against "food bias" where you many grade someone more harshly while hungry. Some of these issues were borne out during the first discussion when two GTAs used different follow-up questions other than on the rubric when asking about an R object, and the teacher and one TA used different follow up questions to discuss R libraries. Several GTAs after the first few oral exams expressed interest in changing the grading scale, so as to be fair to students who may have needed prompting, but still got the right answer.
 
-The TAs were also worried that the oral exam would be confounded with speaking ability. In one exchange between the teacher and one TA, the TA shared one ESL student wanted to do it in person since, through zoom, "it \[was\] hard for them to understand the questions clearly". Other TAs during the first survey expressed similar views, with one on the final survey indicating that ESL students should be given more time, since "this is not an english test".
+The GTAs were also worried that the oral exam would be confounded with speaking ability. In one exchange between the teacher and one TA, the TA shared one ESL student wanted to do it in person since, through zoom, "it \[was\] hard for them to understand the questions clearly". Other GTAs during the first survey expressed similar views, with one on the final survey indicating that ESL students should be given more time, since "this is not an english test".
 
 There were other minor focuses that didn't always consistently appear or only appeared because a they were explicitly asked in a survey: their views on oral vs written exams, and positive thoughts (if any) about the process.
 
 ### Their views on Oral vs Written Exams
 
-After the first round of exams, a few TAs expressed doubt over the utility of the oral exam format. "Not sure what this accomplishes over HW/\[online\] quiz" on said. "A paper quiz", another said, "could serve the same goal". After seeing these responses, a specific question about their views on oral vs written exams was asked, with mixed responses. Half agreed there was something different or better, but those differences boiled down to "open book" vs "closed book" exams, examining "on the fly knowledge". Luckily one TA did mention the benefit of being able to "follow up". The other half thought that a well crafted, open ended quiz could essentially serve the same purpose.
+After the first round of exams, a few GTAs expressed doubt over the utility of the oral exam format. "Not sure what this accomplishes over HW/\[online\] quiz" on said. "A paper quiz", another said, "could serve the same goal". After seeing these responses, a specific question about their views on oral vs written exams was asked, with mixed responses. Half agreed there was something different or better, but those differences boiled down to "open book" vs "closed book" exams, examining "on the fly knowledge". Luckily one TA did mention the benefit of being able to "follow up". The other half thought that a well crafted, open ended quiz could essentially serve the same purpose.
 
 ### Positives or Oral exam experience
 
-When asked directly about positives, only half of the TAs had something to say, with all the comments being centered around having increased student interactions where, in such a large class, they usually didn't. One TA commented that, unprovoked, a few students talked about liking the format.
+When asked directly about positives, only half of the GTAs had something to say, with all the comments being centered around having increased student interactions where, in such a large class, they usually didn't. One TA commented that, unprovoked, a few students talked about liking the format.
 
 ## Discussion
 
@@ -178,11 +178,11 @@ When asked directly about positives, only half of the TAs had something to say, 
 
 This is the first large scale oral exam study done in the wider oral exam literature, and the first to examine how trying to apply oral assessment at a larger scale works within statistics education.
 
-Unlike previous studies, this study had **this many participants**. However, it involved conducting oral exams using realistic resources, necessitating the reduction of oral exam times (5 minutes) and increasing the number of instructors (6 TAs, 1 Professor). Since in the large scale scenario TAs become essential to successful implementation of an oral exam, we focused on their thoughts and feelings.
+Unlike previous studies, this study had **this many participants**. However, it involved conducting oral exams using realistic resources, necessitating the reduction of oral exam times (5 minutes) and increasing the number of instructors (6 GTAs, 1 Professor). Since in the large scale scenario GTAs become essential to successful implementation of an oral exam, we focused on their thoughts and feelings.
 
 From their perspective, the oral exam format was probably a failure. Most of the topics centered around being able to survive administering them, as well as questioning their effectiveness in comparison to more standard assessments. **Students see written exam as gold standard citation?**.
 
-On a positive note, these TAs were aware of and sensitive to potential biases and equity issues, and voiced their opinions consistently.
+On a positive note, these GTAs were aware of and sensitive to potential biases and equity issues, and voiced their opinions consistently.
 
 Overall, we would suggest that under realistic circumstnaces, administering oral exams at larger scales may greatly weaken what makes oral exams important/interesting/powerful in the first place. With the necessary shortenting of their administartion comes a loss in reliability ([@Memon2010]).
 
@@ -199,6 +199,7 @@ Issues with reliability.
 -   AI enhanced oral assessment?
 -   Student perceptions positive in literature, but how does doing it for 5 minutes in zoom change things? Having to compare and contrast experiences
 -   **Others?**
+-   Comparing to other assessment methods, better or worse? Did students learn more or less? Final exam differences?
 
 ## Conclusion
 
