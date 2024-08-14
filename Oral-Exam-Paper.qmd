@@ -27,20 +27,29 @@ Challenges aside, this is our attempt to administer oral exams in the setting of
 
 ## Methods
 
-### SAS Course Information
+Here we describe 
+-   The content of the courses 
+-   The structure of the courses 
+-   The design of the oral exams 
+-   The logistics of administrating the oral exams 
+-   Our monitoring of GTA sentiment and issues
+
+### What were the courses about?
+
+#### SAS Course Information
 
 This course introduces students to programming in SAS through SAS Studio in the <a href = "https://www.sas.com/en_us/software/on-demand-for-academics.html" target = "_blank">SAS OnDemand for Academics</a> browser-based platform. The course covers topics like reading in raw data with `PROC IMPORT`, basic row and column manipulations of SAS datasets through the `DATA step`, summarizing data numerically with `PROC FREQ`, `PROC UNIVARIATE`, and `PROC MEANS`, summarizing data graphically with `PROC SGPLOT` and `PROC SGPANEL`, analysis of means using `PROC TTEST` and `PROC GLM`, and fitting linear models (one-way ANOVA and Multiple Linear Regression) through `PROC GLM`.
 
-The course has a prerequisite of a business statistics course or a corequisite of a second course in statistics. These restrictions allow the course to cover the creation and interpretation of statistical models without the need to introduce the statistical concepts surrounding these topics.
+The course has a pre-requisite of a business statistics course or a co-requisite of a second course in statistics, which allow the course to cover the creation and interpretation of statistical models without needing to introduce additional concepts. 
 
 The course serves two major audiences:
 
 -   Statistics majors and minors
 -   Business majors
 
-The statistics majors generally have taken an introductory statistics course, an introductory programming course in python, and are taking the second course in statistics concurrently with the course (or have already taken it). The statistics minors are similar but do not generally have the introductory programming course. The business majors usually enroll in the course having taken a business statistics course at some point earlier in their academic careers.
+The statistics majors generally have taken an introductory statistics course, an introductory programming course in python, and are taking the second course in statistics concurrently with the course (or have already taken it). The statistics minors are similar but do not generally have the introductory programming course. The business majors usually enroll in the course having taken a business statistics course at some point earlier in their academic careers. **Should we get rid of this paragraph, or shave it down considerably? I'm just thinking about the use of breaking down all the majors and minors in the classes versus sticking with the two major audiences and leaving it at that**.
 
-For both audiences, the broad purpose of the course from the program level is to provide the students with a thorough introduction to using SAS in order to facilitate the use of SAS in their upper level statistics or business courses. The course learning outcomes are listed on the syllabus as follows:
+For both audiences, the broad purpose of the course is to provide a thorough introduction to SAS to facilitate its use in their upper level statistics or business courses. The course learning outcomes are listed on the syllabus as follows:
 
 > This course provides an introduction to programming using the SAS statistical software. At the end of this course students will be able to
 >
@@ -52,15 +61,13 @@ For both audiences, the broad purpose of the course from the program level is to
 > -   produce, interpret, and assess the validity of assumptions of
 > -   statistical hypothesis tests and confidence intervals using SAS
 
-### R Course Information
+#### R Course Information
 
-This course introduces students to programming in the R software through the RStudio Interactive Development Environment. The course covers topics like using and manipulating common R objects (such as lists, data frames, and (atomic) vectors), reading in raw data using the `readr`, `haven`, and `readxl` packages, creating output documents with R Markdown, common row and column manipulations with the `dplyr` and `tidyr` packages, summarizing data numerically, summarizing data graphically with the `ggplot2` package, using vectorized functions and for loops, and writing custom functions.
+This course introduces students to programming in the R software through the RStudio Interactive Development Environment, and covers topics like using and manipulating common R objects (such as lists, data frames, and (atomic) vectors), reading in raw data using the `readr`, `haven`, and `readxl` packages, creating output documents with R Markdown, common row and column manipulations with the `dplyr` and `tidyr` packages, summarizing data numerically, summarizing data graphically with the `ggplot2` package, using vectorized functions and for loops, and writing custom functions.
 
-This course does not have a prequisite or corequisite. This causes the course to cover more programming-centric topics and less statistical topics when compared to the SAS programming course.
+This course does not have a pre-requisite or co-requisite. As such, more programming and less statistical-centric topics are covered compared to the SAS course. However, like the SAS course, it serves statistics majors and minors as well as business majors, where, again, the statistics majors have generally had an introductory programming course prior to taking this R programming course but the other students usually do not have a programming background.
 
-The course serves the same two major audiences as the SAS programming course (statistics majors/minors and business majors). Again, the statistics majors have generally had an introductory programming course prior to taking this R programming course but the other students usually do not have a programming background.
-
-The broad purpose of the course from the program level is to provide the students with a thorough introduction to using R in order to facilitate the use of R in their upper level statistics or business courses. The course learning outcomes are listed on the syllabus as follows:
+The broad purpose of the course is to provide the students with a thorough introduction to R to use in their upper level statistics or business courses. The course learning outcomes are listed on the syllabus as follows:
 
 > This course provides an introduction to programming using the statistical software R. At the end of this course students will be able to
 >
@@ -71,11 +78,11 @@ The broad purpose of the course from the program level is to provide the student
 
 ### Course Structure
 
-These programming courses have a flipped structure where students receive the course content prior to their class meeting time in order to spend most of the class time on activities involving active participation. With many of the students in the courses having limited to no programming exposure, having a flipped course allows the students to gain basic knowledge of the material through videos. They can then come to class and actually **do** programming while having an expert (the course instructor) in the room and support from their peers. This ideally leads to students having a direct line of help when they get stuck rather than running into an error, getting frustrated, and stopping their learning. They also can see the struggles of others to know that they aren't out of place if they are having difficulty. Not only that but students can go back to rewatch topics they find difficult.
+These programming courses are based on a flipped structure where students receive the course content prior to their class meeting time through video in order to spend most of class time *doing* programming with an expert (the course instructor) and peers in the room. [[*This ideally leads to students having a direct line of help when they get stuck rather than running into an error, getting frustrated, and stopping their learning. They also can see the struggles of others to know that they aren't out of place if they are having difficulty. Not only that but students can go back to rewatch topics they find difficult.*]] **Do we need this part? I wonder since the paper isn't mainly about why we use a flipped classroom or about the potential benefits.**
 
-Although not the purpose of using a flipped structure, another benefit of this design is that graduate students can reasonably be expected to support students within the classroom as the instructor of the course. These graduate students may not have the pedagogical knowledge or experience to effectively teach programming material themselves, but many have the problem solving skills to help students work through issues that come up. As these two courses serve approximately 700 students each semester, this is a definite benefit from the administrative side. Graduate students can be assigned to reasonably small sections of students (40 students maximum) and provide more one-on-one attention to the learners.
+Although not the purpose of using a flipped structure, another benefit of this design is that graduate students can reasonably be expected to support students within the classroom as the instructor of the course. These graduate students may not have the pedagogical knowledge or experience to effectively teach programming material themselves, but many have the problem solving skills to help students work through issues that come up. As these two courses serve approximately 700 students each semester, this is a definite benefit from the administrative side. Graduate students can be assigned to reasonably small sections of students (40 students maximum) and provide more one-on-one attention to the learners. **Do we need this part? I wonder since the paper isn't mainly about why we use a flipped classroom or about the potential benefits.**
 
-These classes meet once a week for 50 minutes at a time. Most weeks students are expected to watch one to two videos that cover the learning objectives for the week. These videos are approximately 10-20 minutes each and are created by the course coordinator. The videos usually have two or three quizzes throughout, each with three to four questions, to help students assess their understanding as they watch. Students are expected to complete these videos prior to their weekly session.
+Classes meet once a week for 50 minutes. Most weeks students are expected to watch videos that cover the learning objectives for the week. These videos are approximately 10-20 minutes each and are created by the course coordinator. The videos usually have two or three quizzes throughout, each with three to four questions, to help students assess their understanding as they watch. Students are expected to complete these videos prior to their weekly session. **Do we need this part? I wonder since the paper isn't mainly about why we use a flipped classroom or about the potential benefits.**
 
 During most class periods, the instructor briefly recaps the material for the week (less than five minutes), takes questions, and introduces the in-class activity for the week. The students are then given the bulk of the class time to work in small groups or individually on the activity. The instructor takes an active role during this period, checking in on students and answering questions that come up. The last five minutes of the class are used to recap important parts of the activity.
 
@@ -87,9 +94,9 @@ The remaining two weeks were dedicated to administering oral exams. These weeks 
 
 Each section of the course had a maximum of 40 students. Most sections had between 35 and 40 students but a few had much lower enrollment. In total, there were nearly 700 students across all of the sections of the two courses. Three instructors had four sections and administered oral exams to roughly 140 students each. Three instructors had three sections each but these tended to be sections with slightly lower enrollment. Two of these instructors administered oral exams to roughly 90 students. One instructor had a teaching assistant appointment for less time so only administered exams to two of their sections (roughly 70 students). The course coordinator administered oral exams to the remaining section of students.
 
-### Designing the Oral Discussions
+### Designing the Oral Exams
 
-As oral exams are not common for courses commonly taken by these students, the oral exam was rebranded as an 'oral discussion' to hopefully lessen the anxiety students felt.
+As oral exams were not a common experience for these students, it was rebranded as an 'oral discussion' to hopefully lessen student anxiety
 
 The design of the oral discussions roughly followed that of a structured interview (reference). The goal of using this format was to make the discussions as similar as possible so as to be as fair as possible to students being evaluated by different instructors. In this structure, a interviewers read questions in order from a script. Follow up questions are designed around common answers that may be slightly lacking. (Need more on this I think.)
 
@@ -103,11 +110,11 @@ The scripts for the first and second discussions are available in the appendix.
 
 ### Administering the Oral Exams
 
-The oral discussions were administered through zoom \*(we should probably talk about why we chose to use zoom over being in person.)\* The discussions were set to five minutes in length with the intention that the actual time for the discussions would be closer to three-four minutes, allowing for a buffer between appointments. The discussions were closed notes and did not involve students coding. They were instructed to be prepared to discuss code only.
+The oral discussions were administered through zoom \*(we should probably talk about why we chose to use zoom over being in person.)\* The discussions were set to five minutes in length with the intention that the actual time for the discussions would be closer to three-four minutes, allowing for a buffer between appointments. The discussions were closed note and students were instructed to be prepared to discuss code only, not to actually code.
 
-The week prior to the discussions students were able to use an online scheduler to sign up for a five minute time slot. They were instructed to sign up for a time slot by the Wednesday prior to discussion week and contact their instructor if none of the designated time slots worked for them. If this wasn't followed, a 25% deduction to their score could be given (this did not end up being used for any students). Students with accommodations were to contact their instructor to make sure they were able to have their accommodations met.
+The week prior to the discussions, students used an online scheduler to sign up for a five minute time slot. They were instructed to sign up for a time slot by the Wednesday prior to discussion week and contact their instructor if none of the designated time slots worked for them. If this wasn't followed, a 25% deduction to their score could be given (which did not end up being used for any student). Students with accommodations were to contact their instructor to make sure they were able to have their accommodations met.
 
-The week prior to the oral discussion, students were provided an example program, the rubric for used for grading the discussions, and the instructions for how the oral discussion would progress. For the first oral discussion, we chose to use the same program as both the example program and the actual program used in the oral discussion in order to ease student anxiety. As students were more comfortable in the second round of oral discussions, different programs were used. Please see the appendix for all programs used. The rubric - also provided in the appendix - was based on [@Theobold2021], and was modified between the first discussion and second discussion based on instructor feedback. The instructions for the discussion itself were:
+The week prior to the oral discussion, students were provided an example program, the rubric used for grading the discussions, and instructions for how the oral discussion would work. For the first oral discussion, we chose to use the same program as both the example program and the actual program used in the oral discussion in order to ease student anxiety. As students were more comfortable in the second round of oral discussions, different programs were used **What do we mean by program again?**. (please see the appendix for all programs used). The rubric - also provided in the appendix - was based on [@Theobold2021], and was modified between the first discussion and second discussion based on instructor feedback. The instructions for the discussion itself were:
 
 -   We want to ask you a few questions about a SAS program (an R Markdown document) we'll share with you.
 -   I'll share my screen, ask you to consider particular pieces of code and describe to me what that code does or why we might run it.
@@ -122,11 +129,11 @@ The discussions themselves were recorded so that any disagreements about grading
 
 ### Monitoring Instructor Sentiment and Issues
 
-In order to understand problems that arose, and sentiment around, administering the oral discussions, the course coordinator requested feedback at various points of the process formally and informally.
+In order to understand problems that arose and sentiment around administering the oral discussions, the course coordinator requested feedback at various points of the process formally and informally.
 
-Initial thoughts about giving, and experience with, oral exams were requested on a Google form prior to administering the discussions. The R course had its first oral discussion one week prior to the SAS course. Reflections and advice were discussed in the weekly meeting and recorded for future reference. The meeting and conversations after the first SAS course oral discussion was likewise recorded. Another Google form was administered at this point as well. The second oral discussions occurred during the same week for both courses. The meeting and conversations the week after administration were recorded as well. Lastly, a final Google form was administered to record their final thoughts on administering oral exams in the course. All of the forms are available in the appendix.
+Initial thoughts about giving and prior experience with oral exams were requested on a Google form prior to administering the discussions. The R course had its first oral discussion one week prior to the SAS course. Reflections and advice were discussed in the weekly meeting and recorded for future reference. The meeting and conversations after the first SAS course oral discussion was likewise recorded. Another Google form was administered at this point as well. The second oral discussions occurred during the same week for both courses, and the meeting and conversations the week after administration were recorded as well. Lastly, a Google form was administered to record their final thoughts on administering oral exams in the course. All of the forms are available in the appendix.
 
-### Analyzing Instructor Sentiment and Issues
+## Data Analysis: Analyzing Instructor Sentiment and Issues
 
 The most common approach used to analyze qualitative data involves iteratively going through the data, creating codes, and then grouping pieces of coded data into groups (usually called "themes"). This was the approach taken to analyze our survey and meeting data, formally called qualitative content analysis ([@zhang2009qualitative]).
 
@@ -138,7 +145,7 @@ More specifically, in the first iteration, data was coded based on the use of pa
 
 **The Quantity of time**
 
-On a pre-exam survey, half of the GTAs expressed concerns about the "time" or "timeframe" of administering so many oral exams to so many students over a week. After the first round, some of the GTAs gave estimates of 12 to 18 hours to complete their oral exams.
+On the pre-exam survey, half of the GTAs expressed concerns about the "time" or "timeframe" of administering so many oral exams to so many students over a week. After the first round, some of the GTAs said it took 12 to 18 hours to administer their oral exams.
 
 Others used verbal descriptions, such as it "took way too long" and "overall, very time consuming" to express the magnitude of the time commitment. Words such as "grueling", that this was something they had to "endure", and that it was "extremely time inefficient" were used to express their feelings towards the amount of time needed. One TA, after administering their first oral exam, said (somewhat jokingly), "I was losing my sanity being on zoom for so long".
 
@@ -158,7 +165,7 @@ When the GTAs were asked about advice they would give to future GTAs participati
 
 ### The GTAs focused on Equity
 
-Even before administering exams, GTAs worried about their role not just as administrators but as graders. One worried that the grading might be "too subjective". Another worried about their "poor memory" and bias that could come from familiarity. One TA even cautioned against "food bias" where you many grade someone more harshly while hungry. Some of these issues were borne out during the first discussion when two GTAs used different follow-up questions other than on the rubric when asking about an R object, and the teacher and one TA used different follow up questions to discuss R libraries. Several GTAs after the first few oral exams expressed interest in changing the grading scale, so as to be fair to students who may have needed prompting, but still got the right answer.
+Even before administering exams, the GTAs worried about their role not just as administrators but as graders. One worried that the grading might be "too subjective". Another worried about their "poor memory" and bias that could come from familiarity. One TA even cautioned against "food bias" where grading while hungry may lead to a harsher grade. Some of these issues were borne out during the first discussion when two GTAs used different follow-up questions other than on the rubric when asking about an R object, and the teacher and one TA used different follow up questions to discuss R libraries. Several GTAs after the first few oral exams expressed interest in changing the grading scale, so as to be fair to students who may have needed prompting, but still got the right answer.
 
 The GTAs were also worried that the oral exam would be confounded with speaking ability. In one exchange between the teacher and one TA, the TA shared one ESL student wanted to do it in person since, through zoom, "it \[was\] hard for them to understand the questions clearly". Other GTAs during the first survey expressed similar views, with one on the final survey indicating that ESL students should be given more time, since "this is not an english test".
 
