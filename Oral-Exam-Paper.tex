@@ -176,7 +176,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, breakable, frame hidden, interior hidden, enhanced, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, boxrule=0pt, sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, frame hidden]}{\end{tcolorbox}}\fi
 
 \hypertarget{oral-exam-paper}{%
 \section{Oral Exam Paper}\label{oral-exam-paper}}
@@ -189,33 +189,23 @@ Won't write anything here until the paper is complete
 \hypertarget{introduction}{%
 \subsection{Introduction}\label{introduction}}
 
-\begin{itemize}
-\tightlist
-\item
-  We are going to summarize Allison's paper, while giving more support
-  to some of her claims with the advantages of oral exams.
-\end{itemize}
-
 How do you know your students understand what's being taught? When they
 score high on your exams, does that mean they really understand?
-Following this train of thought, Theobold (2021) ((Theobold 2021))
-convincingly argued that, in line with the 2016 GAISE standards that
-recommend a focus on conceptual understanding and assessment of that
-understanding (Carver et al. 2016), oral exams allow for us as
-statistics and data science educators to more deeply assess what our
-students actually know.
+Following this train of thought, Theobold (2021) convincingly argued
+that, in line with the 2016 GAISE standards that recommend a focus on
+conceptual understanding and assessment of that understanding ((Carver
+et al. 2016)), oral exams allow for us as statistics and data science
+educators to more deeply assess what our students actually know.
 
 The benefits of oral exams go beyond assessment. As argued by Theobold
-(2021) and others, they also develop communication skills {[}(Joughin
-2010){]}, are a more authentic way to assess (\textbf{Wiggins1990?})
+(2021) and others, they also develop communication skills ((Joughin
+2010)), are a more authentic way to assess (\textbf{Wiggins1990?})
 (Beccaria 2013), are powerful tools in gauging a student's understanding
 and conceptions through conversation ((Iannone and Simpson
 2012),(Asklund and Bendix 2003), (Huxham, Campbell, and Westwood 2012)),
 and (especially pertinent in the age of AI Chatbots) they greatly
 discourage plagiarism ((Newell 2023), (Ramella 2019)). Students also
-prepare more? (*This is interesting\ldots{} I wonder if that kind of
-thing has been looked at. How do students differ in their preparation
-for an oral exam vs a pen/paper style.)
+prepare more? (Yes, add this in.)
 
 Oral exams, of course, are not without their challenges. For example,
 whereas a written assessment assumes a student's proficiency with the
@@ -224,28 +214,30 @@ the \emph{spoken} langue. ESL students in particular may experience
 difficulties unrelated to the content being tested, potentially turning
 a statistics test into an English test. Another issue is bias: Written
 exams can have confusing questions, but at least they can be graded
-blind. Oral exams, on the other hand, require a face to face
-interaction, and with that brings the possibility of evaluating a
-student based on how they've done previously, \ldots.. and even feeling
-hungry (as one TA mentions later) need to be carefully evaluated.
-Finally, oral exams may not only negatively impact our students with
-test anxiety (which a written exam also might), but the new format may
-make that anxiety worse, along with pulling in our students with social
-or speaking anxiety.
+blind. Oral exams, on the other hand, require a face to face interaction
+\textbf{(in-person or virtually - might reword to include that
+somehow)}, and with that brings the possibility of evaluating a student
+based on how they've done previously, \ldots.. and even feeling hungry
+(as one TA mentions later) need to be carefully evaluated. Finally, oral
+exams may not only negatively impact our students with test anxiety
+(which a written exam also might), but the new format may make that
+anxiety worse, along with pulling in our students with social or
+speaking anxiety.
 
-These challenges have been successfully mitigated in the literature, but
-only for smaller classes. How do we do an assessment with promising
-returns on understanding our students' understanding in a class of 100?
-200? Or, in the case of this study, 884? This is an open problem in the
-oral exam literature (Asklund and Bendix 2003),(Ohmann 2019). As class
-sizes increase, it becomes necessary to enlist help in the form of other
-instructors, potentially increasing bias in evaluation. Oral exams that,
-normally, range from 15-45 minutes long \textbf{citations} may need to
-be shortened, which will impact reliability negatively (Memon, Joughin,
-and Memon 2010). Where professors could administer these exams in
-person, they may instead need to administer them on a computer, using
-video calling software like zoom, which can enlist a host of new issues
-to deal with.
+These challenges have been succes
+
+fully mitigated in the literature, but only for smaller classes. How do
+we do an assessment with promising returns on understanding our
+students' understanding in a class of 100? 200? Or, in the case of this
+study, 884? This is an open problem in the oral exam literature (Asklund
+and Bendix 2003),(Ohmann 2019). As class sizes increase, it becomes
+necessary to enlist help in the form of other instructors, potentially
+increasing bias in evaluation. Oral exams that, normally, range from
+15-45 minutes long \textbf{citations} may need to be shortened, which
+will impact reliability negatively (Memon, Joughin, and Memon 2010).
+Where professors could administer these exams in person, they may
+instead need to administer them on a computer, using video calling
+software like zoom, which can enlist a host of new issues to deal with.
 
 With scale comes a new group to study beyond the students: the
 administrators of the exam. This study follows a group of graduate
@@ -257,9 +249,7 @@ proposition. This study attempts to understand problems of practice that
 arise for novice instructors when attempting to scale oral exam
 administration to a large number of students.
 
-In addition, we outline the process used to develop and administer oral
-exams at scale with a discussion of what worked well and what could be
-improved upon.
+**Tie in looking into instructors.**
 
 \hypertarget{methods}{%
 \subsection{Methods}\label{methods}}
@@ -267,7 +257,8 @@ improved upon.
 This study follows six graduate teaching assistants that were
 instructors of record for one-credit programming courses. These courses
 cover either R programming or SAS programming. Each instructor had three
-or four sections of one of these courses.
+or four sections of one of these courses with about 35 students per
+section.
 
 \hypertarget{sas-course-information}{%
 \subsubsection{SAS Course Information}\label{sas-course-information}}
@@ -290,7 +281,7 @@ the course to cover the creation and interpretation of statistical
 models without the need to introduce the statistical concepts
 surrounding these topics.
 
-The course serves two major audiences (detailed shortly):
+The course serves two major audiences:
 
 \begin{itemize}
 \tightlist
@@ -400,7 +391,7 @@ This ideally leads to students having a direct line of help when they
 get stuck rather than running into an error, getting frustrated, and
 stopping their learning. They also can see the struggles of others to
 know that they aren't out of place if they are having difficulty. Not
-only that but students can go back to watch and rewatch topics they find
+only that but students can go back to rewatch topics they find
 difficult.
 
 Although not the purpose of using a flipped structure, another benefit
@@ -409,14 +400,15 @@ support students within the classroom as the instructor of the course.
 These graduate students may not have the pedagogical knowledge or
 experience to effectively teach programming material themselves, but
 many have the problem solving skills to help students work through
-issues that come up. As these two courses serve approximately 800
+issues that come up. As these two courses serve approximately 700-800
 students each semester, this is a definite benefit from the
 administrative side. Graduate students can be assigned to reasonably
 small sections of students (40 students maximum) and provide more
 one-on-one attention to the learners.
 
-These classes meet once a week for 50 minutes at a time. Most weeks
-students are expected to watch one to two videos that cover the learning
+\textbf{\emph{Not sure if these next four paragraphs are needed}} These
+classes meet once a week for 50 minutes at a time. Most weeks students
+are expected to watch one to two videos that cover the learning
 objectives for the week. These videos are approximately 10-20 minutes
 each and are created by the course coordinator. The videos usually have
 two or three quizzes throughout, each with three to four questions, to
@@ -443,57 +435,199 @@ There were four weeks that did not follow this structure. Two of those
 weeks replaced the usual in-class period with a short quiz (10 minutes)
 followed by time to work on a homework assignment. These assignments
 involved creating their own original program to answer questions of
-interest along with finding a dataset of their own and applying class
-concepts. The two other weeks were dedicated to administering their oral
-exams. These weeks involved no new content and no class was held.
+interest along with finding a data set of their own and applying class
+concepts.
 
-\hypertarget{oral-exam}{%
-\subsubsection{Oral Exam}\label{oral-exam}}
+The remaining two weeks were dedicated to administering oral exams.
+These weeks involved no new content and no class was held. Each oral
+exam accounted for eight percent of the students' overall course grade.
+
+Each section of the course had a maximum of 40 students. Most sections
+had between 35 and 40 students but a few had much lower enrollment. In
+total, there were nearly 700 students across all of the sections of the
+two courses. Three instructors had four sections and administered oral
+exams to roughly 140 students each. Three instructors had three sections
+each but these tended to be sections with slightly lower enrollment. Two
+of these instructors administered oral exams to roughly 90 students. One
+instructor had a teaching assistant appointment for less time so only
+administered exams to two of their sections (roughly 70 students). The
+course coordinator administered oral exams to the remaining section of
+students.
+
+\hypertarget{designing-the-oral-discussions}{%
+\subsubsection{Designing the Oral
+Discussions}\label{designing-the-oral-discussions}}
+
+As oral exams are not common for courses taken by these students, the
+oral exam was rebranded as an `oral discussion' to hopefully lessen the
+anxiety students felt.
+
+The design of the oral discussions roughly followed that of a structured
+interview protocol ({``Structured Interviews,''} n.d.). In this
+structure, subject matter experts create relevant questions and a rating
+scale for responses. The interviewers systematically ask these questions
+of the interviewees in order to be as fair as possible while ensuring
+valid and reliable ratings. Follow up or `probe' questions are also
+created to help elicit appropriate responses at the level desired by the
+interviewer.
+
+The first oral discussion occurred in week six of the R course and week
+seven of the SAS course. For the first oral discussion, the course
+coordinator developed an example program and a script of candidate
+questions to ask about the program. They also created a list of probable
+student responses with subsequent follow up questions to gain the
+appropriate clarity of responses. The candidate questions were split
+into two categories: higher-level questions involving more detailed
+explanations and lower-level questions involving mostly recall. As the
+oral discussions were slated to be taken in a five minute window, two of
+each type of question were developed for the first oral discussion. The
+grading scales were 0, 1, 2, or 3 points, and 0, 1, or 2 points for the
+higher-level and lower-level questions, respectively.
+
+During a weekly meeting of all instructors, the instructors and course
+coordinators went through the example programs (one SAS program and one
+R program) and questions written by the course coordinator. The
+instructors then split into pairs (one a SAS instructor and one an R
+instructor) and practiced administering the discussion to the other
+instructor. Using this as feedback, the questions and follow ups were
+modified as needed.
+
+For the second oral discussion, occuring in week 12 for both courses,
+the course coordinator developed an example program to share with
+students and a similar program to use for the actual oral discussion.
+This time a weekly meeting was devoted to having the instructors of the
+courses develop questions and the corresponding follow ups. The
+instructors were again split into pairs and practiced administering the
+discussions.
+
+After the first oral discussions, the instructors felt strongly that
+they would like to have a finer scale for their grading rubric. Whereas
+before the lower-level questions were out of 0, 1, or 2 scale, these
+were now out of a 0, 1, \ldots, 4 scale. Similarly, the higher-level
+questions were now graded on a scale of 0, 1, \ldots, 6.
+
+The oral discussion scripts used by the instructors and SAS or R
+programs are available in the appendix.
+
+\hypertarget{administering-the-oral-discussions}{%
+\subsubsection{Administering the Oral
+Discussions}\label{administering-the-oral-discussions}}
+
+The oral discussions were administered through zoom. This decision was
+made for the ease of scheduling on both the instructor and student side.
+As students and instructors each had their own class schedules to
+contend with, having time slots spread throughout the week without the
+need for room reservations seemed like the most appropriate course of
+action. The discussions were set to five minutes in length with the
+intention that the actual time for the discussions would be closer to
+three-four minutes, allowing for a buffer between appointments. The
+discussions were closed notes and did not involve students coding. They
+were instructed to be prepared to discuss code only. Instructors were
+encouraged to build in down time for their appointments to deal with any
+appointments that went long or had technical difficulty. For instance,
+only making appointments available from the start of the hour until 50
+minutes past. This would leave 10 minutes to account for issues that may
+arise.
+
+The weeks prior to the discussions students were able to use an online
+scheduler to sign up for a five minute time slot. They were instructed
+to sign up for a time slot by the Wednesday prior to discussion week and
+contact their instructor if none of the designated time slots worked for
+them. If this wasn't followed, a 25\% deduction to their score could be
+given (this did not end up being used for any students). Students with
+accommodations were to contact their instructor to make sure they were
+able to have their accommodations met.
+
+The week prior to the oral discussion, students were provided an example
+program, the rubric used for grading the discussions, and the
+instructions for how the oral discussion would progress. For the first
+oral discussion, we chose to use the same program as both the example
+program and the actual program used in the oral discussion in order to
+ease student anxiety. As students were more comfortable in the second
+round of oral discussions, different programs were used. The rubric used
+was based on that given by (Theobold 2021), and was modified between the
+first discussion and second discussion based on instructor feedback. The
+instructions for the discussion itself are given below:
 
 \begin{itemize}
 \tightlist
 \item
-  How was the Exam Set up?
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Each exam was 5 minutes
-  \item
-    \textbf{How were they graded?}
-  \item
-    \textbf{What kinds of questions were asked?}
-  \item
-    They were conducted on Zoom over the course of a week
-  \item
-    6 TA's plus 1 instructor administered them
-  \item
-    \textbf{What was the rubric?}
-  \end{itemize}
+  We want to ask you a few questions about a SAS program (or an R
+  Markdown document) we'll share with you.
 \item
-  How was the exam monitored?
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Weekly meetings
-  \item
-    Surveys
-  \end{itemize}
+  I'll share my screen, ask you to consider particular pieces of code
+  and describe to me what that code does or why we might run it.
+\item
+  I may ask clarification questions or follow-up questions if you don't
+  fully answer the question.
+\item
+  If you don't know the answer, that's ok. Just let us know and we'll
+  move to the next item.
+\item
+  We do have firm time limits on answers to questions. We may have to
+  cut you off so we can get all of the questions in a timely manner.
+\item
+  Any questions?
 \end{itemize}
+
+Students were instructed to log into the zoom meeting a few minutes
+prior to their designated time slot. The zoom meetings themselves
+utilized the waiting room feature. This ensured that students would not
+pop into the meeting and interrupt an ongoing discussion. Students were
+required to have their camera on during the discussions. Students are
+not required to have a laptop at this institution but no instructors
+reported issues with students not being able to accommodate virtual
+meetings with a webcam (this may be due to the excellent library
+facilities on campus).
+
+The rubric for the oral discussion was set up on the learning management
+system allowing the instructors to provide their graded feedback as the
+discussion were taking place. These grades were not released until all
+students had completed their discussions.
+
+The discussions themselves were recorded so that any disagreements about
+grading between the instructors and students could be mediated by the
+course coordinator.
+
+Lastly, some instructors found that they needed to have extra `hidden'
+times on the last day of the week to account for students that had
+missed their appointments due to personal or technological reasons. The
+number of students needing this extra period was pretty low for all
+instructors.
+
+\hypertarget{monitoring-instructor-sentiment-and-issues}{%
+\subsubsection{Monitoring Instructor Sentiment and
+Issues}\label{monitoring-instructor-sentiment-and-issues}}
+
+In order to understand problems that arose, and sentiment around,
+administering the oral discussions, the course coordinator requested
+feedback at various points of the process formally and informally.
+
+Initial thoughts about giving, and experience with, oral exams were
+requested on a Google form prior to administering the discussions. The R
+course had its first oral discussion one week prior to the SAS course.
+Reflections and advice were discussed in the weekly meeting and recorded
+for future reference. The meeting and conversations after the first SAS
+course oral discussion was likewise recorded. Another Google form was
+administered at this point as well. The second oral discussions occurred
+during the same week for both courses. The meeting and conversations the
+week after administration were recorded. Lastly, a Google form was given
+to record their final thoughts on administering oral discussion in the
+course. All of the forms are available in the appendix.
 
 \textbf{Matthew} will work on the methodology of analyzing the data.
 
-This is more of a descriptive thematic analysis. We want to find themes,
-or patterns, in what is being said, but we're not trying to interpret,
-just describe what the TAs are focusing on. Three passes. Multiple
-passes were made over the surveys and discussion comments. The first few
-passes were to begin clustering comments and discussion points by common
-themes. The next few passes were to iteratively update the themes that
-had been created in order to refine the themes. Time split up.
-Um\ldots.where we compiled evidence and time points and where they came
-from underneath them, then finding evidence for each one or splitting
-them.
+The purpose of analyzing the data was to categorize common topics of
+discussion that reoccurred throughout the oral exam process, and record
+whether evidence came from a TA discussion or a survey. In the first
+pass, five tentative categories were created, with evidence for each
+marked based on if the data came from a discussion or survey. In the
+second and third passes, the categories were refined after recognizing
+that initial themes may be better represented by including more
+sub-themes. For example, instead of discussion of time being a theme,
+also including separate aspects of time that were focused on. Finally,
+we looked over which categories had sufficient support to be included.
+They were included if they had 5 or more pieces of evidence.
 
 \hypertarget{results}{%
 \subsection{Results}\label{results}}
@@ -624,6 +758,32 @@ the format.
 \textbf{Matthew and Justin} will work on this part after literature
 review and results are complete.
 
+This is the first large scale oral exam study done in the wider oral
+exam literature, and the first to examine how trying to apply oral
+assessment at a larger scale works within statistics education.
+
+Unlike previous studies, this study had \textbf{this many participants}.
+However, it involved conducting oral exams using realistic resources,
+necessitating the reduction of oral exam times (5 minutes) and
+increasing the number of instructors (6 TAs, 1 Professor). Since in the
+large scale scenario TAs become essential to successful implementation
+of an oral exam, we focused on their thoughts and feelings.
+
+From their perspective, the oral exam format was probably a failure.
+Most of the topics centered around being able to survive administering
+them, as well as questioning their effectiveness in comparison to more
+standard assessments. \textbf{Students see written exam as gold standard
+citation?}.
+
+On a positive note, these TAs were aware of and sensitive to potential
+biases and equity issues, and voiced their opinions consistently.
+
+Overall, we would suggest that under realistic circumstnaces,
+administering oral exams at larger scales may greatly weaken what makes
+oral exams important/interesting/powerful in the first place. With the
+necessary shortenting of their administartion comes a loss in
+reliability ((Memon, Joughin, and Memon 2010)).
+
 Probably will mention this not being a good idea, probably losing what
 makes an Oral exam really good as we try to adapt to scale
 
@@ -659,42 +819,9 @@ Issues with reliability.
 \textbf{Matthew and Justin} will work on this part after literature
 review and results are complete.
 
-Trying out references (\textbf{asklund2003oral?}).
-
-More (\textbf{baghdadchi2022exploratory?})
-
 \hypertarget{references}{%
-\subsection{References}\label{references}}
-
-Other stuff moved:
-
-Really we can acknowledge the perfect situation. Show what our situation
-was like. How much of an impact did that make? We don't know for
-sure\ldots{} we only know it in terms of
-
-First, we are attempting it. Second, we're focusing on a TA perspective.
-As oral exams scale, help is required, and in a university setting is
-going to come from less experienced instructors. We want to see what we
-learned from this, and also, for less experienced instructors engaging
-in a large scale oral exam process, their thoughts and feelings that had
-compared to what we might envision as a team leader. t have wanted.
-\ldots.I still need more clarification here haha (\textbf{Justin might
-be good here}).
-
-\begin{itemize}
-\item
-  What about very large ones?
-\item
-  Talk about how this is an open issue for stats educators and of course
-  the wider oral exam literature as a whole, and what issues scale might
-  introduce
-\item
-  Our contribution is sharing how we attempted in a statistical
-  programming setting implementing oral exams at large scale
-\item
-  \textbf{Why are we Focusing on the TA perspective since they were the
-  ones mainly administering it?}
-\end{itemize}
+\subsection*{References}\label{references}}
+\addcontentsline{toc}{subsection}{References}
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
@@ -748,6 +875,10 @@ Computer Science Education}, 613--19.
 Ramella, Daniele. 2019. {``Oral Exams: A Deeply Neglected Tool for
 Formative Assessment in Chemistry.''} In \emph{Active Learning in
 General Chemistry: Specific Interventions}, 79--89. ACS Publications.
+
+\leavevmode\vadjust pre{\hypertarget{ref-SIP}{}}%
+{``Structured Interviews.''} n.d.
+\url{https://www.opm.gov/policy-data-oversight/assessment-and-selection/structured-interviews/}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Theobold2021}{}}%
 Theobold, Allison S. 2021. {``Oral Exams: A More Meaningful Assessment
