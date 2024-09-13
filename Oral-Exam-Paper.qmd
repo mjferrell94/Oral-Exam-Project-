@@ -5,6 +5,23 @@ bibliography: references.bib
 editor: visual
 ---
 
+```{r}
+library(ggplot2)
+library(readr)
+library(dplyr)
+Survey_Data <- read_csv(file="Tables_and_Graphs.csv")
+
+Survey_Data |> filter(Exam == "Pre", Response %in% c("Yes","No")) |> ggplot(aes(x=Response, y=Percentage, group = Response, fill=Response))+geom_bar(stat = "identity", position=position_dodge()) + scale_y_continuous(labels=scales::percent) + facet_wrap(vars(Question_Graph_Title))
+
+Survey_Data |> filter(Exam == "Pre", ! Response %in% c("Yes","No")) |> ggplot(aes(x=Response, y=Percentage, group = Response, fill=Response))+geom_bar(stat = "identity", position=position_dodge()) + scale_y_continuous(labels=scales::percent) + facet_wrap(vars(Question_Graph_Title))
+
+Survey_Data |> filter(Exam == "Middle") |> ggplot(aes(x=Response, y=Percentage, group = Response, fill=Response))+geom_bar(stat = "identity", position=position_dodge()) + facet_wrap(vars(Question_Graph_Title), nrow=1)+scale_y_continuous(labels = scales::percent)
+
+Survey_Data |> filter(Exam == "Post") |> ggplot(aes(x=Response, y=Percentage, group = Response, fill=Response))+geom_bar(stat = "identity", position=position_dodge()) + facet_wrap(vars(Question_Graph_Title), nrow=3)+scale_y_continuous(labels = scales::percent)
+```
+
+
+
 # Oral Exam Paper
 
 ## Abstract
@@ -19,14 +36,13 @@ Oral exams, as the name implies, are assessments where questions and answers are
 
 Though, like other exams, oral exams are meant to assess, @Theobold2021 and others have argued that their benefits go beyond mere assessment. They develop communication skills ([@Joughin2010]), are a more authentic way to assess [@Wiggins1990] [@Beccaria2013], are a powerful tools in gauging a student's understanding through conversation ([@Iannone2012],[@Asklund2003], [@Huxham2012]),encourage greater preparation [@Ohmann2019], and (especially pertinent in the age of AI) greatly discourage cheating ([@Newell2023], [@Ramella2019]).
 
-Like other forms of assessment, though, oral exams are not without their challenges, ranging from  accommodating ESL learners, mitigating evaluator bias, and managing student anxiety. However, for statistics and data science educators, perhaps the biggest challenge in implementation is scale. Several studies have acknowledged the open problem scale poses to administering high quality oral exams ([@Asklund2003],[@Ohmann2019]), and the unknown effect scale would have on reliability, validity, required resources, and bias ([@Memon2010], [@kang2022providing], [@Huxham2012]). Though many studies have administered exams with an instructor to student ratio ranging from 1:10 to 1:60, what happens when that ratio becomes very large, where instructor to student ratios are over 100?
+Like other forms of assessment, though, oral exams are not without their challenges, ranging from accommodating ESL learners, mitigating evaluator bias, and managing student anxiety. However, for statistics and data science educators, perhaps the biggest challenge in implementation is scale. Several studies have acknowledged the open problem scale poses to administering high quality oral exams ([@Asklund2003],[@Ohmann2019]), and the unknown effect scale would have on reliability, validity, required resources, and bias ([@Memon2010], [@kang2022providing], [@Huxham2012]). Though many studies have administered exams with an instructor to student ratio ranging from 1:10 to 1:60, what happens when that ratio becomes very large, where instructor to student ratios are over 100?
 
 In this study, we detail our attempt at implementing oral exams at this scale, particularly in the setting of multiple large introductory statistical programming classes. Unlike other studies, which generally focus on the student experience, this study follows the graduate teaching assistants that were instructors of record. Though understanding the student experience is important, the experience of statistics and data science GTAs is of particular importance in this setting since administering and grading oral exams at a large scale is impossible without their help. Their experience and voice matters for the smooth and effective implementation of the exams.
 
-In short, this study has two main research questions: 
+In short, this study has two main research questions:
 
-  RQ1: What problems of practice arose for these graduate teaching assistants when attempting to scale oral exams to our large programming classes?
-  RQ2:What recommendations can we offer as we reflect on our attempt?
+RQ1: What problems of practice arose for these graduate teaching assistants when attempting to scale oral exams to our large programming classes? RQ2:What recommendations can we offer as we reflect on our attempt?
 
 ## Methods
 
@@ -78,11 +94,9 @@ The course serves the same two major audiences as the SAS programming course (st
 
 Both programming courses have a flipped structure, where students receive the course content prior to class in order to spend most of the time on activities involving active participation. Each class meets for 50 minutes once a week. Prior to class, students are expected to watch one to two 10-20 minute videos created by the course coordinator, as well as take two to three quizzes embedded in the content.During most class sections, instructors briefly recap material for the week, take questions, and then introduce the in-class activity. The students are then given the bulk of the time to work through the material while the graduate student instructor can check in on students and answer questions.The last five minutes of the class are used to recap important parts of the activity, while the students take another quiz a few days later.
 
-For this iteration of the courses, there were four weeks that did not follow this structure. Two of those weeks replaced the usual in-class period with a short quiz (10 minutes) followed by time to work on a homework assignment. These assignments involved creating their own original program to answer questions of interest along with finding a data set of their own and applying class concepts.
-The remaining two weeks were dedicated to administering oral exams. These weeks involved no new content and no class was held. Each oral exam accounted for eight percent of the students' overall course grade.
+For this iteration of the courses, there were four weeks that did not follow this structure. Two of those weeks replaced the usual in-class period with a short quiz (10 minutes) followed by time to work on a homework assignment. These assignments involved creating their own original program to answer questions of interest along with finding a data set of their own and applying class concepts. The remaining two weeks were dedicated to administering oral exams. These weeks involved no new content and no class was held. Each oral exam accounted for eight percent of the students' overall course grade.
 
 The course format allows for graduate student instructors, even without a robust understanding of the material or effective pedagogical practices, to run the classes. During in class activities, these instructors mainly use prior programming experience and problem solving skills to appropriately guide students to successfully solve their problems. In order to manage the instructor load, all sections are capped at 40 students. Even though most sections had between 35 and 40 students, a few had much lower enrollment. In total, there were nearly 700 students across all of the sections of the two courses.
-
 
 ### Designing the Oral Discussions
 
@@ -106,7 +120,7 @@ The oral discussions were administered through zoom. This decision was made for 
 
 The weeks prior to the discussions students were able to use an online scheduler to sign up for a five minute time slot. They were instructed to sign up for a time slot by the Wednesday prior to discussion week and contact their instructor if none of the designated time slots worked for them. If this wasn't followed, a 25% deduction to their score could be given (this did not end up being used for any students). Students with accommodations were to contact their instructor to make sure they were able to have their accommodations met.
 
-The week prior to the oral discussion, students were provided an example program, the rubric used for grading the discussions, and the instructions for how the oral discussion would progress. For the first oral discussion, we chose to use the same program as both the example program and the actual program used in the oral discussion in order to ease student anxiety. As students were more comfortable in the second round of oral discussions, different programs were used. The rubric used was based on that given by [@Theobold2021], and was modified between the first discussion and second discussion based on instructor feedback. The instructions for the discussion itself are given below **should this be in the appendix??**:
+The week prior to the oral discussion, students were provided an example program, the rubric used for grading the discussions, and the instructions for how the oral discussion would progress. For the first oral discussion, we chose to use the same program as both the example program and the actual program used in the oral discussion in order to ease student anxiety. As students were more comfortable in the second round of oral discussions, different programs were used. The rubric used was based on that given by [@Theobold2021], and was modified between the first discussion and second discussion based on instructor feedback. The instructions for the discussion itself are given below **should the instructions be in the appendix??**:
 
 -   We want to ask you a few questions about a SAS program (or an R Markdown document) we'll share with you.
 -   I'll share my screen, ask you to consider particular pieces of code and describe to me what that code does or why we might run it.
@@ -127,28 +141,39 @@ In total, three graduate student instructors had four sections and administered 
 
 In order to understand problems that arose, and sentiment around, administering the oral discussions, the course coordinator requested feedback at various points of the process formally and informally.
 
-**I think providing a little visual flow diagram of the feedback items would make it easier for people to see the timing of items. Giving them names used for easy reference later would also likely be good.**
+**I think providing a little visual flow diagram of the feedback items would make it easier for people to see the timing of items. Giving them names used for easy reference later would also likely be good. Draw.io**
 
 Initial thoughts about giving, and experience with, oral exams were requested on a Google form prior to administering the discussions. The R course had its first oral discussion one week prior to the SAS course. Reflections and advice were discussed in the weekly meeting and recorded for future reference. The meeting and conversations after the first SAS course oral discussion was likewise recorded. Another Google form was administered at this point as well. The second oral discussions occurred during the same week for both courses. The meeting and conversations the week after administration were recorded. Lastly, a Google form was given to record their final thoughts on administering oral discussion in the course. All of the forms are available in the appendix.
 
 ## Data Analysis: Analyzing Instructor Sentiment and Issues
 
-### The Pre-Exam Survey
-
-
-
-
-The most common approach used to analyze qualitative data involves iteratively going through the data, creating codes, and then grouping pieces of coded data into groups (usually called "themes"). This was the approach taken to analyze our survey and meeting data, formally called qualitative content analysis ([@zhang2009qualitative]).
+The most common approach used to analyze qualitative data involves iteratively going through the data, creating codes, and then grouping pieces of coded data into groups (usually called "themes"). This was the approach taken to analyze our survey and meeting data, formally called thematic analysis ([@zhang2009qualitative]).
 
 More specifically, in the first iteration, data was coded based on the use of particular words (such as "time" or "technology") and also on whether or not it came from a survey or a discussion. Pieces of text were then grouped together manually to create five starting themes. In the second and third iterations, these themes were refined after recognizing that they may be better represented by including more sub-themes; for example, instead of discussion of time being a theme, breaking this down into discussions of the quantity and quality of time. Finally, as we passed through the data, we looked over which themes had sufficient support to be included. Themes were included only if they had 5 or more pieces of evidence.
 
-**I think first we should just give a quick summary about the 'easy' stuff included on the first google form. Have they taken an oral exam before, their comfort level before and after. That would be easily described in a couple of tables and help people ground their understandings of where the instructors were at the beginning of the process. Then summarize the info from the last google form. After that, then we dive into the open ended feedback via what you do below.**
+Along with the themes generated from the open ended responses on surveys and whole instructor discussions, closed ended responses on surveys were also tabulated. This included counting the different number of responses to questions such as "Have you ever given an oral exam before?" on our pre-exam survey or "Would a moodle quiz have accomplished the same thing \[as an oral exam\]?" on our post-exam survey.
 
-## Results (I think this section would benefit from having the items in the themes/sub-themes separated out into pre-oral exams (discussions), between the two discussions, and after both discussions (however you want to reference each of those items). This would give some clarity on what was 'fear' based :) and what was a experience based :)
+**I think first we should just give a quick summary about the 'easy' stuff included on the first google form. Have they taken an oral exam before, their comfort level before and after. That would be easily described in a couple of tables and help people ground their understandings of where the instructors were at the beginning of the process. Then summarize the info from the last google form. After that, then we dive into the open ended feedback via what you do below. Get data from google forms**
 
-### Theme 1: The graduate student instructors focused on time
+```{r}
 
-**Sub-theme: The quantity of time**
+
+
+
+```
+
+
+
+
+## Results (I think this section would benefit from having the items in the themes/sub-themes separated out into pre-oral exams (discussions), between the two discussions, and after both discussions (however you want to reference each of those items). This would give some clarity on what was 'fear' based :) and what was a experience based :) Make each theme time based. 
+
+### Closed Ended Survey Responses
+
+### Open Ended Survey Responses and Instructor Discussions
+
+#### Theme 1: The graduate student instructors focused on time
+
+**Sub-theme 1: Instructors focused on the quantity of time**
 
 On a pre-exam survey, half of the graduate student instructors expressed concerns about the "time" or "timeframe" of administering the oral discussions to such a large number of students in just a week period. After the first round of oral discussions, some of the graduate student instructors gave estimates of 12 to 18 hours to complete their oral discussions (their graduate teaching assistantship appointments were for 20 hours a week).
 
@@ -156,7 +181,7 @@ Others used verbal descriptions, such as it "took way too long" and "overall, ve
 
 One reason for this focus on the time commitment was given by one graduate student instructor, who commented that they were promised less work as a first-year graduate student, but that this was not the case in this class."If the oral exam format goes unchanged", they said, "I am unsure if I am fit to be an instructor next semester."
 
-**Sub-theme: What they were doing during that time**
+**Sub-theme: What instructors were doing during that time**
 
 Aside from the actual time it took to administer the exams, there was talk centered around what they could and couldn't do during their schedule oral discussion times. In the first whole group meeting after the first oral discussion, several people joked about not even being able to use the bathroom since you have to be "100% focused". In a later discussion, they focused on incorporating time to get a snack, stand up, and walk around. **(Perhaps a note here that many instructors did not follow the recommendation about leaving time in their schedules?)**
 
@@ -168,21 +193,19 @@ Especially after administering the first oral discussion, the graduate student i
 
 When the graduate student instructors were asked about advice they would give to future graduate student instructors participating in the role, their advice overwhelmingly centered around optimal time management due to previously mentioned experiences with students not showing up on time or having to reschedule. For example, graduate student instructors offered comments such as "If possible, avoid scheduling any time on Friday" so as to plan for students who miss their time slots, "try to make everyone schedule and show up on time", and "build in more than a 5 minute break every 30 minutes" or else, due to students not arriving to the meeting on time, "you'll need to use \[it\]".
 
-### Theme 2: The graduate student instructors focused on equity
+#### Theme 2: The graduate student instructors focused on equity
 
 Even before administering exams, the graduate student instructors worried about their role not just as administrators but as graders. One worried that the grading might be "too subjective". Another worried about their "poor memory" and bias that could come from familiarity. One graduate student instructor even cautioned against "food bias" where you may grade someone more harshly while hungry. Some of these issues were borne out during the first discussion when two graduate student instructors used different follow-up questions other than on the rubric when asking about an R object, and the ?teacher? **if you are referring to me here, I didn't grade any of the R ones...** and one graduate student instructor used different follow up questions to discuss R libraries. Several graduate student instructors expressed interest in changing the grading scale after the first oral discussions so as to be fair to students who may have needed prompting, but still got the right answer.
 
 The graduate student instructors were also worried that the oral exam would be confounded with speaking ability. In one exchange between the course coordinator and one graduate student instructor, the instructor shared one ESL student wanted to do it in person since, through zoom, "it \[was\] hard for them to understand the questions clearly". Other graduate student instructors expressed similar views on the first survey, with one on the final survey indicating that ESL students should be given more time, since "this is not an English test".
 
-### Theme 3: Their views on oral vs written exams
+#### Theme 3: Their views on oral vs written exams
 
 There were other minor focuses that didn't always consistently appear. One was their views on oral vs written exams. After the first round of oral discussions, a few graduate student instructors expressed doubt over the utility of the oral discussion format. "Not sure what this accomplishes over HW/\[online\] quiz" one said. "A paper quiz", another said, "could serve the same goal". After seeing these responses, a specific question about their views on oral vs written exams was asked, with mixed responses. Half agreed there was something different or better, but those differences boiled down to "open book" vs "closed book" exams, ?**and?** examining "on the fly knowledge". One graduate student instructor did mention the benefit of being able to "follow up". The other half thought that a well-crafted, open ended quiz could essentially serve the same purpose.
 
-### Theme 4: Positives of the oral exam experience
+#### Theme 4: Positives of the oral exam experience
 
 When asked directly about positives, half of the graduate student instructors responded. All of the comments were centered around having increased student interactions where, in such a large class, they usually didn't. One graduate student instructor commented that, unprovoked, a few students talked about liking the format.
-
-### The Post Exam Survey
 
 ## Discussion
 
