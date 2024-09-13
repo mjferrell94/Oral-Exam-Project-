@@ -11,13 +11,13 @@ library(readr)
 library(dplyr)
 Survey_Data <- read_csv(file="Tables_and_Graphs.csv")
 
-Survey_Data |> filter(Exam == "Pre", Response %in% c("Yes","No")) |> ggplot(aes(x=Response, y=Percentage, group = Response, fill=Response))+geom_bar(stat = "identity", position=position_dodge()) + scale_y_continuous(labels=scales::percent) + facet_wrap(vars(Question_Graph_Title))
+Pre_Exam_1 <- Survey_Data |> filter(Exam == "Pre", Response %in% c("Yes","No")) |> ggplot(aes(x=Response, y=Percentage, group = Response))+geom_bar(stat = "identity", position=position_dodge()) + scale_y_continuous(labels=scales::percent) + facet_wrap(vars(Question_Graph_Title))+ylab(label="")
 
-Survey_Data |> filter(Exam == "Pre", ! Response %in% c("Yes","No")) |> ggplot(aes(x=Response, y=Percentage, group = Response, fill=Response))+geom_bar(stat = "identity", position=position_dodge()) + scale_y_continuous(labels=scales::percent) + facet_wrap(vars(Question_Graph_Title))
+Pre_Exam_2 <- Survey_Data |> filter(Exam == "Pre", ! Response %in% c("Yes","No")) |> ggplot(aes(x=Response, y=Percentage, group = Response))+geom_bar(stat = "identity", position=position_dodge()) + scale_y_continuous(labels=scales::percent) + facet_wrap(vars(Question_Graph_Title))+ylab(label="")
 
-Survey_Data |> filter(Exam == "Middle") |> ggplot(aes(x=Response, y=Percentage, group = Response, fill=Response))+geom_bar(stat = "identity", position=position_dodge()) + facet_wrap(vars(Question_Graph_Title), nrow=1)+scale_y_continuous(labels = scales::percent)
+Middle_Exam <- Survey_Data |> filter(Exam == "Middle") |> ggplot(aes(x=Response, y=Percentage, group = Response))+geom_bar(stat = "identity", position=position_dodge()) + facet_wrap(vars(Question_Graph_Title), nrow=3)+scale_y_continuous(labels = scales::percent)+ylab(label="")
 
-Survey_Data |> filter(Exam == "Post") |> ggplot(aes(x=Response, y=Percentage, group = Response, fill=Response))+geom_bar(stat = "identity", position=position_dodge()) + facet_wrap(vars(Question_Graph_Title), nrow=3)+scale_y_continuous(labels = scales::percent)
+Post_Exam <- Survey_Data |> filter(Exam == "Post") |> ggplot(aes(x=Response, y=Percentage, group = Response))+geom_bar(stat = "identity", position=position_dodge()) + facet_wrap(vars(Question_Graph_Title), nrow=1)+scale_y_continuous(labels = scales::percent)+ylab(label="")
 ```
 
 
@@ -153,13 +153,26 @@ More specifically, in the first iteration, data was coded based on the use of pa
 
 Along with the themes generated from the open ended responses on surveys and whole instructor discussions, closed ended responses on surveys were also tabulated. This included counting the different number of responses to questions such as "Have you ever given an oral exam before?" on our pre-exam survey or "Would a moodle quiz have accomplished the same thing \[as an oral exam\]?" on our post-exam survey.
 
-**I think first we should just give a quick summary about the 'easy' stuff included on the first google form. Have they taken an oral exam before, their comfort level before and after. That would be easily described in a couple of tables and help people ground their understandings of where the instructors were at the beginning of the process. Then summarize the info from the last google form. After that, then we dive into the open ended feedback via what you do below. Get data from google forms**
+**Summarize what's on the graphs using words, introduce it, introduce the figures ahead of time**
 
 ```{r}
+Pre_Exam_1
+
+```
 
 
+```{r}
+Pre_Exam_2
 
+```
 
+```{r}
+Middle_Exam
+
+```
+
+```{r}
+Post_Exam
 ```
 
 
