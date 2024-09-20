@@ -24,7 +24,7 @@ Post_Exam <- Survey_Data |> filter(Exam == "Post") |> ggplot(aes(x=Response, y=P
 
 ## Abstract
 
-Won't write anything here until the paper is complete
+We won't write anything here until the paper is complete
 
 ## Introduction
 
@@ -225,40 +225,52 @@ In the survey, they clarified that there were some benefits to the oral exam. Wo
 When asked directly about positives, half of the graduate student instructors responded. All of the comments were centered around having increased student interactions where, in such a large class, they usually didn't. One graduate student instructor commented that, unprovoked, a few students talked about liking the format.
 
 ## Discussion
+**The goal here is to analyze, not summarize. This means answering questions like
+- Based on our findings, what does it mean for designing large scale oral exams in statistics/ data science education contexts?
+- Based on our findings, what does it mean for designing large scale oral exams in general?
+- How should we support TAs if we are implementing large scale oral exams? 
+- Explaining the TA reactions using a framework (Maslow's hierarchy of needs, or just people in stressful situations focusing on survival versus other things.)
+- Where to direct TA energy if we are asking them to work with us on design and implementation.
 
-**Matthew and Justin** will work on this part after literature review and results are complete.
+Overall, it means explaining our findings (why did the TAs react the way they did, or feel the way they did potentially?) and explaining what our findings mean (for design, and TA direction, for future research, etc.)
+
+
+*Discussion starts here*
+To our knowledge, this is the first large scale oral exam study done in the statistics and data science education literature and one of the largest oral exam studies done in the oral exam literature as a whole. Further, due to the pivitol role graduate student instructors play in the success of the oral exams, this study focused on their attitudes and experiences as they administered them.Based on the data we received and analyzed, there were a range of attitudes, mainly focusing on the time commitment of the exams, the potential biases and equity issues of the exams, wonderings about their efficacy, and positive student reactions.This left us with three lingering questions: why did our GSIs react the way they did, what do our findings mean for designing large scale oral examinations, and what future research directions could we pursue?
+
+### Why did the graduate student instructors react the way they did?
+
+From their perspective, the oral exam format was probably a failure. Most of the topics centered around being able to survive administering them, as well as questioning their effectiveness in comparison to more standard assessments. **Students see written exam as gold standard citation?**. *By limiting the time allocated to each student, it seemed the graduate student instructors didn't perceive the benefits usually seen by the inclusion of such assessments.*? This differed from the course coordinators feelings and experiences in administering the oral exams. They found that, especially in the second round of exams when students were more comfortable with the format, the short meetings were an excellent and refreshing way to assess students knowledge. We hypothesize that part of this difference in feelings may come from the novice instructors discomfort with assessing students generally, and especially assessing them on the fly in real time. The lower pressure grading of quizzes and homework assignments give more time to be sure of answers given and deem what is an appropriate score should be.
 
 Very negative feelings towards the time commitment, not the format itself, event though they were contracted to work 20 hours. The type of work was particularly hard for them, maybe not used to it, expecting it, etc. Regardless, it would be impossible to continue oral exams in this way. Think about how peer to peer knowledge of this would spread, those who administer may grow to hate it, maybe even biasing things, or missing why they are given. Maybe it doesn't matter what the benefit is, the cost of time is too much.
 
 Future advice for students was not around the oral discussions, or giving them well, or making the experience better, or how they felt, it was all about scheduling, surviving.
 
-This was like a maslow's hierarcy of needs type thing, like a GSI needs during large scale exams. It is possible that unless time issue is solved, they will not be able to focus on other issues in depth (bias, reliabilty, validity, grading better?...maybe not) or not foucs on what the exam is trying to allow or accomplish.
+You can see how they become more critical over time, and that also the last discussion and the final comments are all about time and timing and scheduling, while the second discussion is a lot more about getting the test better, and grading, and making sure things are fair, things we'd want the GSIs to focus on.
+
+This was like a maslow's hierarcy of needs type thing,but a GTA hierarchy of needs. *Is there literature out there about student and TA behavior in crunch time or stressful situations, or is it self evident?* like a GSI needs during large scale exams. It is possible that unless time issue is solved, they will not be able to focus on other issues in depth (bias, reliabilty, validity, grading better?...maybe not) or not foucs on what the exam is trying to allow or accomplish.
+
+Students seeing written closed tests as gold standard like this one, where they saw advantages but thought  a moodle quiz would work...though probably just not wanting to spend so much time on something they see as only giving a little advantage over traditional methods.
+
+On a positive note, these graduate student instructors were aware of and sensitive to potential biases and equity issues, and had an excellent discussion of ways to attempt to mitigate these problems.
+
+
+*Trying to explain why they reacted the way they did will help us give recommendations for how to design future large scale oral exams*
+### What do our findings mean for designing large scale oral examinations? 
 
 instructors are valuable sources of feedback. They are there in the trenches, they had wonderful comments, though at times biting, highlighting structural issues with the oral exam set up and format as it stood. They were willing to offer advice to others and among each other, and work with the coordinator as well. They also had keen insights and cared about fairness for students.
 
 You can see how they become more critical over time, and that also the last discussion and the final comments are all about time and timing and scheduling, while the second discussion is a lot more about getting the test better, and grading, and making sure things are fair, things we'd want the GSIs to focus on.
 
-Students seeing written closed tests as gold standard like this one, where they saw advantages but thought  a moodle quiz would work...though probably just not wanting to spend so much time on something they see as only giving a little advantage over traditional methods.
+This was like a maslow's hierarcy of needs type thing,but a GTA hierarchy of needs. *Is there literature out there about student and TA behavior in crunch time or stressful situations, or is it self evident?* like a GSI needs during large scale exams. It is possible that unless time issue is solved, they will not be able to focus on other issues in depth (bias, reliabilty, validity, grading better?...maybe not) or not foucs on what the exam is trying to allow or accomplish.
 
-To the researchers' knowledge, this is the first large scale oral exam study done in the statistics and data science education literature and the first to examine the attitudes and experiences of novice instructors being guided by a seasoned instructor.
-
-Unlike previous studies, this study had **this many participants**. However, it involved conducting oral exams using realistic resources, necessitating the reduction of oral exam times (5 minutes) and increasing the number of instructors (six graduate student instructors and one full-time professor). Since in the large scale scenario graduate student instructors were essential to successful implementation of an oral exam at scale, we focused on their thoughts and feelings.
-
-From their perspective, the oral exam format was probably a failure. Most of the topics centered around being able to survive administering them, as well as questioning their effectiveness in comparison to more standard assessments. **Students see written exam as gold standard citation?**. *By limiting the time allocated to each student, it seemed the graduate student instructors didn't perceive the benefits usually seen by the inclusion of such assessments.*? This differed from the course coordinators feelings and experiences in administering the oral exams. They found that, especially in the second round of exams when students were more comfortable with the format, the short meetings were an excellent and refreshing way to assess students knowledge. We hypothesize that part of this difference in feelings may come from the novice instructors discomfort with assessing students generally, and especially assessing them on the fly in real time. The lower pressure grading of quizzes and homework assignments give more time to be sure of answers given and deem what is an appropriate score should be.
+Future advice for students was not around the oral discussions, or giving them well, or making the experience better, or how they felt, it was all about scheduling, surviving.
 
 On a positive note, these graduate student instructors were aware of and sensitive to potential biases and equity issues, and had an excellent discussion of ways to attempt to mitigate these problems.
 
 Overall, we would suggest that under realistic circumstances, administering oral exams at larger scales may greatly weaken what makes oral exams important/interesting/powerful in the first place. With the necessary shortening of their administration comes a loss in reliability ([@Memon2010]).
 
-**Justin is going to stop here and wait for feedback on the previous parts!** **Thanks for the excellent work on this Matt!**
-
-Probably will mention this not being a good idea, probably losing what makes an Oral exam really good as we try to adapt to scale
-
-Probably going to talk about how this is our attempt in a realistic setting....we could try to create an ideal one, and see, or we could couch it in based on the literature, ideally it would look like this. See that it's really not possible, this was our attempt realistically.
-
-One big issue is most oral exams are in a problem based format, some questions, time....with only 5 minutes, you can't do that or do that well. You lose that part of really testing a student's thinking and assessing how well they can explain *and* do.
-
-Issues with reliability.
+### What future research directions could we pursue?
 
 **Future research questions** include
 
@@ -268,6 +280,6 @@ Issues with reliability.
 
 ## Conclusion
 
-**Matthew and Justin** will work on this part after literature review and results are complete.
+**Matthew and Justin** will work on this part after discussion is complete.
 
 ## References
