@@ -65,16 +65,16 @@ As instructors of statistics, we frequently find ourselves asking, "When a stude
 
 Oral exams, as the name implies, are assessments where questions and answers are verbally given, with the opportunity for further probing and follow up questions. Oral exams are more commonly used outside of the United States at the undergraduate level [@Asklund2003; @Ramella2019] but are still regularly used inside the US at the doctoral level. At the undergraduate level, some research has been done on using oral exams in introductory chemistry classes [@Ramella2019], math classes [@Iannone2012], introductory computer science classes [@Ohmann2019], and, as mentioned, statistics classes [@Theobold2021].
 
-While oral exams still act as an assessment in a course, @Theobold2021 and others have argued that their benefits go beyond mere assessment. They develop communication skills [@Joughin2010], are a more authentic way to assess [@Wiggins2019; @Beccaria2013], are a powerful tools in gauging a student's understanding through conversation [@Iannone2012; @Asklund2003; @Huxham2012], encourage greater preparation [@Ohmann2019], and (especially pertinent in the age of AI) greatly discourage cheating [@Newell2023;  @Ramella2019].
+While oral exams still act as an assessment in a course, @Theobold2021 and others have argued that their benefits go beyond mere assessment. They develop communication skills [@Joughin2010], are a more authentic way to assess [@Wiggins2019; @Beccaria2013], are a powerful tools in gauging a student's understanding through conversation [@Iannone2012; @Asklund2003; @Huxham2012], encourage greater preparation [@Ohmann2019], and (especially pertinent in the age of AI) greatly discourage cheating [@Newell2023; @Ramella2019].
 
-Like other forms of assessment, oral exams are not without their challenges. These challenges range from accommodating ESL learners, mitigating evaluator bias, and managing student anxiety. However, for larger classes, perhaps the biggest challenge in implementation is scale. Several studies have acknowledged the open problem scale poses to administering high quality oral exams [@Asklund2003; @Ohmann2019], and the unknown effect scale would have on reliability, validity, required resources, and bias [@Memon2010;  @kang2022providing; @Huxham2012]. Though many studies have followed the administration of oral exams with an instructor to student ratio ranging from 1:10 to 1:60, what happens when that ratio becomes very large, say 1:100 or more, is still an open question.
+Like other forms of assessment, oral exams are not without their challenges. These challenges range from accommodating ESL learners, mitigating evaluator bias, and managing student anxiety. However, for larger classes, perhaps the biggest challenge in implementation is scale. Several studies have acknowledged the open problem scale poses to administering high quality oral exams [@Asklund2003; @Ohmann2019], and the unknown effect scale would have on reliability, validity, required resources, and bias [@Memon2010; @kang2022providing; @Huxham2012]. Though many studies have followed the administration of oral exams with an instructor to student ratio ranging from 1:10 to 1:60, what happens when that ratio becomes very large, say 1:100 or more, is still an open question.
 
 In this study, we detail our attempt at implementing oral exams at this type of scale in the setting of a multiple section introductory statistical programming classes. Unlike other studies, which generally focus on the student experience, this study follows the graduate teaching assistants that were administering oral exams as the instructors of record for the course under the guidance of a course coordinator. Though understanding the student experience is important, the experience of statistics and data science graduate student instructors is of particular importance in this setting since administering and grading oral exams at a large scale is likely impossible without their help. Their experience and voice matters for understanding whether delivering oral exams at scale with novice instructors can be effective.
 
 In short, this study has two main research questions:
 
-- RQ1: What problems of practice arose for these graduate teaching instructors when attempting to scale oral exams to our large programming classes? 
-- RQ2: What recommendations can we offer to others as we reflect on our attempt to administer oral exams at scale?
+-   RQ1: What problems of practice arose for these graduate teaching instructors when attempting to scale oral exams to our large programming classes?
+-   RQ2: What recommendations can we offer to others as we reflect on our attempt to administer oral exams at scale?
 
 ## Course Background and Oral Exam Design
 
@@ -96,17 +96,17 @@ This course does not have a prequisite or corequisite. This causes the course to
 
 Both courses serve three major audiences:
 
-- Statistics majors 
-- Statistics minors
-- Business majors
+-   Statistics majors
+-   Statistics minors
+-   Business majors
 
-The statistics majors generally have taken an introductory statistics course and a three-credit introductory programming course in python prior to enrolling in these courses. Statistics majors are generally taking additional coursework concurrently with either programming course. 
+The statistics majors generally have taken an introductory statistics course and a three-credit introductory programming course in python prior to enrolling in these courses. Statistics majors are generally taking additional coursework concurrently with either programming course.
 
-The statistics minors are similar to the majors but do not generally have the introductory programming course. 
+The statistics minors are similar to the majors but do not generally have the introductory programming course.
 
 The business majors usually enroll in the course having taken a business statistics course at some point earlier in their academic careers.
 
-For all three audiences, the broad purpose of the courses from the program level is to provide the students with a thorough introduction to using SAS or R in order to facilitate the use of these languages in their upper level statistics or business courses. 
+For all three audiences, the broad purpose of the courses from the program level is to provide the students with a thorough introduction to using SAS or R in order to facilitate the use of these languages in their upper level statistics or business courses.
 
 ### Course Structure
 
@@ -138,7 +138,7 @@ The oral discussions were administered through zoom. This decision was made for 
 
 The weeks prior to the discussions students were able to use an online scheduler to sign up for a five minute time slot. They were instructed to sign up for a time slot by the Wednesday prior to discussion week and contact their instructor if none of the designated time slots worked for them. If this wasn't followed, a 25% deduction to their score could be given (this did not end up being used for any students). Students with accommodations were to contact their instructor to make sure they were able to have their accommodations met.
 
-The week prior to the oral discussion, students were provided an example program, the rubric used for grading the discussions, and the instructions for how the oral discussion would progress. For the first oral discussion, we chose to use the same program as both the example program and the actual program used in the oral discussion in order to ease student anxiety. As students were more comfortable in the second round of oral discussions, different programs were used. The rubric used was based on that given by [@Theobold2021], and was modified between the first discussion and second discussion based on instructor feedback. The instructions for the discussion itself are given in the appendix. 
+The week prior to the oral discussion, students were provided an example program, the rubric used for grading the discussions, and the instructions for how the oral discussion would progress. For the first oral discussion, we chose to use the same program as both the example program and the actual program used in the oral discussion in order to ease student anxiety. As students were more comfortable in the second round of oral discussions, different programs were used. The rubric used was based on that given by [@Theobold2021], and was modified between the first discussion and second discussion based on instructor feedback. The instructions for the discussion itself are given in the appendix.
 
 Students were instructed to log into the zoom meeting a few minutes prior to their designated time slot. The zoom meetings themselves utilized the waiting room feature. This ensured that students would not pop into the meeting and interrupt an ongoing discussion. Students were required to have their camera on during the discussions. Students are not required to have a laptop at this institution but no instructors reported issues with students not being able to accommodate virtual meetings with a webcam (this may be due to the excellent library facilities on campus).
 
@@ -148,8 +148,7 @@ Lastly, some GSIs found that they needed to have extra 'hidden' times on the las
 
 In total there were six graduate student instructors. Three had four sections of a course and administered oral exams to roughly 140 students each. Three had three sections of a course with sections that tended to have slightly lower enrollment. Two of these GSIs administered oral exams to roughly 90 students. One GSI had a teaching assistant appointment for less time so only administered exams to two of their sections (roughly 70 students). The course coordinator administered oral exams to the remaining section of students (roughly 30 students).
 
-
-## Methods 
+## Methods
 
 ### Monitoring Instructor Sentiment and Issues
 
@@ -163,16 +162,15 @@ knitr::include_graphics("Oral_Exam_Flow_Chart.drawio.png")
 
 Initial thoughts about giving, and experience with, oral discussions were requested on a Google form prior to administering the discussions. The R course had its first oral discussion one week prior to the SAS course. Reflections and advice were discussed in the weekly meeting and recorded for future reference. The meeting and conversations after the first SAS course oral discussion was likewise recorded. Another Google form was administered at this point as well. The second oral discussions occurred during the same week for both courses. The meeting and conversations the week after administration were recorded. Lastly, a Google form was given to record their final thoughts on administering oral discussions in the course. All of the forms are available in the appendix.
 
-
 ### Qualitative Data Analysis: Analyzing Instructor Sentiment and Issues
 
-Most of the data collected was qualitative as it involved open ended questions on forms and informal discussions during meetings. For this type of data, the most common approach used to analyze it involves iteratively going through the data, creating codes, and then grouping pieces of coded data into groups (usually called "themes"). This was the approach taken to analyze our survey and meeting data, formally called thematic analysis [@zhang2009qualitative].
+Most of the data collected was qualitative as it involved open ended questions on forms and informal discussions during meetings. For this type of data, the most common approach used to analyze it involves iteratively going through the data, creating codes, and then grouping pieces of coded data into groups (usually called "themes"). This was the approach taken to analyze our survey and meeting data, formally called qualitative thematic analysis [@zhang2009qualitative].
 
 More specifically, in the first iteration, data was coded based on the use of particular words (such as "time" or "technology") and also on whether or not it came from a survey or a discussion. Pieces of text were then grouped together manually to create five starting themes. In the second and third iterations, these themes were refined after recognizing that they may be better represented by including more sub-themes; for example, instead of discussion of time being a theme, breaking this down into discussions of the quantity and quality of time. Finally, as we passed through the data, we looked over which themes had sufficient support to be included. Themes were included only if they had 5 or more pieces of evidence. **We could either just change this or we could say there is a caveat for one theme.**
 
 ### Quantitative Data Analysis
 
-Along with the themes generated from the open ended responses on surveys and whole instructor discussions, closed ended responses from the surveys were also tabulated. 
+Along with the themes generated from the open ended responses on surveys and whole instructor discussions, closed ended responses from the surveys were also tabulated.
 
 ## Results
 
@@ -183,6 +181,7 @@ The closed ended questions asked prior to administering the oral discussions cen
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='350px'}
 Pre_Exam_1
 ```
+
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='350px'}
 Pre_Exam_2
 ```
@@ -257,22 +256,21 @@ When asked directly about positives, half of the graduate student instructors re
 
 **I didn't go through the verbal recordings but did look over the post oral exam form responses. These were the positive items of note:**
 
-- post oral exam 2
-  - integrity improved over moodle quiz
-  - better than quiz at evaluating how well students can produce knowledge "on command" 
-  - ability to keep closed book (integrity again)
-  - More follow-up things, easier to know how deep students understand questions
-  - Students who clearly knew the material were able to showcase this understanding, while highlighting areas in which others need to improve.
-  - Ability to catch students that haven't been doing their work
-  - Some students independently told me they really like the oral exam format.
-  - Noticeably more confident, comfortable on the second oral exam. (noted twice)
-  - Enjoyed talking, feel more comfortable with students
-  - Students getting a little more comfortable speaking in programming lingo.
-  - Very fast and effective way to see who knows what's going on in the class and who isn't with us at all.
-- post oral exam 1
-  - I think it made clear who had a good idea of what they've gotten well
-  - I had fun
-**Seems to be that there are more positives to talk and bring into these themes.**
+-   post oral exam 2
+    -   integrity improved over moodle quiz
+    -   better than quiz at evaluating how well students can produce knowledge "on command"
+    -   ability to keep closed book (integrity again)
+    -   More follow-up things, easier to know how deep students understand questions
+    -   Students who clearly knew the material were able to showcase this understanding, while highlighting areas in which others need to improve.
+    -   Ability to catch students that haven't been doing their work
+    -   Some students independently told me they really like the oral exam format.
+    -   Noticeably more confident, comfortable on the second oral exam. (noted twice)
+    -   Enjoyed talking, feel more comfortable with students
+    -   Students getting a little more comfortable speaking in programming lingo.
+    -   Very fast and effective way to see who knows what's going on in the class and who isn't with us at all.
+-   post oral exam 1
+    -   I think it made clear who had a good idea of what they've gotten well
+    -   I had fun **Seems to be that there are more positives to talk and bring into these themes.**
 
 ## Discussion
 
