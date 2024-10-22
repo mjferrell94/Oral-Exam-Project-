@@ -150,9 +150,10 @@ In total there were six graduate student instructors. Three had four sections of
 
 ## Methods
 
-### Monitoring Instructor Sentiment and Issues
+### Participants and Data Collection
 
-In order to understand problems that arose, and sentiment around, administering the oral discussions, the course coordinator requested feedback at various points of the process formally and informally.
+6 GSIs, each teaching 3 sections of a statistical programming class, participated in the study, and consented to have their data used. Initial thoughts about giving, and experience with, oral discussions were requested on a Google form prior to administering the discussions. The R course had its first oral discussion one week prior to the SAS course. Reflections and advice were discussed in the weekly meeting and recorded for future reference. The meeting and conversations after the first SAS course oral discussion was likewise recorded. Another Google form was administered at this point as well. The second oral discussions occurred during the same week for both courses. The meeting and conversations the week after administration were recorded. Lastly, a Google form was given to record their final thoughts on administering oral discussions in the course. All of the forms are available in the appendix. *Flow chart 1* shows when surveys and meetings were held in relation to each other and to the oral discussions. 
+
 
 **Change language in image to 'Oral discussions' and 'Graduate student instructor and course coordinator meeting'.**
 
@@ -160,23 +161,22 @@ In order to understand problems that arose, and sentiment around, administering 
 knitr::include_graphics("Oral_Exam_Flow_Chart.drawio.png")
 ```
 
-Initial thoughts about giving, and experience with, oral discussions were requested on a Google form prior to administering the discussions. The R course had its first oral discussion one week prior to the SAS course. Reflections and advice were discussed in the weekly meeting and recorded for future reference. The meeting and conversations after the first SAS course oral discussion was likewise recorded. Another Google form was administered at this point as well. The second oral discussions occurred during the same week for both courses. The meeting and conversations the week after administration were recorded. Lastly, a Google form was given to record their final thoughts on administering oral discussions in the course. All of the forms are available in the appendix.
 
-### Qualitative Data Analysis: Analyzing Instructor Sentiment and Issues
+### Data Analysis
 
-Most of the data collected was qualitative as it involved open ended questions on forms and informal discussions during meetings. For this type of data, the most common approach used to analyze it involves iteratively going through the data, creating codes, and then grouping pieces of coded data into groups (usually called "themes"). This was the approach taken to analyze our survey and meeting data, formally called qualitative thematic analysis [@zhang2009qualitative].
+#### Qualitative Data Analysis 
 
-More specifically, in the first iteration, data was coded based on the use of particular words (such as "time" or "technology") and also on whether or not it came from a survey or a discussion. Pieces of text were then grouped together manually to create five starting themes. In the second and third iterations, these themes were refined after recognizing that they may be better represented by including more sub-themes; for example, instead of discussion of time being a theme, breaking this down into discussions of the quantity and quality of time. Finally, as we passed through the data, we looked over which themes had sufficient support to be included. Themes were included only if they had 5 or more pieces of evidence. **We could either just change this or we could say there is a caveat for one theme.**
+For the open ended responses on surveys and whole instructor discussions, a thematic analysis was used to break down the data into recognizable group using an iterative approach. First, one of the authors went through the data, first coding based on the occurrence of particular words such as "time" or "technology". Initial themes were created based on these. After a series of discussions talking about the strengths and weaknesses of the first round of analysis, the authors passed through the data again in order to include more moments and contextualize the themes better, keeping track of questions asked, when they were asked in the semester, and in response to what. After this second round of coding, the authors developed a final set of 3 overarching themes, 6 main themes, and 21 codes that better captured the thoughts, feelings, and experiences of the GSIs. 
 
-### Quantitative Data Analysis
+#### Quantitative Data Analysis
 
 Along with the themes generated from the open ended responses on surveys and whole instructor discussions, closed ended responses from the surveys were also tabulated.
 
 ## Results
 
-### Closed Ended Survey Responses
+### The Pre-Oral Exam Survey
 
-The closed ended questions asked prior to administering the oral discussions centered around experience with oral exams. None of the GSIs had experience giving an oral exam before and four of the six had never taken an oral exam.
+our GSIs had limited experience with oral exams. None had ever administered one, and only around 30% had taken one. Not surprisingly, there was a range of comfort levels, with half the GSIs feeling fairly comfortable and the other half feeling fairly uncomfortable.
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='350px'}
 Pre_Exam_1
@@ -185,6 +185,35 @@ Pre_Exam_1
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='350px'}
 Pre_Exam_2
 ```
+
+When asked about what they saw as potential logistical and grading issues, GSI responses aligned with future points of discussion during the semester, including concerns about time, scheduling, and bias. Some GSIs worried about their lack of memory and being biased due to familiarity with students. They also worried about getting students in the right time slots and their own ability to administer exams over a large time span. 
+
+
+### The Oral Exam Process
+
+#### Scheduling
+
+#### Difficulties and Issues
+
+#### Administering the Exam
+
+
+### The Oral Exam Itself
+
+#### Bias and Fairness
+
+
+#### Utility
+
+
+### The Students
+
+
+
+
+### Closed Ended Survey Responses
+
+The closed ended questions asked prior to administering the oral discussions centered around experience with oral exams. None of the GSIs had experience giving an oral exam before and four of the six had never taken an oral exam.
 
 When asked about their comfort administering an oral exam on a scale from 1 (least comfortable) to 5 (most comfortable), the responses varied. Half of the GSIs were on the more comfortable side and half were on the less comfortable side.
 
