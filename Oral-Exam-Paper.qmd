@@ -235,101 +235,17 @@ Only one GSI mentioned that perhaps five minutes was not enough time for student
 
 GSIs expressed their feelings about the utility of the oral exam through their comments about it's overall usefulness as an assessment and its comparison to more traditional assessment. In the first survey, the GSIs gave an average 7 out of 10 when asked about the usefulness of the oral discussion. One GSI mentioned that it coincided with what they had been seeing in class and in the homework already. In the second survey a similar sentiment was shared by another GSI, who pointed out that "One student had no clue what the %>% was...so we are catching what we want to". One GSI also noted that the oral discussions were a "very fast and effective way to see who knows what's going on in the class" and who does not. Overall, the GSIs found the oral discussions useful, specifically with assessing knowledge and doing it in a timely matter.
 
-However, their ideas about its usefulness became more nuanced when directly asked if the format was better than others, and if they would do an oral exam in their own classrooms. On the second survey, half said, "it's complicated" when asked if a quiz could accomplish the same thing as an oral exam. 
+However, their ideas about its usefulness became more nuanced when directly asked if the format was better than others, and if they would do an oral exam in their own classrooms. On the second survey, half said, "it's complicated" and half disagreed when asked if a quiz could accomplish the same thing as an oral exam. Some reasons GSIs gave were closed book vs open book, being able to ask follow up questions, and testing knowledge "on command". However, most of the GSIs agreed that a Moodle quiz with short answer responses would probably produce similar results, indicating that even with the differences they did see, they did not see them as being huge differences. When asked if they would do Oral exams in their own classes in the last instructor meeting, a few GSIs compared the oral exams to another kind of HW or Quiz, but one that was harder to grade. 
 
 ### Theme 3: Reactions to the Oral Exams
 
+The third theme centered around GSI reactions and student reactions to the oral exam experience as a whole. During the first instructor meetings, all the GSIs agreed that it "went fine". After both groups had gone, the GSIs in the first survey rated the smoothness of administration of the oral discussion at an average of 8 out of 10. When asked to elaborate on their scores, the GSIs expressed that it "went well", "[it was] very smooth" and "I had fun! Not sure if my students had fun". Only one GSI expressed a negative sentiment, stating, "It made me very sad". However, feelings became increasingly negative after the second round of oral discussions were given. Though these feelings were not expressed in the final instructor meeting, in the final survey one GSI said it caused them "undue suffering and misery". Another expressed frustration with student preparation, and another used the word "grueling" to describe the experience. A final GSI wondered if they could be an instructor if they were required to do this in the future. One reason comments became so negative that a few GSIs mentioned was that the oral discussions were being given around the same time as their own final exams, homework, and projects. 
+
+Though GSI reactions eventually became more negative, student reactions tended to become more positive. In the first and second instructor meetings, several GSIs reported students being annoyed with oral discussion times running behind. They also discussed potential confusion students may have with getting immediate feedback after the test. However, by the time the second oral discussion happened, one GSI reported students seeming much more relaxed with the experience, and even performing better (another GSI had the oppostie experience with them performing better, but same with their level of relaxation.) Further, one GSI reported that a few students spontaneously told them that they "like the oral discussions". After being exposed to the new assessment format, it seems students became more comfortable with it. 
+
 ### Theme 4: Preparation for future Oral Exams
 
-### Closed Ended Survey Responses
-
-The closed ended questions asked prior to administering the oral discussions centered around experience with oral exams. None of the GSIs had experience giving an oral exam before and four of the six had never taken an oral exam.
-
-When asked about their comfort administering an oral exam on a scale from 1 (least comfortable) to 5 (most comfortable), the responses varied. Half of the GSIs were on the more comfortable side and half were on the less comfortable side.
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE, out.height = '750px'}
-Middle_Exam
-```
-
-Between the first and second oral discussions, the GSIs were asked three questions. The first was how they thought the administration of the oral discussions went on a scale of 1 (very poorly) to 10 (very smoothly). This question was meant to look at how well the scheduling or exams, use of zoom for administering, and other set up related things were viewed. Most of the GSIs viewed the administration favorably. Based on this, it seems the logistics of the oral discussions were well thought out and went pretty smoothly.
-
-The second question asked them how well the discussions acted as an assessment of the material on a scale of 1 (very little utility) to 10 (very high utility). This question meant to investigate the GSIs' value placed on this type of assessment. Here one GSIs rated the exams poorly (two) while one rated a seven and four rated a nine or a ten. This indicates that most felt the assessment was useful compared to their view of other types of assessments.
-
-The third question asked them to rate the oral discussions overall on a scale of 1 (very poor) to 10 (very useful). Again, we see one lower score, one mildly positive score and four higher scores (two eights and two nines). This indicates an overall positive view of the oral discussions by the GSIs after the administration of one of the discussions.
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width = '350px'}
-Post_Exam
-```
-
-After the second oral exam, the GSIs were asked one closed ended question. Would a quiz accomplish the same thing as the oral discussion? The possible responses were 'Agree', 'Disagree', or 'It's Complicated'. As quizzes were the other timed, in-person, assessment used in the course, this question was meant to see if they thought the oral discussion added value above and beyond the traditional in-class quiz. None of the students agreed that a standard quiz would accomplish the same thing. Half disagreed and half said it's complicated. Open ended questions allowed the GSIs to elaborate on this response.
-
-### Open Ended Survey Responses and Instructor Discussions
-
-#### Theme 1: The graduate student instructors focused on time
-
-**Sub-theme 1: They focused on the quantity of time**
-
-On the pre-exam survey, half of the GSIs expressed concerns about the "time" or "timeframe" needed to administer the oral discussions not only due to the number of students but also because it had to happen in a week. This concern was confirmed **confirmed... well they have 20 hour a week appointments, most weeks they do much less than 20** after the first oral exam during the first discussion, where some of the GSIs gave estimates of 12 to 18 hours to complete their oral discussions. During the second discussion after the SAS GSIs had also administered their own oral discussions, similar thoughts were voiced with one instructor who joked,"I was losing my sanity being on Zoom for so long", and another instructor on the second survey feeling that it "took way too long".
-
-Unfortunately, after the second oral exam was given, these concerns only intensified. Though only one GSI commented that they would not "do this to themselves" again with a large class, but perhaps a smaller one, during the final discussion, almost every GSI had something negative to say about the time commitment in the final survey. "Overall, very time consuming" one said. Words such as "grueling", that administering the discussions was something they had to "endure", that it was "draining" and "extremely time inefficient", were also used to express their feelings towards the time commitment.
-
-Two reasons for focus on the time commitment were given by two different GSIs. One commented that the time commitment to give oral exams was bleeding into other classes and exams they had towards the end of the semester. The other remarked that they felt they were promised less work as a first-year graduate student, but that this was not the case in this position."If the oral exam format goes unchanged", they said, "I am unsure if I am fit to be an instructor next semester."
-
-**This theme needs to be counter balanced I think. Of course they are going to say it took too long and other things but nothing was outside their scope of time commitment - just not what they want to be doing.**
-
-**Sub-theme: They focused on what they were doing during that time**
-
-Though instructors had an inkling during the pre-exam survey that what they would be doing would be time consuming, the mentions of what they were doing qualitatively during the oral exams began in the first discussion. For example, several GSIs joked about not always being able to use the bathroom, since you have to be "100% focused". However, part of the issue was not following previous recommendations to leave extra time in their schedules, and later on in the discussion they discussed how to do that. This appeared to help, since no mention of being focused or other issues related to what they were actually doing during that time did not appear in the second discussion or first post exam survey.
-
-However, during the final discussion, one conversation centered around the qualitative difference between grading HW and administering the exams. One GSI commented that, for them, the exams took longer, and, unlike with homework grading, for the exams you had to "block out time". Another disagreed, saying the time commitment felt similar, but later, acknowledging that it could take similar time.**This doesn't make sense... they said it was similar already** One final GSI commented that grading homework was more "flexible" for them. **So I think this may be the theme for both of these first ones. Flexibility of time to do the work.**
-
-Though five of the six GSIs did not discuss any concerns with how the time was being used or differences between the oral exams and how time is used for other things, one GSI did express that even with well spaced time blocks, they were still unable to eat a snack, use the restroom, or walk around. **Is this worth mentioning?**
-
-**Sub-theme: They focused on when things went wrong with timing**
-
-During the pre-exam survey only one GSI commented that they worried about "the student's scheduled slots being too spread out". Issues about student timing really began to come out during the first discussion. One talked about the fragility of the online set up **but looking at the numeric responses, they said it went smoothly generally - perhaps we are letting one TA push a larger narrative on some of these themes? Either way, we should be countering it with the note on the numerical data**, where if even one student comes late, it can "ruin the timing for all of the students". Another mentioned how students would immediately sign in when there was an open spot without letting the instructors know. However, the issue of student scheduling did not appear again in the second discussion, with only one question in the first follow up survey about "how to make everyone register and show up on time".
-
-After the last oral exam, though, much of the final discussion time was taken up by the issue again. Some GSIs talked about having to reschedule with students who missed, either to Saturday or to the next week, and how to avoid it. One instructor mentioned doing this and "regretting" it. Even more telling, on the final survey taken at the beginning of the discussion, an overwhelming amount of the advice the GSIs gave to future instructors in their shoes was about optimal time management due to student scheduling issues. For example, graduate student instructors offered comments such as "If possible, avoid scheduling any time on Friday" so as to plan for students who miss their time slots, "try to make everyone schedule and show up on time", and "build in more than a 5 minute break every 30 minutes" or else, due to students not arriving to the meeting on time, "you'll need to use \[it\]".
-
-#### Theme 2: The graduate student instructors focused on bias and equity
-
-Even before administering exams, GSIs worried worried about their role not just as administrators but as graders. One worried that the grading might be "too subjective". Another worried about their "poor memory" and bias that could come from familiarity, and a final GSI worried about the flexibility of being the grader may be too much.
-
-In the first discussion, there was some clarification on how to ask and grade one question, but it wasn't until after both groups had administered exams that they began to share more fully their thoughts about equity and bias. Part of their focus was on the exam itself. Several GSIs wanted a larger grading scale in order to more fairly grade students. Another GSI wondered if the questions were too broad, which prompted a conversation about anticipating student answers. Later in the discussion, it was found that different instructors had been phrasing certain questions differently, which created some different student responses.
-
-Another part of their focus was on accommodating and being fair to all students. For example, the course coordinator and one GSI discussed appropriate ways to help ESL students. Another GSI had given an oral exam in person to accommodate a student who had gotten sick. A worry expressed in the first follow up survey was the confounding of the oral exam with being nervous or with speaking ability.
-
-Some of these same concerns and questions came up during the final discussion and second follow up survey, including making the test less biased and being fair to all students. One GSI brought up a question they thought was unfair. Another wondered about the length of the oral discussions (which were 5 minutes each) and whether that was enough time to rate everyone well. In the follow up survey, one GSI offered a recommendation to eat snacks to avoid biased grading from hunger. Another GSI suggested more time for ESL students, since "this is not an English test".
-
-#### Theme 3: The graduate student instructors wondered about the efficacy of the oral exam
-
-Though no views about the efficacy of the oral exam were expressed prior to the first one or during the first or second discussions, anonymously during the first follow up survey a few GSIs expressed doubt over the potential benefits of oral exams. "Not sure what this accomplishes over HW/moodle quiz" one said. Another voiced the same feelings, writing, "\[a\] paper quiz could serve the same goal". Noticing this, the GSIs were asked about their feelings explicitly in the second follow up survey.
-
-In the survey, they clarified that there were some benefits to the oral exam. Words like "integrity" and the concept of open vs closed book were used, alluding to how hard it is to plagiarize or cheat with an oral assessment. Another pointed out that it tested whether someone could produce "on the fly knowledge". This mechanism, however, was noted as being similar to, and essentially accomplished by, a well crafted free response quiz. Though half of the GSIs shared this view, two did acknowledge the advantage of being able to ask follow up questions, and it leading to better grading potentially being more lenient than written exams, since "you can understand what students are trying to say better".
-
-**The last survey question asked pretty explicitly if they thought a quiz would do the same thing and none said yes.**
-
-**I don't know if we should keep this theme 4, or incorporate it else where. I didn't want everything to be all doom and gloom, but there really wasn't much in the way of positive things....it was more like they enjoyed time with their students, but they barely brought it up, just three times, which doesn't meet our criteria of 5 pieces of evidence. What do you think?** \#### Theme 4: The graduate student instructors had few positive things to say
-
-When asked directly about positives, half of the graduate student instructors responded. All of the comments were centered around having increased student interactions where, in such a large class, they usually didn't. One graduate student instructor commented that, unprovoked, a few students talked about liking the format.
-
-**I didn't go through the verbal recordings but did look over the post oral exam form responses. These were the positive items of note:**
-
--   post oral exam 2
-    -   integrity improved over moodle quiz
-    -   better than quiz at evaluating how well students can produce knowledge "on command"
-    -   ability to keep closed book (integrity again)
-    -   More follow-up things, easier to know how deep students understand questions
-    -   Students who clearly knew the material were able to showcase this understanding, while highlighting areas in which others need to improve.
-    -   Ability to catch students that haven't been doing their work
-    -   Some students independently told me they really like the oral exam format.
-    -   Noticeably more confident, comfortable on the second oral exam. (noted twice)
-    -   Enjoyed talking, feel more comfortable with students
-    -   Students getting a little more comfortable speaking in programming lingo.
-    -   Very fast and effective way to see who knows what's going on in the class and who isn't with us at all.
--   post oral exam 1
-    -   I think it made clear who had a good idea of what they've gotten well
-    -   I had fun **Seems to be that there are more positives to talk and bring into these themes.**
+The final theme we saw centered on GSIs looking to the future and wondering how to prepare their students for an oral discussion experience. This came from the final survey and instructor meeting as GSIs reflected on the experience as a whole and perhaps how they might do it differently. One idea was to incorporate an oral component into in class activities, maybe by having students explain things to each other in groups. Another GSI wondered about having opportunities for students to present in class and build slides using code. Overall they agreed that making the first one weighted less than the second would be a good idea. On the survey, another GSI offered another idea: "I would encourage future TAs to get their students talking about R or SAS first thing in the semester and enforce the vocabulary". This would also help them answer questions orally correctly. Thus, there were many avenues, ranging from changing activities to focusing on vocabulary, that were mentioned to help students prepare better for the oral discussions. 
 
 ## Discussion
 
