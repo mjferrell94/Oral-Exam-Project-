@@ -246,41 +246,20 @@ The final theme we saw centered on GSIs looking to the future and wondering how 
 
 To our knowledge, this is the first large scale oral exam study done in the statistics and data science education literature and one of the largest oral exam studies done in the oral exam literature as a whole. Further, due to the pivital role graduate student instructors play in the success of the oral exams, this study focused on their attitudes and experiences as they administered them.Based on the data we received and analyzed, there were a range of attitudes, mainly focusing on the time commitment of the exams, the potential biases and equity issues of the exams, wonderings about their efficacy, and positive student reactions.This left us with three lingering questions: why did our GSIs react the way they did, what do our findings mean for designing large scale oral examinations, and what future research directions could we pursue?
 
-### Why did the graduate student instructors react the way they did?
+### What reccomendations can we make?
 
-#### Time
+#### The importance of GSI feedback in large scale settings
 
-GSIs probably had such an intense focus on time because they were tyring to surivive the process. This reminded us of Maslow's Hierarchy of needs (Maslow something), a framework detailing the need of people to have satisifed basic, foundational needs (like food and shelter) before being able to satisfy higher level needs (sense of belonging, becoming a better person). In the same way, we hypothesize our GSIs did not talk much about the experience of administering the exam, the wider pros and cons, and how students felt about them because they themselves were focused on fulfilling the basic need of surviving the process (doing 12-18 hours of exams) while also having other coursework and responsibilities on top of that. If it had been a less stressful or time consuming experince, they would have had the cognitive energy and capacity to reflect on and improve on their skills, focus on the positives, bias, reliabilty, validity, grading better?...maybe not and focus on the student experience versus just trying to figure out how to administer them and work with the logistical issues.
 
-Expectations between what they thought they were going to do and what they actually did, what was fair to them verus what was actually spelled out in the contract.
 
-#### The efficacy of the oral exam
 
-Questioning whether oral exams are worth it is not a new phenomena. In the literature (*find citation*), this instructor also noticed that though their students saw oral exams as good, based on previous socialization in the school system they saw closed book written exams as the gold standard. This may have lead some GSIs to wonder whether....
+#### Taking care of GSIs in large scale settings
 
-Wonderings were also caused by the time commitment, since a well designed moodle quiz would certainly take less time, maybe more flexible grading time, no need to be there giving the exam with the students.
 
-We also hypothesize that part the feelings towards the efficacy of the oral exams may come from the novice instructors discomfort with assessing students generally, and especially assessing them on the fly in real time. This is based on the experience of the course coordinator, who found that, especially in the second round of exams when students were more comfortable with the format, the short meetings were an excellent and refreshing way to assess students knowledge. For GSIs, the lower pressure grading of quizzes and homework assignments give more time to be sure of answers given and deem what is an appropriate score should be.
 
-#### Test bias and equity issues
+#### Preparing GSIs in large scale settings 
 
-*I'm not sure about this one, maybe you have some ideas Justin? Why would they be so focused on fairness and accommodations, as well as trying to create a more fair test and reduce their own bias as they gave the exams?*
 
-*Trying to explain why they reacted the way they did will help us give recommendations for how to design future large scale oral exams* \### What do our findings mean for designing large scale oral examinations?
-
-Instructors are valuable sources of feedback. They are there in the trenches, they had wonderful comments, though at times biting, highlighting structural issues with the oral exam set up and format as it stood. They were willing to offer advice to others and among each other, and work with the coordinator as well. They also had keen insights and cared about fairness for students.
-
-You can see how they become more critical over time, and that also the last discussion and the final comments are all about time and timing and scheduling, while the second discussion is a lot more about getting the test better, and grading, and making sure things are fair, things we'd want the GSIs to focus on.
-
-Very negative feelings towards the time commitment, not the format itself, event though they were contracted to work 20 hours. The type of work was particularly hard for them, maybe not used to it, expecting it, etc. Regardless, it would be impossible to continue oral exams in this way. Think about how peer to peer knowledge of this would spread, those who administer may grow to hate it, maybe even biasing things, or missing why they are given. Maybe it doesn't matter what the benefit is, the cost of time is too much.
-
-Thinking of this like a GSI hierarchy of needs, we'd have to make sure that logistics are in place well, that the time commitment is either not too large or that there are appropriate expectations in place, and that effective time management is implemented and monitored.
-
-We also will probably need some training on how to do these things well, how to give exams well, and perhaps some modeling of what it can look like.
-
-On a positive note, these graduate student instructors were aware of and sensitive to potential biases and equity issues, and had an excellent discussion of ways to attempt to mitigate these problems.
-
-Overall, we would suggest that under realistic circumstances, administering oral exams at larger scales may greatly weaken what makes oral exams important/interesting/powerful in the first place. With the necessary shortening of their administration comes a loss in reliability ([@Memon2010]). Possible to find ways around this?
 
 ### What future research directions could we pursue?
 
