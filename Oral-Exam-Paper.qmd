@@ -277,16 +277,49 @@ To our knowledge, this is the first study done of a large scale oral exam in the
 
 ### What reccomendations can we make?
 
-#### The importance of GSI feedback in large scale settings
 
-At at such a large scale, GSI feedback is pivotal in order to assess whether the oral exam is working the way you intended. In several instances, GSIs were the ones who brought up issues of fairness and bias, such as expanding the grading scale or whether questions were too broad or not. These recommendations came through direct experience with their students. Further, they also detailed what the experience was like on the administrative end, with conversations centering around time, follow up questions, and issues with technology. Though instructors will have experiences of their own, having all of their GSIs report in helps gain a much better picture of different things that do or can go wrong, and ways that the administration of oral exams at a large scale can be made more efficient and bearable. 
+
+Manage load of oral exam
+Scheduling of the exams themselves
+Scheduling strategies 
+
+Train beforehand in use of technology
+
+Make purpose of Oral exams clear
+
+Prepare students for oral exam 
+
+
+#### The importance of GSI feedback 
+
+At at such a large scale, GSI feedback is pivotal in order to assess whether the oral exam is working the way you intended. In several instances, GSIs were the ones who brought up issues of fairness and bias, such as expanding the grading scale or whether questions were too broad. These recommendations came through direct experience with their students, experience that at large scales we can't obtain ourselves. GSIs also detailed what the experience was like on the administrative end, with conversations centering around time, follow up questions, and issues with technology. This allowed for help to be given in the right places and assess problem areas that we may not have thought of previously. Feedback is immensely helpful at crafting the oral exam experience you want. 
+
+Asking for feedback through regular meetings and surveys is effective. Meetings allow for the exchange of ideas between GSIs, where, for example, issues can be brought up in a supportive environment with other participating in the same experience. They also allow for multiple solutions to be offered, and are great way way to hear instructor thoughts without having to wait or read through comments. However, surveys are more anonymous. We saw that strong and negative feelings were much more likely to be expressed in a survey rather than in a discussion. Though they took more time to read and understand, they gave us a better picture of how the GSIs actually felt. A combination of multiple feedback methods, in our case meetings and surveys, would be most helpful to really understanding our GSIs. 
+
+
+On reflecting on the surveys and meetings, these feedback opportunities could have been elevated by asking a few more prepared, specific questions. Most of the questions asked, at first, were along the lines of, "How did it go?", "Any issues come up?", which are important. However, the responses we got became much more nuanced and informative when we asked more specific questions, such as "Compared to a written exam, what is the utility of an oral exam? Is it any better?". Other ones relating to time, the student experience, follow up questions, and bias and fairness would have elevated the feedback we got and allowed us to implement even more impactful changes. A mix of open, general questions with specific ones prepared more ahead of time is a great way to get feedback. 
+
+
+Though instructors will have experiences of their own, having all of their GSIs report in helps gain a much better picture of different things that do or can go wrong, and ways that the administration of oral exams at a large scale can be made more efficient and bearable.
 
 Ways to help prepare students for future exams
 
-#### Taking care of GSIs in large scale settings
+#### Manging GSI load
 
-Asking GSIs to administer hundreds of oral exams requires instructors to be vigilant in making sure they are prepared. In this study, we saw stress manifest itself in many forms, including trouble with technology, learning to use technology in new ways, learning how to ask good follow up questions, how to deal with the time commitment, and especially doing all this during finals week. To deal better with this, instructors can offer strategies for better scheduling, consistent with other GSI feedback, such as spacing and leaving days open for no shows. They also can plan out time for themselves to eat or take a break. However, during finals time, it may be impossible without extra help to alleviate stress. Warning GSIs ahead of time and encouraging them to preapre themselves and work in anticipation for this time would help. Perhaps planning the oral exam at a different, earlier time would work as well. Maybe even having two samller oral exams and a normal final. 
+##### Scheduling
 
+The most offered advice the GSIs gave to future oral exam administrators centered around scheduling. Scheduling was the main way GSIs coped with the tremendous load of giving hundreds of oral discussions in a week. Taking their advice to heart, those who want to administer large scale oral exams need to make sure that there is adequate space for breaks for GSIs to walk, eat, and use the restroom. There needs to be built in time for those who may have to reschedule their exams. The systems used to schedule times need to have mechanisms to allow for these things. Beyond student scheduling, making sure the oral exams aren't given during a time that is also busy for the GSIs would have alleviated their load in our study. It was when they had to administer hundreds of exams during their own projects and finals that the most intense negative feelings were reported. Further, scheduling the exams in a way that allowed for balance with grading HW would have also better alleviated stress. Thus, giving GSIs strategies to effectively schedule students and effectively scheduling the exams themselves on weeks when school is not as busy for the GSIs will alleviate their load. 
+
+##### Training
+
+##### Understanding the purpose of an Oral Exam
+
+
+#### Preparing students for the Oral Exam
+
+
+
+Asking GSIs to administer hundreds of oral exams requires instructors to be vigilant in making sure they are prepared. In this study, we saw stress manifest itself in many forms, including trouble with technology, learning to use technology in new ways, learning how to ask good follow up questions, how to deal with the time commitment, and especially doing all this during finals week. To deal better with this, instructors can offer strategies for better scheduling, consistent with other GSI feedback, such as spacing and leaving days open for no shows. They also can plan out time for themselves to eat or take a break. However, during finals time, it may be impossible without extra help to alleviate stress. Warning GSIs ahead of time and encouraging them to prepare themselves and work in anticipation for this time would help. Perhaps planning the oral exam at a different, earlier time would work as well. Maybe even having two smaller oral exams and a normal final.
 
 #### Preparing GSIs in large scale settings
 
