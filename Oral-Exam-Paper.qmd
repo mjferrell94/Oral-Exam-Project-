@@ -114,24 +114,24 @@ Both programming courses have a flipped structure in which students receive the 
 
 For this iteration of the courses, there were four weeks that did not follow this structure. Two of those weeks replaced the usual in-class period with a short paper-based quiz (10 minutes) followed by time to work on a homework assignment. These assignments involved creating their own original program to answer questions of interest along with finding a data set of their own and applying class concepts. The remaining two weeks were dedicated to administering oral exams. These weeks involved no new content and no class was held. Each oral exam accounted for eight percent of the students' overall course grade.
 
-| Week | SAS Course Topic                   | SAS Course Assignment        | R Course Topic                          | R Course Assignment          |
+| Week | SAS Course Topic | SAS Course Assignment | R Course Topic | R Course Assignment |
 |---------------|---------------|---------------|---------------|---------------|
-| 1    | Basics of SAS, SAS Studio          | LMS Quiz 1                   | Basics of R Programming                 | LMS Quiz 1                   |
-| 2    | Libraries & Reading Data           | LMS Quiz 2                   | Common Data Objects                     | LMS Quiz 2                   |
-| 3    | Reading in Data                    | LMS Quiz 3                   | R Packages & the readr Package          | LMS Quiz 3                   |
-| 4    | Column Manipulations               | In-Class Quiz 1 & Homework 1 | R Markdown                              | In-Class Quiz 1 & Homework 1 |
-| 5    | Creating New Variables             | LMS Quiz 4                   | No Class                                |                              |
-| 6    | Row Manipulations                  | LMS Quiz 5                   | Oral Discussion Week #1                 | Oral Discussion 1            |
-| 7    | Oral Discussion Week #1            | Oral Discussion 1            | Row & Column Manipulations              | LMS Quiz 4                   |
-| 8    | Contingency Tables & SAS Options   | LMS Quiz 6                   | No Class                                |                              |
-| 9    | Numeric Summaries                  | LMS Quiz 7                   | Creating New Variables & Reshaping Data | LMS Quiz 5                   |
-| 10   | Plotting                           | In-Class Quiz 2 & Homework 2 | Numeric Summaries                       | In-Class Quiz 2 & Homework 2 |
-| 11   | Statistical Concepts & Correlation | LMS Quiz 8                   | ggplot2 for Graphing                    | LMS Quiz 6                   |
-| 12   | Oral Discussion Week #2            | Oral Discussion 2            | Oral Discussion Week #2                 | Oral Discussion 2            |
-| 13   | Linear Regression                  | LMS Quiz 9                   | Loops & Vectorized Functions            | LMS Quiz 7                   |
-| 14   | No Class                           |                              | No Class                                |                              |
-| 15   | Analysis of Means                  | LMS Quiz 10                  | Writing Functions                       | LMS Quiz 8                   |
-| 16   | No Class                           | Final Project                | No Class                                |                              |
+| 1 | Basics of SAS, SAS Studio | LMS Quiz 1 | Basics of R Programming | LMS Quiz 1 |
+| 2 | Libraries & Reading Data | LMS Quiz 2 | Common Data Objects | LMS Quiz 2 |
+| 3 | Reading in Data | LMS Quiz 3 | R Packages & the readr Package | LMS Quiz 3 |
+| 4 | Column Manipulations | In-Class Quiz 1 & Homework 1 | R Markdown | In-Class Quiz 1 & Homework 1 |
+| 5 | Creating New Variables | LMS Quiz 4 | No Class |  |
+| 6 | Row Manipulations | LMS Quiz 5 | Oral Discussion Week #1 | Oral Discussion 1 |
+| 7 | Oral Discussion Week #1 | Oral Discussion 1 | Row & Column Manipulations | LMS Quiz 4 |
+| 8 | Contingency Tables & SAS Options | LMS Quiz 6 | No Class |  |
+| 9 | Numeric Summaries | LMS Quiz 7 | Creating New Variables & Reshaping Data | LMS Quiz 5 |
+| 10 | Plotting | In-Class Quiz 2 & Homework 2 | Numeric Summaries | In-Class Quiz 2 & Homework 2 |
+| 11 | Statistical Concepts & Correlation | LMS Quiz 8 | ggplot2 for Graphing | LMS Quiz 6 |
+| 12 | Oral Discussion Week #2 | Oral Discussion 2 | Oral Discussion Week #2 | Oral Discussion 2 |
+| 13 | Linear Regression | LMS Quiz 9 | Loops & Vectorized Functions | LMS Quiz 7 |
+| 14 | No Class |  | No Class |  |
+| 15 | Analysis of Means | LMS Quiz 10 | Writing Functions | LMS Quiz 8 |
+| 16 | No Class | Final Project | No Class |  |
 
 : Table 1 - SAS and R Course Schedules. LMS = Learning Management System
 
@@ -273,13 +273,20 @@ The final theme we saw centered on GSIs looking to the future and wondering how 
 
 ## Discussion
 
-To our knowledge, this is the first large scale oral exam study done in the statistics and data science education literature and one of the largest oral exam studies done in the oral exam literature as a whole. Further, due to the pivital role graduate student instructors play in the success of the oral exams, this study focused on their attitudes and experiences as they administered them.Based on the data we received and analyzed, there were a range of attitudes, mainly focusing on the time commitment of the exams, the potential biases and equity issues of the exams, wonderings about their efficacy, and positive student reactions.This left us with three lingering questions: why did our GSIs react the way they did, what do our findings mean for designing large scale oral examinations, and what future research directions could we pursue?
+To our knowledge, this is the first study done of a large scale oral exam in the statistics and data science education literature. Further, due to the pivital role graduate student instructors play in the success of the oral exams, this study focused on their attitudes and experiences as they administered them.Based on the data we received and analyzed, there were a range of attitudes, mainly focusing on the time commitment of the exams, the potential biases and equity issues of the exams, wonderings about their efficacy, and positive student reactions.This left us with three lingering questions: why did our GSIs react the way they did, what do our findings mean for designing large scale oral examinations, and what future research directions could we pursue?
 
 ### What reccomendations can we make?
 
 #### The importance of GSI feedback in large scale settings
 
+At at such a large scale, GSI feedback is pivotal in order to assess whether the oral exam is working the way you intended. In several instances, GSIs were the ones who brought up issues of fairness and bias, such as expanding the grading scale or whether questions were too broad or not. These recommendations came through direct experience with their students. Further, they also detailed what the experience was like on the administrative end, with conversations centering around time, follow up questions, and issues with technology. Though instructors will have experiences of their own, having all of their GSIs report in helps gain a much better picture of different things that do or can go wrong, and ways that the administration of oral exams at a large scale can be made more efficient and bearable. 
+
+Ways to help prepare students for future exams
+
 #### Taking care of GSIs in large scale settings
+
+Asking GSIs to administer hundreds of oral exams requires instructors to be vigilant in making sure they are prepared. In this study, we saw stress manifest itself in many forms, including trouble with technology, learning to use technology in new ways, learning how to ask good follow up questions, how to deal with the time commitment, and especially doing all this during finals week. To deal better with this, instructors can offer strategies for better scheduling, consistent with other GSI feedback, such as spacing and leaving days open for no shows. They also can plan out time for themselves to eat or take a break. However, during finals time, it may be impossible without extra help to alleviate stress. Warning GSIs ahead of time and encouraging them to preapre themselves and work in anticipation for this time would help. Perhaps planning the oral exam at a different, earlier time would work as well. Maybe even having two samller oral exams and a normal final. 
+
 
 #### Preparing GSIs in large scale settings
 
