@@ -299,12 +299,9 @@ Asking for feedback through regular meetings and surveys is effective. Meetings 
 
 On reflecting on the surveys and meetings, these feedback opportunities could have been elevated by asking a few more prepared, specific questions. Most of the questions asked, at first, were along the lines of, "How did it go?", "Any issues come up?", which are important. However, the responses we got became much more nuanced and informative when we asked more specific questions, such as "Compared to a written exam, what is the utility of an oral exam? Is it any better?". Other ones relating to time, the student experience, follow up questions, and bias and fairness would have elevated the feedback we got and allowed us to implement even more impactful changes. A mix of open, general questions with specific ones prepared more ahead of time is a great way to get feedback. 
 
-
-Though instructors will have experiences of their own, having all of their GSIs report in helps gain a much better picture of different things that do or can go wrong, and ways that the administration of oral exams at a large scale can be made more efficient and bearable.
-
-Ways to help prepare students for future exams
-
 #### Manging GSI load
+
+With how demanding administering oral exams at a large scale is, it is important to make sure GSIs feel supported and are given training on how to handle the experience. 
 
 ##### Scheduling
 
@@ -312,8 +309,12 @@ The most offered advice the GSIs gave to future oral exam administrators centere
 
 ##### Training
 
+Along with optimal scheduling, providing continued training will also help reduce GSI load. Many of the GSIs faced unexpected issues such as technology failing, students answering questions in odd ways, and having to navigate accommodations. Further, none of them had ever given an oral exam before. Preparing GSIs for the experience and for the potentially unexpected by roleplaying or other approximations of practice (grossman citation here) could help them to feel more comfortable when these situations arise. Further, providing them with guides on what to say and potentially how to say it can help provide necessary scaffold before GSIs start feeling more comfortable doing it on their own. This approach was taken here and helped our GSIs. Overall, training in the form of practicing, imagining difficulties that may come, and providing inital scaffolding will help GSIs be more successful in navgating oral exams.
+
 ##### Understanding the purpose of an Oral Exam
 
+Finally, beyond the more practical aspects of scheduling and practice is the importance of helping GSIs understand why they are doing things differently. Though our GSIs complied with the discussions, engaged in meetings, and offered feedback, they still had fuzzy ideas as to why they were being asked to administer an exam in this way. They brought up valid points regarding the time commitment and the necessity of staying focused during that time (unlike HW). They brought up how an open response quiz may do the same thing (and would certainly take less time). Though they admitted that being able to test knowledge on the fly, allowing partial credit, and avoiding cheating were good, they mostly missed the main point of Theobold (2021), which was that oral exams allowed a deeper look into what students knew, and that being able to probe allows instructors to judge that to a much higher degree than with a normal testing format. Further, the GSIs were unaware of the benefits from the literature, including authenticity, students preparing more for oral exams, and practice for the future. Understanding and teaching these things will allow GSIs, even if they don't like them, to understand why they are giving oral exams in the first place and help them feel more motivated.
+ 
 
 #### Preparing students for the Oral Exam
 
