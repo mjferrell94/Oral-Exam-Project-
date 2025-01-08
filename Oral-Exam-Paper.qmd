@@ -27,13 +27,15 @@ Pre_Exam_1 <- Survey_Data |>
   facet_wrap(vars(Question_Graph_Title)) + 
   ylab(label="")
 
-Pre_Exam_2 <- Survey_Data |> 
-  filter(Exam == "Pre", ! Response %in% c("Yes","No")) |>
+survey_q_2 <- Survey_Data[5:9, ]
+survey_q_2$Response <- factor(survey_q_2$Response, levels = as.character(1:5), labels = c("Very uncomfortable", "Somewhat uncomfortable", "Neutral", "Somewhat comfortable", "Very comfortable"))
+Pre_Exam_2 <- survey_q_2 |> 
   ggplot(aes(x=Response, y=Percentage, group = Response)) + 
   geom_bar(stat = "identity", position=position_dodge()) +
   scale_y_continuous(labels=scales::percent) +
-  facet_wrap(vars(Question_Graph_Title)) + 
-  ylab(label="")
+  ggtitle("Oral Exam Administration Comfort Level") + 
+  ylab(label="") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
 
 Middle_Exam <- Survey_Data |> 
   filter(Exam == "Middle") |> 
@@ -42,10 +44,12 @@ Middle_Exam <- Survey_Data |>
   geom_bar(stat = "identity", position=position_dodge()) +
   facet_wrap(vars(Question_Graph_Title), nrow=3) + 
   scale_y_continuous(labels = scales::percent) + 
-  ylab(label="")
+  ylab(label="") +
+  xlab(label = "Response: From 'Very Poorly' (1) to 'Very Smoothly' (10)")
 
 Post_Exam <- Survey_Data |> 
   filter(Exam == "Post") |> 
+  mutate(Response = factor(Response, levels = c("Agree", "Disagree", "It's Complicated"), labels = c("Agree", "It's Complicated", "Disagree"))) |>
   ggplot(aes(x=Response, y=Percentage, group = Response)) + 
   geom_bar(stat = "identity", position=position_dodge()) +
   facet_wrap(vars(Question_Graph_Title), nrow=1) + 
@@ -171,57 +175,72 @@ In total there were six graduate student instructors. Three had four sections of
 
 Six GSIs participated in the study and consented to have their data used. Initial thoughts about giving, and experience with, oral discussions were requested on a Google form prior to administering the oral discussions. The R course had its first oral discussion one week prior to the SAS course. Reflections and advice were discussed in the weekly meeting and recorded for future reference. The meeting and conversations after the first SAS course oral discussion were likewise recorded. Another Google form was administered at this point as well. The second oral discussions occurred during the same week for both courses. The meeting and conversations the week after administration were recorded. Lastly, a Google form was given to record their final thoughts on administering oral discussions in the course. All of the forms are available in the appendix. *Figure 1* shows when surveys and meetings were held in relation to each other and to the oral exams.
 
-*Figure 1* **Time line of oral exam administration and data collection**
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='175px', fig.cap='Flow Chart of when exams, discussions, and surveys took place.'}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='175px', fig.cap='Timeline of oral exam administration and data collection.'}
 knitr::include_graphics("Oral_Exam_Flow_Chart.drawio.png")
 ```
 
 ### Data Analysis
 
-For the open ended responses on surveys and whole instructor discussions, an iterative thematic analysis using different forms of inductive coding, such as in vivo and descriptive, was used. In the first stage of analysis, one author passed through the data coding first based on the occurrence of particular words such as "time" or "technology". Initial themes were created based on the intial clusters of codes. After a series of discussions about the strengths and weaknesses of the first round of analysis, the authors passed through the data again in order to include more moments and better ground the themes in the context of the data, for example noting why certain conversations were occuring (e.g., a question being asked, it being a certain part of the semester) not just what was being said. After this second round of coding, the authors developed a final set of 4 themes, including 6 sub-themes, that better captured the thoughts, feelings, and experiences of the GSIs. Our codebook can be found in the appendix. Along with the themes generated from the open ended responses on surveys and whole instructor discussions, closed ended responses from the surveys were also tabulated.
+For the open-ended responses on surveys and whole instructor discussions, an iterative thematic analysis using different forms of inductive coding, such as in vivo and descriptive, was used. In the first stage of analysis, one author passed through the data coding first based on the occurrence of particular words such as "time" or "technology". Initial themes were created based on the intial clusters of codes. After a series of discussions about the strengths and weaknesses of the first round of analysis, the authors passed through the data again in order to include more moments and better ground the themes in the context of the data, for example noting why certain conversations were occuring (e.g., a question being asked, it being a certain part of the semester) not just what was being said. After this second round of coding, the authors developed a final set of 4 themes, including 6 sub-themes, that better captured the thoughts, feelings, and experiences of the GSIs. Our codebook can be found in the appendix. Along with the themes generated from the open-ended responses on surveys and whole instructor discussions, closed-ended responses from the surveys were also tabulated. 
 
 ## Results
 
-### The Pre-Oral Exam Survey
+The closed-ended responses are discussed first, followed by the themes.
 
-Prior to giving the oral discussions, the course coordinator wanted to know more about the GSIs previous experiences and feelings about oral exams. Based on the pre exam survey, our GSIs had limited experience. None had ever administered one, and only two of the six had taken one. Not surprisingly, there was a range of comfort levels, with half of the GSIs feeling fairly comfortable and the other half feeling fairly uncomfortable.
+### Closed-ended Responses
 
-*Figure 2*
+Closed-ended responses were requested at the beginning of the study (Pre-Oral Exam Survey), the middle of the study (Post Oral Exam 1 Survey), and the end of the study (Post Oral Exam Survey).
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='350px'}
-Pre_Exam_1
-```
+#### The Pre-Oral Exam Survey
 
-*Figure 3*
+Prior to giving the oral discussions, the course coordinator wanted to know more about the GSIs previous experiences and feelings about oral exams. Based on the pre exam survey, our GSIs had limited experience. None had ever administered an oral exam and only two of the six had taken one. Not surprisingly, there was a range of comfort levels, with half of the GSIs feeling fairly comfortable and the other half feeling fairly uncomfortable.
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='350px'}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='350px', fig.cap = "Self-reported comfort with administering an oral exam prior to the start of the semester."}
 Pre_Exam_2
 ```
 
-When asked about what they saw as potential logistical and grading issues, GSI responses aligned with future points of discussion during the semester, including concerns about time, scheduling, and bias. Some GSIs worried about their lack of memory and being biased due to familiarity with students. They also worried about getting students in the right time slots and their own ability to administer exams over a large time span. Overall, even with their limited experience, the GSIs showed great foresight.
+When specifically asked about what they saw as potential logistical and grading issues, GSI responses aligned with future points of discussion during the semester, including concerns about time, scheduling, and bias. Some GSIs worried about their lack of memory and being biased due to familiarity with students. They also worried about getting students in the right time slots and their own ability to administer exams over a large time span.
 
-### Theme 1: Challenges with the Oral Exam Process
+#### Post Oral Exam 1 Survey
 
-#### Scheduling
+Three close-ended questions were asked in this survey. They were "How do you think the administration of the exam went?", "How well did the exam act as an assessment of the material in the course?", and "How would you rate the exam generally?". The GSIs were asked to give a rating from one (Very Poorly) to ten (Very Smoothly). 
 
-The first challenge that GSIs discussed was scheduling and time management, with conversations about scheduling centered on two types: exam scheduling, which was talk centered on when the exam itself was to be scheduled in relation to other class and GSI activities, and student scheduling, or talk centered on the process by which students scheduled themselves to take the exam and how GSIs managed that process.
+```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='550px', fig.cap="Responses to Questions After Administration of Oral Discussion 1."}
+Middle_Exam
+```
+
+As can be seen in Figure 3, generally these questions were answered positively. Further elaboration of these questions is given in the thematic analysis below.
+
+#### Post Oral Exam Survey
+
+Part of the Post Oral Exam Survey involved a closed-ended question with a follow up response explaining their choice. During the course of the semester, a GSI mentioned that they weren't sure what the oral discussions would accomplish beyond what a usual LMS quiz. To determine the perceived worth of the oral discussion to the GSIs, a survey was given after the final oral discussions were administered where they were asked, "After the first oral exam, a few people commented that a [LMS] quiz would have accomplished the same thing. Do you agree or disagree with this?" The potential answers were "Agree", "It's Complicated", or "Disagree". Half of the GSIs chose "It's Complicated" and half chose "Disagree". This indicates that they found the oral discussions served a different purpose that a standard LMS quiz. 
+
+A follow up question asked them to explain their response. For two of the GSIs that answered "It's Complicated," exam integrity was discussed. For the other GSI, they noted that the oral discussions caused them much more 'suffering and misery' than an LMS quiz. For the GSIs that chose "Disagree," one noted that the oral discussions made it easier to know how deep students understand questions, one noted that it allowed us to evaluate how well student can produce knowledge "on cammand," and one noted that allows us to test how well someone can explain the topics we cover in class and is more lenient than an open-ended quiz question because, if a student says something confusing, they can still get points for correcting course.
+
+### Themes
+
+#### Theme 1: Challenges with the Oral Exam Process
+
+##### Scheduling
+
+A main challenge that GSIs discussed was scheduling and time management, with conversations about scheduling centered on two types: exam scheduling, which was talk centered on when the exam itself was to be scheduled in relation to other class and GSI activities, and student scheduling, or talk centered on the process by which students scheduled themselves to take the exam and how GSIs managed that process.
 
 Starting with exam scheduling, after the classes had administered both their oral discussions, a small conversation in the instructor meeting centered on finding the best way to place the oral discussion in relation to course homework assignments and school breaks. This conversation brought up questions about what was best for students such as minimizing instructional time lost due to taking an entire week for each oral discussion and placing the oral discussion so students could get feedback on homework before the corresponding oral discussion (see Table 1 for the course schedules - the GSIs were instructed to grade and return homework assignments within five business days when possible but, as this guide was not always met, this often gave little time for students to review their feedback).
 
-On the final post oral discussion survey a few GSIs also commented on when they thought would be the best time to schedule the oral discussions for them. They noted that having their own exam preparations and homework on top of the oral discussions "drained" them, and suggested solutions such as having more graders and shifting office hours later in the semester. One GSI poignantly noted that "if the oral exam format (talking about the scheduling) goes unchanged, I am unsure if I am fit to be an instructor next semester" due to being a first year PhD student and their heavy workload at the end of the semester. Thus exam scheduling talk centered on how to make the oral discussions work best for both student and GSI schedules and, ultimately, reduce the amount of work.
+On the final post oral discussion survey a few GSIs also commented on when they thought would be the best time to schedule the oral discussions for them. They noted that having their own exam preparations and homework on top of the oral discussions "drained" them, and suggested solutions such as having more graders and shifting office hours later in the semester. One GSI noted that "if the oral exam format (talking about the scheduling) goes unchanged, I am unsure if I am fit to be an instructor next semester" due to being a first year PhD student and their heavy workload at the end of the semester. Thus exam scheduling talk centered on how to make the oral discussions work best for both student and GSI schedules and, ultimately, reduce the amount of work.
 
-Another issue related to exam scheduling was the overall time commitment needed to administer the oral discussions by the GSIs. During the first instructor meeting, one GSI was asked how long it took them to administer their discussion. They estimated around 12 hours. Though they didn't indicate how they felt about it, other GSIs in the first post oral discussion survey made their feelings very explicit, saying that it "took way too long" and, for the final oral discussion, they were concerned that "15 hours on Zoom will drive me insane." Three GSIs commented on this topic in the final post oral discussion survey. One thought the oral discussions were "extremely time inefficient" and one noted that they were "very time consuming." The third GSI noted that, although the time it took to grade a homework assignment was similar overall, it was "incredibly grueling" to do the oral exams because they had to be engaged most of the time. One GSI, during the final instructor meeting, commented "If it were just me with 120 people, I would not do this to myself \[talking explicitly about the time commitment\]." Overall, GSIs found the time commitment to be a burden, but voiced this concern much more toward the end of the semester when they too were busier.
+Another issue related to exam scheduling was the overall time commitment needed to administer the oral discussions by the GSIs. During the first instructor meeting, one GSI was asked how long it took them to administer their discussion. They estimated around 12 hours. Though they didn't indicate how they felt about it, other GSIs in the first post oral discussion survey made their feelings very explicit, one saying that it "took way too long" and, for the final oral discussion, one said they were concerned that "15 hours on Zoom will drive me insane." Three GSIs commented on this topic in the final post oral discussion survey. One thought the oral discussions were "extremely time inefficient" and one noted that they were "very time consuming." The third GSI noted that, although the time it took to grade a homework assignment was similar overall, it was "incredibly grueling" to do the oral exams because they had to be engaged most of the time. One GSI, during the final instructor meeting, commented "If it were just me with 120 people, I would not do this to myself \[talking explicitly about the time commitment\]." Overall, GSIs found the time commitment to be a burden, but voiced this concern much more toward the end of the semester when they too were busier.
 
-Talk about student scheduling came up during the first instructor meeting after the SAS course GSIs had given their discussions but prior to the first R course oral discussions. When the SAS course GSIs were asked an open-ended question about what advice they'd give to the R course GSIs, they immediately began talking about student scheduling. They noted that one needed to watch out for student lateness, making sure space out slots with some extra time, and being aware that students might leave if they were required to wait for too long. After both groups had given their first oral discussions, only one GSI commented on student scheduling on the first post oral discussion survey ("How \[do we\] make everyone register and show up on time?"). However, on the final survey and in the final instructor meeting, almost all GSIs had something to say about student scheduling. For example, when asked again what advice they'd give to future GSIs, one GSI summed it up by saying, "Scheduling, scheduling, scheduling". They offered strategies on how to deal with students missing their time slots, including building in more breaks or making Friday more open. During the instructor meeting similar sentiments were expressed, where multiple GSIs talked about students needing to make up exams and the logistics that accompanied that. Student scheduling was a topic that was brought up both times GSIs were asked to give advice.
+Talk about student scheduling came up during the first instructor meeting after the SAS course GSIs had given their discussions but prior to the first R course oral discussions. When the SAS course GSIs were asked an open-ended question about what advice they'd give to the R course GSIs, they immediately began talking about student scheduling. They noted that one needed to watch out for student lateness, making sure space out slots with some extra time, and being aware that students might leave if they were required to wait for too long. After both groups had given their first oral discussions, only one GSI commented on student scheduling on the first post oral discussion survey ("How \[do we\] make everyone register and show up on time?"). However, on the final survey and in the final instructor meeting, almost all GSIs had something to say about student scheduling. For example, when asked again what advice they'd give to future GSIs, one GSI said, "Scheduling, scheduling, scheduling". They offered strategies on how to deal with students missing their time slots, including building in more breaks or making Friday more open. During the instructor meeting similar sentiments were expressed, where multiple GSIs talked about students needing to make up exams and the logistics that accompanied that. Student scheduling was a topic that was brought up both times GSIs were asked to give advice.
 
-#### Technology
+##### Technology
 
 After scheduling, the second challenge that was frequently mentioned was related to technology use. For example, GSIs mentioned a few moments when technology did not do what it was supposed to. During the first instructor meeting after the SAS GSIs had administered their discussions, they talked about the effects of bad wifi, mix ups with links, and students also experiencing similar technological issues on their discussion experience. One GSI noted in the first post oral discussion survey, after both groups had given their first oral discussions, that the Zoom waiting rooms had not worked properly for them. However, after these initial difficulties, no other technological difficulties were discussed for the second oral discussions.
 
 Distinct from technological difficulties were also challenges with learning to use technology in new ways. The GSIs were instructed to record the oral discussions in case a grade dispute occurred. During the first meeting, several GSIs talked among themselves about different ways to record the discussions and download the videos. One pair had questions about inputting oral discussion feedback into the LMS. Interestingly, no one talked about the challenges of learning how to use technology differently after both groups administered their first oral discussion. It appears that the GSIs were able to get a better grasp on using Zoom and the LMS in different ways after the initial burn-in period.
 
-#### Student Interactions
+##### Student Interactions
 
 Another set of challenges came when GSIs had to interact with students in new ways. One of these new interactions was navigating how to accommodate students with different needs. For example, after both groups had given their oral discussions, one GSI brought up a student who asked if they could do it in person, since they had trouble understanding the questions (given in English) over Zoom. Another GSI admitted that they had given one oral discussion in person to work with a student who had accommodations. After some discussion, the instructors and course coordinator agreed that in order to keep things fair, they needed to use other methods if possible, such as the chat option on zoom. Though similar issues were not brought up during the final instructor meeting, one of the same GSIs reiterated the point on the final survey, indicating ESL students should be given more time since they thought "this \[the oral discussion\] isn't intended to be an English test." Though dealing with ESL students and students with other accommodations was challenging at first, the group worked together to create a consistent testing experience.
 
@@ -229,13 +248,13 @@ Another challenging interaction was interpreting student responses to test quest
 
 A final challenging interaction connected to interpreting student responses was asking them follow up questions. During the first instructor meeting, the group talked about student answers around one question that seemed to cause some difficulty. One GSI prompted in a general way, and another prompted by giving explicit options for students to choose from. The course coordinator offered that the most important thing was consistency in how follow up questions were asked among students, even if they way they were asked was different among instructors as different sections could be assessed slightly differently (as with the homework assignment grading). In the second instructor meeting, after both groups had given their oral discussions, there was a conversation on how better follow up prompts could be given. Basing them on what students might say, being consistent, and scaffolding responses were offered as solutions. Though asking follow up questions was a new thing GSIs were asked to do, through consulting with each other and the course coordinator they found ways to improve.
 
-#### Self-Care
+##### Self-Care
 
 One final challenge separate from scheduling, technology, and student interactions was navigating self-care. During the first instructor meeting, after hearing about the oral discussion experience of other GSIs for the first time, one GSI asked, "How do you go to the bathroom"? Different strategies were offered, such as going before, positioning oneself near one, letting yourself run a little behind, and even asking students if you could go. Another important suggestion by the course coordinator was to build in guard time where a student couldn't enter the Zoom waiting room. With these initial suggestions, applicable to more than bathroom breaks, most of the GSIs did not bring up self-care again. One GSI still had trouble during the administration of the second oral discussion, noting in the final survey that even though the discussions took as long as grading HW, "you can't snack or use the restroom or walk around if you're getting sore from sitting". Even with initial suggestions for self-care, not every GSI was successful in implementing them.
 
-### Theme 2: The Oral Exam Itself
+#### Theme 2: The Oral Exam Itself
 
-#### Bias and Fairness
+##### Bias and Fairness
 
 On multiple occasions, GSIs wondered about potential biases in the oral discussion itself, as well as ways to make it more fair. One way they checked for fairness was by comparing scores across instructors. For example, during the first instructor meeting, different GSIs talked about one discrepancy in the discussion scripts they were using, with one person having used five questions and another person having used four. They compared their grading averages to make sure this mistake had not impacted their students. During the second instructor meeting, comparisons were made again in conjunction with questions about changing the grading scale. GSIs also brought up potentially hard questions and their impact on grades during the final instructor meeting. By comparing grades, they hoped to check for fairness across the oral discussion process.
 
@@ -243,49 +262,51 @@ Another way GSIs focused on issues of bias and fairness was through the grading 
 
 Finally, GSIs also commented on the quality of the questions themselves, and the potential problems they could cause for students. During the first instructor meeting, one person brought up a question related to R objects, wondering if the question was too vague based on student responses. All of the GSIs teaching R agreed that another question was likely too hard. When asked in the first survey "Do you think the grading of the exams was fair to the students?", one GSI mentioned the broadness of some questions and that "maybe \[it's\] not clear what answer is expected". However, three of the GSIs explicitly said they thought the grading was 'fair' or 'mostly fair' with a fourth mentioning their request for a finer scale to make it more fair. Through discussion, GSIs and the course coordinator were able to pinpoint questions that needed modification.
 
-#### Utility
+##### Utility
 
-GSIs expressed their feelings about the utility of the oral exam through commenting directly on its usefullness as well as comparing it to more traditional assessments. In the first post oral exam survey, the GSIs gave an average 7 out of 10 when asked about the usefulness of the oral discussion and a 7.6 out of 10 when asked about its utility. One GSI mentioned that it coincided with what they had been seeing in class and in the homework already. In the second survey a similar sentiment was shared by another GSI, who pointed out that "One student had no clue what the %\>% was...so we are catching what we want to". One GSI also noted that the oral discussions were a "very fast and effective way to see who knows what's going on in the class" and who does not. Overall, the GSIs found the oral discussions useful, specifically with assessing knowledge and doing it in a timely matter in relation to a single student.
+One GSI mentioned that it coincided with what they had been seeing in class and in the homework already. In the second survey a similar sentiment was shared by another GSI, who pointed out that "One student had no clue what the `%>%` [a common operator used in the course] was...so we are catching what we want to". One GSI also noted that the oral discussions were a "very fast and effective way to see who knows what's going on in the class" and who does not. Overall, the GSIs found the oral discussions useful, specifically with assessing knowledge and doing it in a timely matter in relation to a single student.
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='350px', fig.cap="Figure 4: Responses to Questions After Oral Discussion 1."}
-Middle_Exam
-```
+When asked if they would do oral exams in their own classes in the last instructor meeting, a few GSIs compared the oral discussions to another kind of homework or quiz, but one that was harder to grade. Their responses indicated that it would depend on how much time they had and the number of students.
 
-However, their ideas about its utility became more nuanced when directly asked if the format was better than a quiz, and if they would do an oral exam in their own classrooms. On the second survey, half said, "it's complicated" while half agreed that the oral format accomplished something different than a normal quiz. Some reasons GSIs gave were how the oral exam was closed book, that they could ask follow up questions, and that the oral discussion tested knowledge "on command." However, most of the GSIs also agreed that an LMS based quiz with short answer responses would probably produce similar results, indicating that even with the differences they did see, they did not see them as being large enough to completely replace standard assessments. When asked if they would do oral exams in their own classes in the last instructor meeting, a few GSIs compared the oral discussions to another kind of homework or quiz, but one that was harder to grade. Their responses indicated that it would depend on how much time they had and the number of students.
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, out.width='350px', fig.cap="Figure 5: Responses to whether or not an LMS quiz accomplishes the same thing as the oral discussions." }
-Post_Exam
-```
+#### Theme 3: Reactions to the Oral Exams
 
-### Theme 3: Reactions to the Oral Exams
+Beyond challenges in administration and the oral exam itself, the third theme centered around GSI and student reactions to the oral exam experience as a whole. During the first instructor meetings, all the GSIs agreed that it "went fine". After both groups had gone, the GSIs in the first survey rated the smoothness of administration of the oral discussion at an average of 8 out of 10. When asked to elaborate on their scores, the GSIs expressed that it "went well", "\[it was\] very smooth" and "I had fun! Not sure if my students had fun". Only one GSI expressed a negative sentiment, stating, "It made me very sad". However, feelings were more negative after the second round of oral discussions were given. Though these feelings were not expressed in the final instructor meeting, in the final survey one GSI said it caused them "undue suffering and misery." Another expressed frustration with student preparation, and another used the word "grueling" to describe the experience (although they also said in another response that they 'thought it was a very fast and effective way to see who knows what's going on in the class and who isn't with us at all'). A final GSI wondered if they could be an instructor if they were required to do this in the future due to the time commitment. GSI reactions initially started out positive, but as their own workload increased they became more negative.
 
-Beyond challenges in administration and the oral exam itself, the third theme centered around GSI and student reactions to the oral exam experience as a whole. During the first instructor meetings, all the GSIs agreed that it "went fine". After both groups had gone, the GSIs in the first survey rated the smoothness of administration of the oral discussion at an average of 8 out of 10. When asked to elaborate on their scores, the GSIs expressed that it "went well", "\[it was\] very smooth" and "I had fun! Not sure if my students had fun". Only one GSI expressed a negative sentiment, stating, "It made me very sad". However, feelings became increasingly negative after the second round of oral discussions were given. Though these feelings were not expressed in the final instructor meeting, in the final survey one GSI said it caused them "undue suffering and misery". Another expressed frustration with student preparation, and another used the word "grueling" to describe the experience. A final GSI wondered if they could be an instructor if they were required to do this in the future. GSI reactions intially started out positive, but as their own workload increased they became more negative.
+Student reactions, unlike the GSI reactions, tended to become more positive. In the first and second instructor meetings, several GSIs reported students being annoyed with oral discussion times running behind. They also discussed potential confusion students may have with getting immediate feedback after completing their discussion. However, by the time the second oral discussion happened, one GSI reported students seeming much more relaxed with the experience, and even performing better (another GSI had the opposite experience with students performing better, but saw similar levels of relaxation.) Further, one GSI reported that a few students spontaneously told them that they "like the oral discussions". After being exposed to the new assessment format, it seems students became more comfortable with it.
 
-Student reactions, unlike the GSI reactions, tended to become more positive. In the first and second instructor meetings, several GSIs reported students being annoyed with oral discussion times running behind. They also discussed potential confusion students may have with getting immediate feedback after the test. However, by the time the second oral discussion happened, one GSI reported students seeming much more relaxed with the experience, and even performing better (another GSI had the opposite experience with students performing better, but saw similar levels of relaxation.) Further, one GSI reported that a few students spontaneously told them that they "like the oral discussions". After being exposed to the new assessment format, it seems students became more comfortable with it.
-
-### Theme 4: Preparation for future Oral Exams
+#### Theme 4: Preparation for future Oral Exams
 
 The final theme we saw centered on GSIs looking to the future and wondering how to prepare their students for an oral discussion experience. This came from the final survey and instructor meeting as GSIs reflected on the experience as a whole and how they might do it differently. One idea was to incorporate an oral component into in class activities, maybe by having students explain things to each other in groups. Another GSI wondered about having opportunities for students to present in class and build slides using code. Overall they agreed that making the first one weighted less than the second would be a good idea. On the survey, another GSI offered another idea: "I would encourage future TAs to get their students talking about R or SAS first thing in the semester and enforce the vocabulary". This would also help them answer questions orally correctly. Thus, there were many avenues, ranging from changing activities to focusing on vocabulary, that were mentioned to help students prepare better for the oral discussions.
 
 ## Discussion
 
-To our knowledge, this is the first study done of a large scale oral exam in the statistics and data science education literature. Further, due to the pivital role graduate student instructors play in the success of the oral exams, this study focused on their attitudes and experiences as they administered them.Based on the data we received and analyzed, there were a range of attitudes, mainly focusing on the time commitment of the exams, the potential biases and equity issues of the exams, wonderings about their efficacy, and positive student reactions.This left us with three lingering questions: why did our GSIs react the way they did, what do our findings mean for designing large scale oral examinations, and what future research directions could we pursue?
+To our knowledge, this is the first study done of a large scale oral exam in the statistics and data science education literature. Further, due to the pivital role graduate student instructors play in the success of the oral exams, this study focused on their attitudes and experiences as they administered them. As we look at the themes from the conversations and open-ended survey questions, it should be noted that many of the discussions were prompted by questions about the negatives. For instance, "What went wrong?" and "What can we do better for next time?". These questions naturally lead to themes being captured that focus on the perceived issues and not the perceived benefits. Based on the data we received and analyzed, there were a range of attitudes, mainly focusing on the time commitment of the exams, the potential biases and equity issues of the exams, wonderings about their efficacy, and positive student reactions. This left us with three lingering questions: why did our GSIs react the way they did, what do our findings mean for designing large scale oral examinations, and what future research directions could should be pursued?
 
-### What reccomendations can we make?
+### What recommendations can we make?
 
-Manage load of oral exam Scheduling of the exams themselves Scheduling strategies
+Manage load of oral exam Scheduling of the exams themselves (scheduling strategies)
 
-Train beforehand in use of technology
+- Good use of technology for scheduling (LMS scheduler)
+- Clear instructions and expectations to students early to cut down on time in meeting (instructions and example program available)
 
-Make purpose of Oral exams clear
+Do a dry run prior to full administration
 
-Prepare students for oral exam
+- train on using technology (video, recording, waiting room, LMS grading)
+- test your questions and follow up prompts
+
+Make purpose of Oral exams clearer to instructors (get them on board with why this is useful)
+
+- When working with GSIs, the coordinator needs to get buy in. GSIs are generally not very well-versed in pedagogy, assessment, and course design. 
+- Some just want to do as little work as possible while focusing on research or other responsibilities. Garnering buy and explaining the 'why' is important as the GSIs' attitudes are transmitted to their students in subtle ways.
+
+Prepare students for oral exam (by changing structure of activities/interactions in the classroom)
 
 #### The importance of GSI feedback
 
-At at such a large scale, GSI feedback is pivotal in order to assess whether the oral exam is working the way you intended. In several instances, GSIs were the ones who brought up issues of fairness and bias, such as expanding the grading scale or whether questions were too broad. These recommendations came through direct experience with their students, experience that at large scales we can't obtain ourselves. GSIs also detailed what the experience was like on the administrative end, with conversations centering around time, follow up questions, and issues with technology. This allowed for help to be given in the right places and assess problem areas that we may not have thought of previously. Feedback is immensely helpful at crafting the oral exam experience you want.
+When conducting exams on a larger scale, GSI feedback is pivotal in order to assess whether the oral exam is working the way it is intended. In several instances, GSIs were the ones who brought up issues of fairness and bias, such as expanding the grading scale or whether questions were too broad. These recommendations came through direct experience with their students, experience that at large scales we can't obtain ourselves. GSIs also detailed what the experience was like on the administrative end, with conversations centering around time, follow up questions, and issues with technology. This allowed for help to be given in the right places and assess problem areas that we may not have thought of previously. Feedback is immensely helpful at crafting the oral exam experience you want.
 
-Asking for feedback through regular meetings and surveys is effective. Meetings allow for the exchange of ideas between GSIs, where, for example, issues can be brought up in a supportive environment with other participating in the same experience. They also allow for multiple solutions to be offered, and are great way way to hear instructor thoughts without having to wait or read through comments. However, surveys are more anonymous. We saw that strong and negative feelings were much more likely to be expressed in a survey rather than in a discussion. Though they took more time to read and understand, they gave us a better picture of how the GSIs actually felt. A combination of multiple feedback methods, in our case meetings and surveys, would be most helpful to really understanding our GSIs.
+Asking for feedback through regular meetings and surveys is effective. Meetings allow for the exchange of ideas between GSIs, where, for example, issues can be brought up in a supportive environment with other participating in the same experience. They also allow for multiple solutions to be offered, and are great way way to hear instructor thoughts without having to wait or read through comments. However, surveys are more anonymous. We saw that strong and negative feelings were much more likely to be expressed in a survey rather than in a discussion. Though they took more time to read and understand, they gave us a better overall picture of how the GSIs actually felt. A combination of multiple feedback methods, in our case meetings and surveys, would be most helpful to really understanding our GSIs.
 
 On reflecting on the surveys and meetings, these feedback opportunities could have been elevated by asking a few more prepared, specific questions. Most of the questions asked, at first, were along the lines of, "How did it go?", "Any issues come up?", which are important. However, the responses we got became much more nuanced and informative when we asked more specific questions, such as "Compared to a written exam, what is the utility of an oral exam? Is it any better?". Other ones relating to time, the student experience, follow up questions, and bias and fairness would have elevated the feedback we got and allowed us to implement even more impactful changes. A mix of open, general questions with specific ones prepared more ahead of time is a great way to get feedback.
 
