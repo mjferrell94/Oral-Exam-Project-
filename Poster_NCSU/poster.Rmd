@@ -1,0 +1,134 @@
+---
+title: "Implementing Oral Exams at Scale Using Graduate Student Instructors (GSIs)"
+author:
+  - name: " Matthew Ferrell, Justin Post"
+    affil: 1
+    email: "mferrel@ncsu.edu,jbpost2@ncsu.edu"
+    main: true
+affiliation:
+  - num: 1
+    address: Departments of STEM Education & Statistics, NC State University
+poster_height: "36in"
+poster_width: "47.25in"
+secondary_colour: "#F2F2F2"
+primary_colour: "#CC0000"
+main_findings:
+  - "<span style = 'font-family: monospace; font-size: 140px;'>Proper support, training, and care for graduate student well-being is required to successfully implement oral exams to a large number of students.</span>"
+  - '<img src = "img/main.png" class = "main_pic" style = "width: 90%">'
+logoleft_name: '![](img/QR.png){.main-img-left}'
+logoright_name: '![](img/stat-logo-red.png){.main-img-right}'
+main_width: 0.5026455
+output: 
+  posterdown::posterdown_betterland:
+    self_contained: false
+    pandoc_args: --mathjax
+    highlight: haddock
+    number_sections: false
+link-citations: true
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(results = 'asis',
+                      echo = FALSE,
+                      warning = FALSE,
+                      tidy = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      out.width = "100%",
+                      cache = TRUE)
+options(knitr.table.format = "html") 
+library(ggplot2)
+library(readr)
+library(dplyr)
+Survey_Data <- read_csv(file="../Tables_and_Graphs.csv")
+#note, I updated the last question on the middle survey
+#10 had a 1/6 value but has 0 in the form itself
+#fill in NA with 0
+Survey_Data <- Survey_Data |>
+  mutate(Percentage = ifelse(is.na(Percentage),
+                             0,
+                             Percentage))
+
+Middle_Exam <- Survey_Data |> 
+  filter(Exam == "Middle") |> 
+  mutate(Response = factor(Response,labels = as.character(1:10), levels = as.character(1:10))) |>
+  ggplot(aes(x=Response, y=Percentage, group = Response)) + 
+  geom_bar(stat = "identity", position=position_dodge()) +
+  facet_wrap(vars(Question_Graph_Title), nrow=3) + 
+  scale_y_continuous(labels = scales::percent) + 
+  ylab(label="") +
+  xlab(label = "Response: From 'Very Poorly' (1) to 'Very Smoothly' (10)")
+#Middle_Exam
+```
+
+
+
+## Background
+
+
+- <span style = 'font-family: monospace; font-size: 55px;'>Six GSIs teaching 3-4 sections of introductory programming</span>
+- <span style = 'font-family: monospace; font-size: 55px;'>Approximately 700 total students</span>
+- <span style = 'font-family: monospace; font-size: 55px;'>Two oral exams given</span>
+
+## Setup & Planning
+
+- <span style = 'font-family: monospace; font-size: 55px;'>Full week dedicated to each oral exam</span>
+- <span style = 'font-family: monospace; font-size: 55px;'>Five minute zoom meetings</span>
+- <span style = 'font-family: monospace; font-size: 55px;'>Moodle scheduler for sign up</span>
+- <span style = 'font-family: monospace; font-size: 55px;'>Rubric on Moodle for live grading</span>
+- <span style = 'font-family: monospace; font-size: 55px;'>Structured interview protocol style questions</span>
+- <span style = 'font-family: monospace; font-size: 55px;'>Data collected on GSI thoughts & experience</span>
+
+```{r, echo = FALSE, out.width = '500px'}
+knitr::include_graphics("img/Oral_Exam_Flow_Chart.drawio.png")
+```
+
+## Results
+
+1. <span style = 'font-family: monospace; font-size: 55px;'>GSI Challenges</span>
+
+    - Scheduling of students & time management (self-care)
+    - Balancing other responsibilities
+    - Extra time for make-up exams
+    - Initial Zoom & Moodle training
+
+2. <span style = 'font-family: monospace; font-size: 55px;'>Oral Exam Grading</span>
+
+    - Novice instructors had concerns about their ability to be unbiased and fair to students
+    - Oral exam rubric required a finer scale
+    
+3. <span style = 'font-family: monospace; font-size: 55px;'>GSI Experience</span>
+
+    - Some enjoyed getting to know students and interacting in a new setting
+    - Others disliked the time & schedule required and talking with struggling students
+    - Anecdotally, students had a lot of anxiety for the first exam but felt positively toward the second exam
+
+4. <span style = 'font-family: monospace; font-size: 55px;'>Future Student Preparation</span>
+
+    - Need to incorporate more opportunites for students to practice verbalizing concepts
+    - Ensuring students focus on the vocabulary of the language (i.e. data frame vs vector)
+
+## Recommendations
+
+1. <span style = 'font-family: monospace; font-size: 55px;'>Multiple Forms of GSI Feedback is Essential</span>
+
+2. <span style = 'font-family: monospace; font-size: 55px;'>Optimize Scheduling for GSIs</span>
+3. <span style = 'font-family: monospace; font-size: 55px;'>Preach the why for oral exams</span>
+4. <span style = 'font-family: monospace; font-size: 55px;'>Prepare through practice </span>
+
+    - Roleplay prior to implementation
+    - Provide follow-up questions
+    - Bring GSIs into the creation process
+
+5. <span style = 'font-family: monospace; font-size: 55px;'>Use Technology</span>
+
+    - Use video conferencing software (ease of scheduling, recording of discussion)
+    - Practice on the technology you'll use!
+
+6. <span style = 'font-family: monospace; font-size: 55px;'>Prepare your students</span>
+
+    - Opportunities to practice discussing the material
+    
+## Future
+
+Understand the student experience! Do oral exams still give the same benefits if they are only 5 minutes? Can generative AI provide similar experiences (at least for practice)?

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<title>Implementing Oral Exams at Scale Using Graduate Student Instructors (GSIs)</title>
+
+
+
+
+
+
+
+<!--
+Font-awesome icons ie github or twitter
+-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+
+<!--
+Google fonts api stuff
+-->
+<link href='https://fonts.googleapis.com/css?family=Special Elite' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Rasa' rel='stylesheet'>
+
+<!--
+Here are the required style attributes for css to make this poster work :)
+-->
+<style>
+@page {
+size: 47.25in 36in;
+margin: 0;
+padding: 0;
+background-color: #ffffff;
+}
+body {
+margin: 0px;
+padding: 0px;
+width: 47.25in;
+height: 36in;
+text-align: justify;
+font-size: 45px;
+background-color: #FFFFFF;
+color: #000000;
+}
+/* RMarkdown Class Styles */
+/* center align leaflet map,
+from https://stackoverflow.com/questions/52112119/center-leaflet-in-a-rmarkdown-document */
+.html-widget {
+margin: auto;
+position: sticky;
+margin-top: 2cm;
+margin-bottom: 2cm;
+}
+.leaflet.html-widget.html-widget-static-bound.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
+position: sticky;
+width: 100%;
+}
+pre.sourceCode.r {
+background-color: #dddddd40;
+border-radius: 4mm;
+padding: 4mm;
+width: 75%;
+margin: auto;
+margin-top: 1em;
+margin-bottom: 1em;
+/* align-items: center; */
+}
+code.sourceCode.r{
+background-color: transparent;
+font-size: 20pt;
+border-radius: 2mm;
+}
+code {
+font-size: 25pt;
+font-family: monospace;
+background-color: #F2F2F224;
+color: #CC0000;
+padding: 1.2mm;
+line-height: 1;
+border-radius: 2mm;
+}
+caption {
+margin-bottom: 10px;
+font-size: 20pt;
+font-style: italic;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #CC000020;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+  border-spacing: 0;
+  font-size: 40%;
+  border-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 1em;
+  padding-left: 1em;
+  line-height: 1em;
+}
+table {
+  margin: auto;
+}
+th {
+  padding-left: 5mm;
+  padding-right: 5mm;
+}
+.caption {
+font-size: 20pt;
+font-style: italic;
+padding-top: 0;
+}
+.references {
+font-size: 20px;
+line-height: 90%;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+float: left;
+padding: 0px;
+}
+.outer {
+width: 47.25in;
+height: 36in;
+-webkit-column-count: 2; /* Chrome, Safari, Opera */
+-moz-column-count: 2; /* Firefox */
+column-count: 2;
+-webkit-column-fill: auto;
+-moz-column-fill: auto;
+column-fill: auto;
+-webkit-column-rule-width: 50%;
+-moz-column-rule-width: 50%;
+column-rule-width: 50%;
+-webkit-column-rule-style: solid;
+-moz-column-rule-style: solid;
+column-rule-style: solid;
+-webkit-column-rule-color: black;
+-moz-column-rule-color: black;
+column-rule-color: black;
+-webkit-column-gap: 50%;
+background-color: #ffffff;
+font-family: Rasa;
+color: #000000;
+}
+span.citation {
+  color: #F2F2F2;
+  font-weight: bold;
+}
+a {
+text-decoration: none;
+color: #F2F2F2;
+}
+#title {
+font-size: 125pt;
+text-align: left;
+margin: 0;
+line-height: 90%;
+border-bottom: 0;
+}
+#author {
+color: #CC0000;
+margin: 0;
+line-height: 90%;
+font-size: 1.17em;
+}
+#affiliation {
+padding-top: 1em;
+color: #00000060;
+font-style: italic;
+font-size: 25px;
+margin: 0;
+}
+sup {
+color: #cc0000;
+}
+.affiliation sup {
+font-size: 20px;
+}
+.author sup {
+font-size: 30px;
+}
+.author_extra {
+color: #F2F2F2;
+margin: 0;
+line-height: 85%;
+font-size: 35px;
+}
+.outer h1 {
+text-align: center;
+margin-top: 0.5in;
+margin-bottom: 0.5in;
+}
+.outer h2 {
+text-align: center;
+}
+.outer p {
+color: #000000;
+}
+.outer ol {
+text-align: left;
+}
+.main {
+width: calc(47.25in / 2);
+height: 36in;
+position: absolute;
+margin-left: calc(47.25in / 4);
+background-color: #CC0000;
+color: #FFFFFF90;
+font-family: Special Elite;
+background-image: linear-gradient(#CC0000 50%, #F2F2F2);
+}
+.main strong {
+color: #FFFFFF;
+}
+img.main-img-left {
+width: 20%;
+left: 0.5in;
+bottom: 0.2in;
+position: absolute;
+}
+img.main-img-right {
+width: 18%;
+right: 0.5in;
+bottom: 0.2in;
+position: absolute;
+}
+.main p {
+padding-top: 20%;
+font-size: 170px;
+text-align: left;
+}
+.fab {
+color: #00000060;
+font-size: 25px;
+}
+.twitter, i {
+color: #00000060;
+font-size: 35px;
+text-decoration: none;
+}
+a.email {
+text-decoration: none;
+color: #00000060;
+font-size: 35px;
+}
+.envelope {
+color: #00000060;
+font-size: 5px;
+text-decoration: none;
+}
+.poster_wrap {
+width: 47.25in;
+height: 36in;
+padding: 0cm;
+background-color: #ffffff;
+}
+span > #tab:mytable {
+  font-weight: bold;
+}
+.section {
+  padding-left: 10mm;
+  padding-right: 10mm;
+}
+.main p {
+  padding-left: 30mm;
+  padding-right: 30mm;
+}
+.main_pic {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.orcid img {
+  width: 3%;
+}
+</style>
+</head>
+<body>
+
+
+<div class="poster_wrap">
+<div class="column outer">
+<br>
+<div class="title section">
+<h1 id="title">Implementing Oral Exams at Scale Using Graduate Student Instructors (GSIs)</h1>
+<br>
+<h3 id="author" class="author">
+
+Matthew Ferrell, Justin Post<sup> 1</sup><br>
+
+<a class='envelope'><i class="fas fa-envelope"></i></a> <a href="mailto:mferrel@ncsu.edu" class="email">mferrel@ncsu.edu</a>,<a href="mailto:jbpost2@ncsu.edu" class="email">jbpost2@ncsu.edu</a> <br>
+</h3>
+
+<h5 id="author_extra" class="author_extra">
+</h5>
+
+<p id="affiliation" class="affiliation">
+<sup>1</sup> Departments of STEM Education &amp; Statistics, NC State University
+</p>
+
+</div>
+<div id="background" class="section level2">
+<h2>Background</h2>
+<ul>
+<li><span style="font-family: monospace; font-size: 55px;">Six GSIs teaching 3-4 sections of introductory programming</span></li>
+<li><span style="font-family: monospace; font-size: 55px;">Approximately 700 total students</span></li>
+<li><span style="font-family: monospace; font-size: 55px;">Two oral exams given</span></li>
+</ul>
+</div>
+<div id="setup-planning" class="section level2">
+<h2>Setup &amp; Planning</h2>
+<ul>
+<li><span style="font-family: monospace; font-size: 55px;">Full week dedicated to each oral exam</span></li>
+<li><span style="font-family: monospace; font-size: 55px;">Five minute zoom meetings</span></li>
+<li><span style="font-family: monospace; font-size: 55px;">Moodle scheduler for sign up</span></li>
+<li><span style="font-family: monospace; font-size: 55px;">Rubric on Moodle for live grading</span></li>
+<li><span style="font-family: monospace; font-size: 55px;">Structured interview protocol style questions</span></li>
+<li><span style="font-family: monospace; font-size: 55px;">Data collected on GSI thoughts &amp; experience</span></li>
+</ul>
+<p><img src="img/Oral_Exam_Flow_Chart.drawio.png" width="500px" style="display: block; margin: auto;" /></p>
+</div>
+<div id="results" class="section level2">
+<h2>Results</h2>
+<ol style="list-style-type: decimal">
+<li><p><span style="font-family: monospace; font-size: 55px;">GSI Challenges</span></p>
+<ul>
+<li>Scheduling of students &amp; time management (self-care)</li>
+<li>Balancing other responsibilities</li>
+<li>Extra time for make-up exams</li>
+<li>Initial Zoom &amp; Moodle training</li>
+</ul></li>
+<li><p><span style="font-family: monospace; font-size: 55px;">Oral Exam Grading</span></p>
+<ul>
+<li>Novice instructors had concerns about their ability to be unbiased and fair to students</li>
+<li>Oral exam rubric required a finer scale</li>
+</ul></li>
+<li><p><span style="font-family: monospace; font-size: 55px;">GSI Experience</span></p>
+<ul>
+<li>Some enjoyed getting to know students and interacting in a new setting</li>
+<li>Others disliked the time &amp; schedule required and talking with struggling students</li>
+<li>Anecdotally, students had a lot of anxiety for the first exam but felt positively toward the second exam</li>
+</ul></li>
+<li><p><span style="font-family: monospace; font-size: 55px;">Future Student Preparation</span></p>
+<ul>
+<li>Need to incorporate more opportunites for students to practice verbalizing concepts</li>
+<li>Ensuring students focus on the vocabulary of the language (i.e. data frame vs vector)</li>
+</ul></li>
+</ol>
+</div>
+<div id="recommendations" class="section level2">
+<h2>Recommendations</h2>
+<ol style="list-style-type: decimal">
+<li><p><span style="font-family: monospace; font-size: 55px;">Multiple Forms of GSI Feedback is Essential</span></p></li>
+<li><p><span style="font-family: monospace; font-size: 55px;">Optimize Scheduling for GSIs</span></p></li>
+<li><p><span style="font-family: monospace; font-size: 55px;">Preach the why for oral exams</span></p></li>
+<li><p><span style="font-family: monospace; font-size: 55px;">Prepare through practice </span></p>
+<ul>
+<li>Roleplay prior to implementation</li>
+<li>Provide follow-up questions</li>
+<li>Bring GSIs into the creation process</li>
+</ul></li>
+<li><p><span style="font-family: monospace; font-size: 55px;">Use Technology</span></p>
+<ul>
+<li>Use video conferencing software (ease of scheduling, recording of discussion)</li>
+<li>Practice on the technology you’ll use!</li>
+</ul></li>
+<li><p><span style="font-family: monospace; font-size: 55px;">Prepare your students</span></p>
+<ul>
+<li>Opportunities to practice discussing the material</li>
+</ul></li>
+</ol>
+</div>
+<div id="future" class="section level2">
+<h2>Future</h2>
+<p>Understand the student experience! Do oral exams still give the same benefits if they are only 5 minutes? Can generative AI provide similar experiences (at least for practice)?</p>
+</div>
+
+</div>
+<div class="main">
+<p><span style="font-family: monospace; font-size: 140px;">Proper support, training, and care for graduate student well-being is required to successfully implement oral exams to a large number of students.</span><br><br> <img src = "img/main.png" class = "main_pic" style = "width: 90%"></p>
+<img src="img/QR.png" class="main-img-left" />
+<img src="img/stat-logo-red.png" class="main-img-right" />
+</div>
+</div>
+
+
+
+</body>
+</html>
